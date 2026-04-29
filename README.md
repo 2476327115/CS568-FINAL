@@ -250,7 +250,61 @@ Flattened from `tokyo_poi_raw.json`. One row per `(POI, weekday, hour)` combinat
 
 ## 5. Weather Rule System
 
-> _[TODO: Rule definitions, thresholds, API integration, output format]_
+The weather rule system decides whether the itinerary should prioritize outdoor POIs, indoor POIs, or a mixed schedule.
+
+### Rule Inputs
+
+- `temperature_c` (current temperature in Celsius)
+- `humidity_pct` (current relative humidity, %)
+- `pressure_hpa` (current atmospheric pressure, hPa)
+
+Inputs are expected from real-time weather API calls (Open-Meteo in the planner pipeline).
+
+### Threshold Derivation (`data/weather_tokyo_data.csv`)
+
+Thresholds are calibrated from Tokyo daily weather (2022-2023, 366 rows) using empirical percentiles:
+
+| Metric | P10 | P25 | P75 | P90 | Practical use in rules |
+|---|---:|---:|---:|---:|---|
+| Temperature (C) | 6.3 | 10.4 | 25.4 | 29.1 | Comfort band: 10.4-25.4; severe cold/hot: <6.3 or >29.1 |
+| Humidity (%) | 47 | 59 | 79 | 88 | Comfort band: 47-79; severe humidity: >=88 |
+| Pressure (hPa) | 1003.2 | 1006.9 | 1016.4 | 1019.9 | Comfort band: 1006.9-1019.9; severe low pressure: <=1003.2 |
+
+### Decision Rules
+
+1. If any severe condition is met, return `indoor_preferred` (high confidence).
+2. If all three metrics are inside comfort bands, return `outdoor_preferred` (high confidence).
+3. Otherwise return `mixed` (medium confidence).
+
+Severe conditions:
+- `temperature_c < 6.3` or `temperature_c > 29.1`
+- `humidity_pct >= 88`
+- `pressure_hpa <= 1003.2`
+
+### Implementation
+
+Module: `weather_rules.py` (runnable + importable)
+
+- Main function: `classify_weather(temperature_c, humidity_pct, pressure_hpa) -> dict`
+- CLI output: JSON with `input`, `thresholds`, and `result`
+- Result schema:
+  - `recommendation`: `outdoor_preferred` | `indoor_preferred` | `mixed`
+  - `confidence`: `high` | `medium`
+  - `reasons`: list of rule explanations
+
+Example output:
+
+```json
+{
+  "result": {
+    "recommendation": "indoor_preferred",
+    "confidence": "high",
+    "reasons": [
+      "Very humid (90% >= 88%)."
+    ]
+  }
+}
+```
 
 ---
 
@@ -283,5 +337,9 @@ pip install outscraper
 # Convert existing raw JSON to training CSV (no re-scraping needed)
 python data/json_to_csv.py
 
-# [TODO: commands for model training, weather system, frontend]
+# Show data-derived weather percentile anchors (for verification)
+python weather_rules.py --show-thresholds
+
+# Run weather recommendation rule engine
+python weather_rules.py --temp 27 --humidity 74 --pressure 1012
 ```
