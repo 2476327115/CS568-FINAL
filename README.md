@@ -1,6 +1,6 @@
 # Context-Aware Travel Itinerary Planner — Tokyo
 
-> **CS 6471 / [Course Name] · [Semester]**  
+> **CS 568 / User-Centered Machine Learning · Sp26**  
 > Team: Kelsey Ren · Gezhi Zou · Ryan Muldoon · XiaoCheng Ma · Varad Rasalkar
 
 ---
