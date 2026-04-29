@@ -1,0 +1,2785 @@
+poi_name,poi_category,is_indoor,weekday,weekday_num,is_weekend,hour,crowd_score,raw_score
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,0,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,1,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,2,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,3,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,4,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,5,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,6,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,7,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,8,0.27,27
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,9,0.48,48
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,10,0.68,68
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,11,0.82,82
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,12,0.88,88
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,13,0.9,90
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,14,0.91,91
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,15,0.92,92
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,16,0.92,92
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,17,0.9,90
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,18,0.86,86
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,19,0.8,80
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,20,0.69,69
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,21,0.49,49
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,22,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Sunday,6,1,23,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,0,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,1,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,2,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,3,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,4,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,5,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,6,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,7,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,8,0.27,27
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,9,0.48,48
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,10,0.67,67
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,11,0.8,80
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,12,0.85,85
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,13,0.86,86
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,14,0.84,84
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,15,0.8,80
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,16,0.79,79
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,17,0.76,76
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,18,0.72,72
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,19,0.66,66
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,20,0.55,55
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,21,0.41,41
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,22,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Monday,0,0,23,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,0,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,1,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,2,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,3,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,4,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,5,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,6,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,7,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,8,0.27,27
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,9,0.47,47
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,10,0.67,67
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,11,0.8,80
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,12,0.87,87
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,13,0.9,90
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,14,0.9,90
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,15,0.87,87
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,16,0.83,83
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,17,0.78,78
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,18,0.73,73
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,19,0.67,67
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,20,0.59,59
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,21,0.45,45
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,22,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Tuesday,1,0,23,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,0,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,1,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,2,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,3,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,4,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,5,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,6,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,7,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,8,0.27,27
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,9,0.48,48
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,10,0.68,68
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,11,0.79,79
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,12,0.84,84
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,13,0.84,84
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,14,0.84,84
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,15,0.84,84
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,16,0.84,84
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,17,0.82,82
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,18,0.79,79
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,19,0.75,75
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,20,0.67,67
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,21,0.51,51
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,22,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Wednesday,2,0,23,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,0,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,1,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,2,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,3,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,4,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,5,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,6,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,7,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,8,0.22,22
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,9,0.38,38
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,10,0.53,53
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,11,0.63,63
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,12,0.67,67
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,13,0.7,70
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,14,0.71,71
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,15,0.71,71
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,16,0.68,68
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,17,0.66,66
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,18,0.63,63
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,19,0.59,59
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,20,0.5,50
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,21,0.38,38
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,22,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Thursday,3,0,23,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,0,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,1,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,2,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,3,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,4,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,5,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,6,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,7,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,8,0.28,28
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,9,0.48,48
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,10,0.67,67
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,11,0.8,80
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,12,0.87,87
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,13,0.88,88
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,14,0.89,89
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,15,0.87,87
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,16,0.83,83
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,17,0.8,80
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,18,0.77,77
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,19,0.73,73
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,20,0.65,65
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,21,0.51,51
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,22,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Friday,4,0,23,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,0,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,1,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,2,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,3,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,4,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,5,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,6,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,7,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,8,0.28,28
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,9,0.49,49
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,10,0.68,68
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,11,0.83,83
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,12,0.91,91
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,13,0.97,97
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,14,0.99,99
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,15,1.0,100
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,16,0.97,97
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,17,0.92,92
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,18,0.86,86
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,19,0.79,79
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,20,0.68,68
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,21,0.52,52
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,22,0.0,0
+teamLab Planets TOKYO DMM,museum,1,Saturday,5,1,23,0.0,0
+National Museum of Nature and Science,museum,1,Sunday,6,1,0,0.0,0
+National Museum of Nature and Science,museum,1,Sunday,6,1,1,0.0,0
+National Museum of Nature and Science,museum,1,Sunday,6,1,2,0.0,0
+National Museum of Nature and Science,museum,1,Sunday,6,1,3,0.0,0
+National Museum of Nature and Science,museum,1,Sunday,6,1,4,0.0,0
+National Museum of Nature and Science,museum,1,Sunday,6,1,5,0.0,0
+National Museum of Nature and Science,museum,1,Sunday,6,1,6,0.0,0
+National Museum of Nature and Science,museum,1,Sunday,6,1,7,0.0,0
+National Museum of Nature and Science,museum,1,Sunday,6,1,8,0.0,0
+National Museum of Nature and Science,museum,1,Sunday,6,1,9,0.39,39
+National Museum of Nature and Science,museum,1,Sunday,6,1,10,0.63,63
+National Museum of Nature and Science,museum,1,Sunday,6,1,11,0.81,81
+National Museum of Nature and Science,museum,1,Sunday,6,1,12,0.93,93
+National Museum of Nature and Science,museum,1,Sunday,6,1,13,0.98,98
+National Museum of Nature and Science,museum,1,Sunday,6,1,14,0.96,96
+National Museum of Nature and Science,museum,1,Sunday,6,1,15,0.83,83
+National Museum of Nature and Science,museum,1,Sunday,6,1,16,0.61,61
+National Museum of Nature and Science,museum,1,Sunday,6,1,17,0.0,0
+National Museum of Nature and Science,museum,1,Sunday,6,1,18,0.0,0
+National Museum of Nature and Science,museum,1,Sunday,6,1,19,0.0,0
+National Museum of Nature and Science,museum,1,Sunday,6,1,20,0.0,0
+National Museum of Nature and Science,museum,1,Sunday,6,1,21,0.0,0
+National Museum of Nature and Science,museum,1,Sunday,6,1,22,0.0,0
+National Museum of Nature and Science,museum,1,Sunday,6,1,23,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,0,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,1,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,2,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,3,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,4,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,5,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,6,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,7,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,8,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,9,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,10,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,11,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,12,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,13,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,14,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,15,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,16,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,17,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,18,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,19,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,20,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,21,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,22,0.0,0
+National Museum of Nature and Science,museum,1,Monday,0,0,23,0.0,0
+National Museum of Nature and Science,museum,1,Tuesday,1,0,0,0.0,0
+National Museum of Nature and Science,museum,1,Tuesday,1,0,1,0.0,0
+National Museum of Nature and Science,museum,1,Tuesday,1,0,2,0.0,0
+National Museum of Nature and Science,museum,1,Tuesday,1,0,3,0.0,0
+National Museum of Nature and Science,museum,1,Tuesday,1,0,4,0.0,0
+National Museum of Nature and Science,museum,1,Tuesday,1,0,5,0.0,0
+National Museum of Nature and Science,museum,1,Tuesday,1,0,6,0.0,0
+National Museum of Nature and Science,museum,1,Tuesday,1,0,7,0.0,0
+National Museum of Nature and Science,museum,1,Tuesday,1,0,8,0.0,0
+National Museum of Nature and Science,museum,1,Tuesday,1,0,9,0.17,17
+National Museum of Nature and Science,museum,1,Tuesday,1,0,10,0.29,29
+National Museum of Nature and Science,museum,1,Tuesday,1,0,11,0.39,39
+National Museum of Nature and Science,museum,1,Tuesday,1,0,12,0.45,45
+National Museum of Nature and Science,museum,1,Tuesday,1,0,13,0.46,46
+National Museum of Nature and Science,museum,1,Tuesday,1,0,14,0.44,44
+National Museum of Nature and Science,museum,1,Tuesday,1,0,15,0.37,37
+National Museum of Nature and Science,museum,1,Tuesday,1,0,16,0.25,25
+National Museum of Nature and Science,museum,1,Tuesday,1,0,17,0.0,0
+National Museum of Nature and Science,museum,1,Tuesday,1,0,18,0.0,0
+National Museum of Nature and Science,museum,1,Tuesday,1,0,19,0.0,0
+National Museum of Nature and Science,museum,1,Tuesday,1,0,20,0.0,0
+National Museum of Nature and Science,museum,1,Tuesday,1,0,21,0.0,0
+National Museum of Nature and Science,museum,1,Tuesday,1,0,22,0.0,0
+National Museum of Nature and Science,museum,1,Tuesday,1,0,23,0.0,0
+National Museum of Nature and Science,museum,1,Wednesday,2,0,0,0.0,0
+National Museum of Nature and Science,museum,1,Wednesday,2,0,1,0.0,0
+National Museum of Nature and Science,museum,1,Wednesday,2,0,2,0.0,0
+National Museum of Nature and Science,museum,1,Wednesday,2,0,3,0.0,0
+National Museum of Nature and Science,museum,1,Wednesday,2,0,4,0.0,0
+National Museum of Nature and Science,museum,1,Wednesday,2,0,5,0.0,0
+National Museum of Nature and Science,museum,1,Wednesday,2,0,6,0.0,0
+National Museum of Nature and Science,museum,1,Wednesday,2,0,7,0.0,0
+National Museum of Nature and Science,museum,1,Wednesday,2,0,8,0.0,0
+National Museum of Nature and Science,museum,1,Wednesday,2,0,9,0.19,19
+National Museum of Nature and Science,museum,1,Wednesday,2,0,10,0.31,31
+National Museum of Nature and Science,museum,1,Wednesday,2,0,11,0.43,43
+National Museum of Nature and Science,museum,1,Wednesday,2,0,12,0.5,50
+National Museum of Nature and Science,museum,1,Wednesday,2,0,13,0.52,52
+National Museum of Nature and Science,museum,1,Wednesday,2,0,14,0.5,50
+National Museum of Nature and Science,museum,1,Wednesday,2,0,15,0.43,43
+National Museum of Nature and Science,museum,1,Wednesday,2,0,16,0.3,30
+National Museum of Nature and Science,museum,1,Wednesday,2,0,17,0.0,0
+National Museum of Nature and Science,museum,1,Wednesday,2,0,18,0.0,0
+National Museum of Nature and Science,museum,1,Wednesday,2,0,19,0.0,0
+National Museum of Nature and Science,museum,1,Wednesday,2,0,20,0.0,0
+National Museum of Nature and Science,museum,1,Wednesday,2,0,21,0.0,0
+National Museum of Nature and Science,museum,1,Wednesday,2,0,22,0.0,0
+National Museum of Nature and Science,museum,1,Wednesday,2,0,23,0.0,0
+National Museum of Nature and Science,museum,1,Thursday,3,0,0,0.0,0
+National Museum of Nature and Science,museum,1,Thursday,3,0,1,0.0,0
+National Museum of Nature and Science,museum,1,Thursday,3,0,2,0.0,0
+National Museum of Nature and Science,museum,1,Thursday,3,0,3,0.0,0
+National Museum of Nature and Science,museum,1,Thursday,3,0,4,0.0,0
+National Museum of Nature and Science,museum,1,Thursday,3,0,5,0.0,0
+National Museum of Nature and Science,museum,1,Thursday,3,0,6,0.0,0
+National Museum of Nature and Science,museum,1,Thursday,3,0,7,0.0,0
+National Museum of Nature and Science,museum,1,Thursday,3,0,8,0.0,0
+National Museum of Nature and Science,museum,1,Thursday,3,0,9,0.17,17
+National Museum of Nature and Science,museum,1,Thursday,3,0,10,0.29,29
+National Museum of Nature and Science,museum,1,Thursday,3,0,11,0.4,40
+National Museum of Nature and Science,museum,1,Thursday,3,0,12,0.47,47
+National Museum of Nature and Science,museum,1,Thursday,3,0,13,0.5,50
+National Museum of Nature and Science,museum,1,Thursday,3,0,14,0.48,48
+National Museum of Nature and Science,museum,1,Thursday,3,0,15,0.41,41
+National Museum of Nature and Science,museum,1,Thursday,3,0,16,0.28,28
+National Museum of Nature and Science,museum,1,Thursday,3,0,17,0.0,0
+National Museum of Nature and Science,museum,1,Thursday,3,0,18,0.0,0
+National Museum of Nature and Science,museum,1,Thursday,3,0,19,0.0,0
+National Museum of Nature and Science,museum,1,Thursday,3,0,20,0.0,0
+National Museum of Nature and Science,museum,1,Thursday,3,0,21,0.0,0
+National Museum of Nature and Science,museum,1,Thursday,3,0,22,0.0,0
+National Museum of Nature and Science,museum,1,Thursday,3,0,23,0.0,0
+National Museum of Nature and Science,museum,1,Friday,4,0,0,0.0,0
+National Museum of Nature and Science,museum,1,Friday,4,0,1,0.0,0
+National Museum of Nature and Science,museum,1,Friday,4,0,2,0.0,0
+National Museum of Nature and Science,museum,1,Friday,4,0,3,0.0,0
+National Museum of Nature and Science,museum,1,Friday,4,0,4,0.0,0
+National Museum of Nature and Science,museum,1,Friday,4,0,5,0.0,0
+National Museum of Nature and Science,museum,1,Friday,4,0,6,0.0,0
+National Museum of Nature and Science,museum,1,Friday,4,0,7,0.0,0
+National Museum of Nature and Science,museum,1,Friday,4,0,8,0.0,0
+National Museum of Nature and Science,museum,1,Friday,4,0,9,0.22,22
+National Museum of Nature and Science,museum,1,Friday,4,0,10,0.37,37
+National Museum of Nature and Science,museum,1,Friday,4,0,11,0.51,51
+National Museum of Nature and Science,museum,1,Friday,4,0,12,0.59,59
+National Museum of Nature and Science,museum,1,Friday,4,0,13,0.63,63
+National Museum of Nature and Science,museum,1,Friday,4,0,14,0.62,62
+National Museum of Nature and Science,museum,1,Friday,4,0,15,0.55,55
+National Museum of Nature and Science,museum,1,Friday,4,0,16,0.41,41
+National Museum of Nature and Science,museum,1,Friday,4,0,17,0.0,0
+National Museum of Nature and Science,museum,1,Friday,4,0,18,0.0,0
+National Museum of Nature and Science,museum,1,Friday,4,0,19,0.0,0
+National Museum of Nature and Science,museum,1,Friday,4,0,20,0.0,0
+National Museum of Nature and Science,museum,1,Friday,4,0,21,0.0,0
+National Museum of Nature and Science,museum,1,Friday,4,0,22,0.0,0
+National Museum of Nature and Science,museum,1,Friday,4,0,23,0.0,0
+National Museum of Nature and Science,museum,1,Saturday,5,1,0,0.0,0
+National Museum of Nature and Science,museum,1,Saturday,5,1,1,0.0,0
+National Museum of Nature and Science,museum,1,Saturday,5,1,2,0.0,0
+National Museum of Nature and Science,museum,1,Saturday,5,1,3,0.0,0
+National Museum of Nature and Science,museum,1,Saturday,5,1,4,0.0,0
+National Museum of Nature and Science,museum,1,Saturday,5,1,5,0.0,0
+National Museum of Nature and Science,museum,1,Saturday,5,1,6,0.0,0
+National Museum of Nature and Science,museum,1,Saturday,5,1,7,0.0,0
+National Museum of Nature and Science,museum,1,Saturday,5,1,8,0.0,0
+National Museum of Nature and Science,museum,1,Saturday,5,1,9,0.34,34
+National Museum of Nature and Science,museum,1,Saturday,5,1,10,0.56,56
+National Museum of Nature and Science,museum,1,Saturday,5,1,11,0.74,74
+National Museum of Nature and Science,museum,1,Saturday,5,1,12,0.88,88
+National Museum of Nature and Science,museum,1,Saturday,5,1,13,0.97,97
+National Museum of Nature and Science,museum,1,Saturday,5,1,14,1.0,100
+National Museum of Nature and Science,museum,1,Saturday,5,1,15,0.89,89
+National Museum of Nature and Science,museum,1,Saturday,5,1,16,0.66,66
+National Museum of Nature and Science,museum,1,Saturday,5,1,17,0.0,0
+National Museum of Nature and Science,museum,1,Saturday,5,1,18,0.0,0
+National Museum of Nature and Science,museum,1,Saturday,5,1,19,0.0,0
+National Museum of Nature and Science,museum,1,Saturday,5,1,20,0.0,0
+National Museum of Nature and Science,museum,1,Saturday,5,1,21,0.0,0
+National Museum of Nature and Science,museum,1,Saturday,5,1,22,0.0,0
+National Museum of Nature and Science,museum,1,Saturday,5,1,23,0.0,0
+Zojo-ji Temple,shrine,0,Sunday,6,1,0,0.0,0
+Zojo-ji Temple,shrine,0,Sunday,6,1,1,0.0,0
+Zojo-ji Temple,shrine,0,Sunday,6,1,2,0.0,0
+Zojo-ji Temple,shrine,0,Sunday,6,1,3,0.0,0
+Zojo-ji Temple,shrine,0,Sunday,6,1,4,0.0,0
+Zojo-ji Temple,shrine,0,Sunday,6,1,5,0.0,0
+Zojo-ji Temple,shrine,0,Sunday,6,1,6,0.0,0
+Zojo-ji Temple,shrine,0,Sunday,6,1,7,0.0,0
+Zojo-ji Temple,shrine,0,Sunday,6,1,8,0.0,0
+Zojo-ji Temple,shrine,0,Sunday,6,1,9,0.53,53
+Zojo-ji Temple,shrine,0,Sunday,6,1,10,0.73,73
+Zojo-ji Temple,shrine,0,Sunday,6,1,11,0.89,89
+Zojo-ji Temple,shrine,0,Sunday,6,1,12,0.96,96
+Zojo-ji Temple,shrine,0,Sunday,6,1,13,1.0,100
+Zojo-ji Temple,shrine,0,Sunday,6,1,14,0.97,97
+Zojo-ji Temple,shrine,0,Sunday,6,1,15,0.85,85
+Zojo-ji Temple,shrine,0,Sunday,6,1,16,0.66,66
+Zojo-ji Temple,shrine,0,Sunday,6,1,17,0.0,0
+Zojo-ji Temple,shrine,0,Sunday,6,1,18,0.0,0
+Zojo-ji Temple,shrine,0,Sunday,6,1,19,0.0,0
+Zojo-ji Temple,shrine,0,Sunday,6,1,20,0.0,0
+Zojo-ji Temple,shrine,0,Sunday,6,1,21,0.0,0
+Zojo-ji Temple,shrine,0,Sunday,6,1,22,0.0,0
+Zojo-ji Temple,shrine,0,Sunday,6,1,23,0.0,0
+Zojo-ji Temple,shrine,0,Monday,0,0,0,0.0,0
+Zojo-ji Temple,shrine,0,Monday,0,0,1,0.0,0
+Zojo-ji Temple,shrine,0,Monday,0,0,2,0.0,0
+Zojo-ji Temple,shrine,0,Monday,0,0,3,0.0,0
+Zojo-ji Temple,shrine,0,Monday,0,0,4,0.0,0
+Zojo-ji Temple,shrine,0,Monday,0,0,5,0.0,0
+Zojo-ji Temple,shrine,0,Monday,0,0,6,0.0,0
+Zojo-ji Temple,shrine,0,Monday,0,0,7,0.0,0
+Zojo-ji Temple,shrine,0,Monday,0,0,8,0.0,0
+Zojo-ji Temple,shrine,0,Monday,0,0,9,0.37,37
+Zojo-ji Temple,shrine,0,Monday,0,0,10,0.51,51
+Zojo-ji Temple,shrine,0,Monday,0,0,11,0.62,62
+Zojo-ji Temple,shrine,0,Monday,0,0,12,0.7,70
+Zojo-ji Temple,shrine,0,Monday,0,0,13,0.73,73
+Zojo-ji Temple,shrine,0,Monday,0,0,14,0.72,72
+Zojo-ji Temple,shrine,0,Monday,0,0,15,0.65,65
+Zojo-ji Temple,shrine,0,Monday,0,0,16,0.51,51
+Zojo-ji Temple,shrine,0,Monday,0,0,17,0.0,0
+Zojo-ji Temple,shrine,0,Monday,0,0,18,0.0,0
+Zojo-ji Temple,shrine,0,Monday,0,0,19,0.0,0
+Zojo-ji Temple,shrine,0,Monday,0,0,20,0.0,0
+Zojo-ji Temple,shrine,0,Monday,0,0,21,0.0,0
+Zojo-ji Temple,shrine,0,Monday,0,0,22,0.0,0
+Zojo-ji Temple,shrine,0,Monday,0,0,23,0.0,0
+Zojo-ji Temple,shrine,0,Tuesday,1,0,0,0.0,0
+Zojo-ji Temple,shrine,0,Tuesday,1,0,1,0.0,0
+Zojo-ji Temple,shrine,0,Tuesday,1,0,2,0.0,0
+Zojo-ji Temple,shrine,0,Tuesday,1,0,3,0.0,0
+Zojo-ji Temple,shrine,0,Tuesday,1,0,4,0.0,0
+Zojo-ji Temple,shrine,0,Tuesday,1,0,5,0.0,0
+Zojo-ji Temple,shrine,0,Tuesday,1,0,6,0.0,0
+Zojo-ji Temple,shrine,0,Tuesday,1,0,7,0.0,0
+Zojo-ji Temple,shrine,0,Tuesday,1,0,8,0.0,0
+Zojo-ji Temple,shrine,0,Tuesday,1,0,9,0.43,43
+Zojo-ji Temple,shrine,0,Tuesday,1,0,10,0.61,61
+Zojo-ji Temple,shrine,0,Tuesday,1,0,11,0.73,73
+Zojo-ji Temple,shrine,0,Tuesday,1,0,12,0.78,78
+Zojo-ji Temple,shrine,0,Tuesday,1,0,13,0.74,74
+Zojo-ji Temple,shrine,0,Tuesday,1,0,14,0.69,69
+Zojo-ji Temple,shrine,0,Tuesday,1,0,15,0.59,59
+Zojo-ji Temple,shrine,0,Tuesday,1,0,16,0.49,49
+Zojo-ji Temple,shrine,0,Tuesday,1,0,17,0.0,0
+Zojo-ji Temple,shrine,0,Tuesday,1,0,18,0.0,0
+Zojo-ji Temple,shrine,0,Tuesday,1,0,19,0.0,0
+Zojo-ji Temple,shrine,0,Tuesday,1,0,20,0.0,0
+Zojo-ji Temple,shrine,0,Tuesday,1,0,21,0.0,0
+Zojo-ji Temple,shrine,0,Tuesday,1,0,22,0.0,0
+Zojo-ji Temple,shrine,0,Tuesday,1,0,23,0.0,0
+Zojo-ji Temple,shrine,0,Wednesday,2,0,0,0.0,0
+Zojo-ji Temple,shrine,0,Wednesday,2,0,1,0.0,0
+Zojo-ji Temple,shrine,0,Wednesday,2,0,2,0.0,0
+Zojo-ji Temple,shrine,0,Wednesday,2,0,3,0.0,0
+Zojo-ji Temple,shrine,0,Wednesday,2,0,4,0.0,0
+Zojo-ji Temple,shrine,0,Wednesday,2,0,5,0.0,0
+Zojo-ji Temple,shrine,0,Wednesday,2,0,6,0.0,0
+Zojo-ji Temple,shrine,0,Wednesday,2,0,7,0.0,0
+Zojo-ji Temple,shrine,0,Wednesday,2,0,8,0.0,0
+Zojo-ji Temple,shrine,0,Wednesday,2,0,9,0.41,41
+Zojo-ji Temple,shrine,0,Wednesday,2,0,10,0.55,55
+Zojo-ji Temple,shrine,0,Wednesday,2,0,11,0.66,66
+Zojo-ji Temple,shrine,0,Wednesday,2,0,12,0.71,71
+Zojo-ji Temple,shrine,0,Wednesday,2,0,13,0.72,72
+Zojo-ji Temple,shrine,0,Wednesday,2,0,14,0.71,71
+Zojo-ji Temple,shrine,0,Wednesday,2,0,15,0.64,64
+Zojo-ji Temple,shrine,0,Wednesday,2,0,16,0.54,54
+Zojo-ji Temple,shrine,0,Wednesday,2,0,17,0.0,0
+Zojo-ji Temple,shrine,0,Wednesday,2,0,18,0.0,0
+Zojo-ji Temple,shrine,0,Wednesday,2,0,19,0.0,0
+Zojo-ji Temple,shrine,0,Wednesday,2,0,20,0.0,0
+Zojo-ji Temple,shrine,0,Wednesday,2,0,21,0.0,0
+Zojo-ji Temple,shrine,0,Wednesday,2,0,22,0.0,0
+Zojo-ji Temple,shrine,0,Wednesday,2,0,23,0.0,0
+Zojo-ji Temple,shrine,0,Thursday,3,0,0,0.0,0
+Zojo-ji Temple,shrine,0,Thursday,3,0,1,0.0,0
+Zojo-ji Temple,shrine,0,Thursday,3,0,2,0.0,0
+Zojo-ji Temple,shrine,0,Thursday,3,0,3,0.0,0
+Zojo-ji Temple,shrine,0,Thursday,3,0,4,0.0,0
+Zojo-ji Temple,shrine,0,Thursday,3,0,5,0.0,0
+Zojo-ji Temple,shrine,0,Thursday,3,0,6,0.0,0
+Zojo-ji Temple,shrine,0,Thursday,3,0,7,0.0,0
+Zojo-ji Temple,shrine,0,Thursday,3,0,8,0.0,0
+Zojo-ji Temple,shrine,0,Thursday,3,0,9,0.43,43
+Zojo-ji Temple,shrine,0,Thursday,3,0,10,0.62,62
+Zojo-ji Temple,shrine,0,Thursday,3,0,11,0.76,76
+Zojo-ji Temple,shrine,0,Thursday,3,0,12,0.84,84
+Zojo-ji Temple,shrine,0,Thursday,3,0,13,0.85,85
+Zojo-ji Temple,shrine,0,Thursday,3,0,14,0.83,83
+Zojo-ji Temple,shrine,0,Thursday,3,0,15,0.76,76
+Zojo-ji Temple,shrine,0,Thursday,3,0,16,0.65,65
+Zojo-ji Temple,shrine,0,Thursday,3,0,17,0.0,0
+Zojo-ji Temple,shrine,0,Thursday,3,0,18,0.0,0
+Zojo-ji Temple,shrine,0,Thursday,3,0,19,0.0,0
+Zojo-ji Temple,shrine,0,Thursday,3,0,20,0.0,0
+Zojo-ji Temple,shrine,0,Thursday,3,0,21,0.0,0
+Zojo-ji Temple,shrine,0,Thursday,3,0,22,0.0,0
+Zojo-ji Temple,shrine,0,Thursday,3,0,23,0.0,0
+Zojo-ji Temple,shrine,0,Friday,4,0,0,0.0,0
+Zojo-ji Temple,shrine,0,Friday,4,0,1,0.0,0
+Zojo-ji Temple,shrine,0,Friday,4,0,2,0.0,0
+Zojo-ji Temple,shrine,0,Friday,4,0,3,0.0,0
+Zojo-ji Temple,shrine,0,Friday,4,0,4,0.0,0
+Zojo-ji Temple,shrine,0,Friday,4,0,5,0.0,0
+Zojo-ji Temple,shrine,0,Friday,4,0,6,0.0,0
+Zojo-ji Temple,shrine,0,Friday,4,0,7,0.0,0
+Zojo-ji Temple,shrine,0,Friday,4,0,8,0.0,0
+Zojo-ji Temple,shrine,0,Friday,4,0,9,0.46,46
+Zojo-ji Temple,shrine,0,Friday,4,0,10,0.65,65
+Zojo-ji Temple,shrine,0,Friday,4,0,11,0.82,82
+Zojo-ji Temple,shrine,0,Friday,4,0,12,0.91,91
+Zojo-ji Temple,shrine,0,Friday,4,0,13,0.92,92
+Zojo-ji Temple,shrine,0,Friday,4,0,14,0.91,91
+Zojo-ji Temple,shrine,0,Friday,4,0,15,0.85,85
+Zojo-ji Temple,shrine,0,Friday,4,0,16,0.73,73
+Zojo-ji Temple,shrine,0,Friday,4,0,17,0.0,0
+Zojo-ji Temple,shrine,0,Friday,4,0,18,0.0,0
+Zojo-ji Temple,shrine,0,Friday,4,0,19,0.0,0
+Zojo-ji Temple,shrine,0,Friday,4,0,20,0.0,0
+Zojo-ji Temple,shrine,0,Friday,4,0,21,0.0,0
+Zojo-ji Temple,shrine,0,Friday,4,0,22,0.0,0
+Zojo-ji Temple,shrine,0,Friday,4,0,23,0.0,0
+Zojo-ji Temple,shrine,0,Saturday,5,1,0,0.0,0
+Zojo-ji Temple,shrine,0,Saturday,5,1,1,0.0,0
+Zojo-ji Temple,shrine,0,Saturday,5,1,2,0.0,0
+Zojo-ji Temple,shrine,0,Saturday,5,1,3,0.0,0
+Zojo-ji Temple,shrine,0,Saturday,5,1,4,0.0,0
+Zojo-ji Temple,shrine,0,Saturday,5,1,5,0.0,0
+Zojo-ji Temple,shrine,0,Saturday,5,1,6,0.0,0
+Zojo-ji Temple,shrine,0,Saturday,5,1,7,0.0,0
+Zojo-ji Temple,shrine,0,Saturday,5,1,8,0.0,0
+Zojo-ji Temple,shrine,0,Saturday,5,1,9,0.43,43
+Zojo-ji Temple,shrine,0,Saturday,5,1,10,0.62,62
+Zojo-ji Temple,shrine,0,Saturday,5,1,11,0.78,78
+Zojo-ji Temple,shrine,0,Saturday,5,1,12,0.86,86
+Zojo-ji Temple,shrine,0,Saturday,5,1,13,0.92,92
+Zojo-ji Temple,shrine,0,Saturday,5,1,14,0.93,93
+Zojo-ji Temple,shrine,0,Saturday,5,1,15,0.83,83
+Zojo-ji Temple,shrine,0,Saturday,5,1,16,0.67,67
+Zojo-ji Temple,shrine,0,Saturday,5,1,17,0.0,0
+Zojo-ji Temple,shrine,0,Saturday,5,1,18,0.0,0
+Zojo-ji Temple,shrine,0,Saturday,5,1,19,0.0,0
+Zojo-ji Temple,shrine,0,Saturday,5,1,20,0.0,0
+Zojo-ji Temple,shrine,0,Saturday,5,1,21,0.0,0
+Zojo-ji Temple,shrine,0,Saturday,5,1,22,0.0,0
+Zojo-ji Temple,shrine,0,Saturday,5,1,23,0.0,0
+Yasukuni Shrine,shrine,0,Sunday,6,1,0,0.0,0
+Yasukuni Shrine,shrine,0,Sunday,6,1,1,0.0,0
+Yasukuni Shrine,shrine,0,Sunday,6,1,2,0.0,0
+Yasukuni Shrine,shrine,0,Sunday,6,1,3,0.0,0
+Yasukuni Shrine,shrine,0,Sunday,6,1,4,0.0,0
+Yasukuni Shrine,shrine,0,Sunday,6,1,5,0.0,0
+Yasukuni Shrine,shrine,0,Sunday,6,1,6,0.06,6
+Yasukuni Shrine,shrine,0,Sunday,6,1,7,0.12,12
+Yasukuni Shrine,shrine,0,Sunday,6,1,8,0.26,26
+Yasukuni Shrine,shrine,0,Sunday,6,1,9,0.47,47
+Yasukuni Shrine,shrine,0,Sunday,6,1,10,0.7,70
+Yasukuni Shrine,shrine,0,Sunday,6,1,11,0.88,88
+Yasukuni Shrine,shrine,0,Sunday,6,1,12,0.97,97
+Yasukuni Shrine,shrine,0,Sunday,6,1,13,1.0,100
+Yasukuni Shrine,shrine,0,Sunday,6,1,14,0.95,95
+Yasukuni Shrine,shrine,0,Sunday,6,1,15,0.8,80
+Yasukuni Shrine,shrine,0,Sunday,6,1,16,0.56,56
+Yasukuni Shrine,shrine,0,Sunday,6,1,17,0.32,32
+Yasukuni Shrine,shrine,0,Sunday,6,1,18,0.0,0
+Yasukuni Shrine,shrine,0,Sunday,6,1,19,0.0,0
+Yasukuni Shrine,shrine,0,Sunday,6,1,20,0.0,0
+Yasukuni Shrine,shrine,0,Sunday,6,1,21,0.0,0
+Yasukuni Shrine,shrine,0,Sunday,6,1,22,0.0,0
+Yasukuni Shrine,shrine,0,Sunday,6,1,23,0.0,0
+Yasukuni Shrine,shrine,0,Monday,0,0,0,0.0,0
+Yasukuni Shrine,shrine,0,Monday,0,0,1,0.0,0
+Yasukuni Shrine,shrine,0,Monday,0,0,2,0.0,0
+Yasukuni Shrine,shrine,0,Monday,0,0,3,0.0,0
+Yasukuni Shrine,shrine,0,Monday,0,0,4,0.0,0
+Yasukuni Shrine,shrine,0,Monday,0,0,5,0.0,0
+Yasukuni Shrine,shrine,0,Monday,0,0,6,0.07,7
+Yasukuni Shrine,shrine,0,Monday,0,0,7,0.12,12
+Yasukuni Shrine,shrine,0,Monday,0,0,8,0.19,19
+Yasukuni Shrine,shrine,0,Monday,0,0,9,0.3,30
+Yasukuni Shrine,shrine,0,Monday,0,0,10,0.46,46
+Yasukuni Shrine,shrine,0,Monday,0,0,11,0.61,61
+Yasukuni Shrine,shrine,0,Monday,0,0,12,0.71,71
+Yasukuni Shrine,shrine,0,Monday,0,0,13,0.72,72
+Yasukuni Shrine,shrine,0,Monday,0,0,14,0.68,68
+Yasukuni Shrine,shrine,0,Monday,0,0,15,0.57,57
+Yasukuni Shrine,shrine,0,Monday,0,0,16,0.43,43
+Yasukuni Shrine,shrine,0,Monday,0,0,17,0.28,28
+Yasukuni Shrine,shrine,0,Monday,0,0,18,0.0,0
+Yasukuni Shrine,shrine,0,Monday,0,0,19,0.0,0
+Yasukuni Shrine,shrine,0,Monday,0,0,20,0.0,0
+Yasukuni Shrine,shrine,0,Monday,0,0,21,0.0,0
+Yasukuni Shrine,shrine,0,Monday,0,0,22,0.0,0
+Yasukuni Shrine,shrine,0,Monday,0,0,23,0.0,0
+Yasukuni Shrine,shrine,0,Tuesday,1,0,0,0.0,0
+Yasukuni Shrine,shrine,0,Tuesday,1,0,1,0.0,0
+Yasukuni Shrine,shrine,0,Tuesday,1,0,2,0.0,0
+Yasukuni Shrine,shrine,0,Tuesday,1,0,3,0.0,0
+Yasukuni Shrine,shrine,0,Tuesday,1,0,4,0.0,0
+Yasukuni Shrine,shrine,0,Tuesday,1,0,5,0.0,0
+Yasukuni Shrine,shrine,0,Tuesday,1,0,6,0.06,6
+Yasukuni Shrine,shrine,0,Tuesday,1,0,7,0.11,11
+Yasukuni Shrine,shrine,0,Tuesday,1,0,8,0.17,17
+Yasukuni Shrine,shrine,0,Tuesday,1,0,9,0.26,26
+Yasukuni Shrine,shrine,0,Tuesday,1,0,10,0.37,37
+Yasukuni Shrine,shrine,0,Tuesday,1,0,11,0.47,47
+Yasukuni Shrine,shrine,0,Tuesday,1,0,12,0.53,53
+Yasukuni Shrine,shrine,0,Tuesday,1,0,13,0.53,53
+Yasukuni Shrine,shrine,0,Tuesday,1,0,14,0.5,50
+Yasukuni Shrine,shrine,0,Tuesday,1,0,15,0.42,42
+Yasukuni Shrine,shrine,0,Tuesday,1,0,16,0.32,32
+Yasukuni Shrine,shrine,0,Tuesday,1,0,17,0.21,21
+Yasukuni Shrine,shrine,0,Tuesday,1,0,18,0.0,0
+Yasukuni Shrine,shrine,0,Tuesday,1,0,19,0.0,0
+Yasukuni Shrine,shrine,0,Tuesday,1,0,20,0.0,0
+Yasukuni Shrine,shrine,0,Tuesday,1,0,21,0.0,0
+Yasukuni Shrine,shrine,0,Tuesday,1,0,22,0.0,0
+Yasukuni Shrine,shrine,0,Tuesday,1,0,23,0.0,0
+Yasukuni Shrine,shrine,0,Wednesday,2,0,0,0.0,0
+Yasukuni Shrine,shrine,0,Wednesday,2,0,1,0.0,0
+Yasukuni Shrine,shrine,0,Wednesday,2,0,2,0.0,0
+Yasukuni Shrine,shrine,0,Wednesday,2,0,3,0.0,0
+Yasukuni Shrine,shrine,0,Wednesday,2,0,4,0.0,0
+Yasukuni Shrine,shrine,0,Wednesday,2,0,5,0.0,0
+Yasukuni Shrine,shrine,0,Wednesday,2,0,6,0.08,8
+Yasukuni Shrine,shrine,0,Wednesday,2,0,7,0.13,13
+Yasukuni Shrine,shrine,0,Wednesday,2,0,8,0.2,20
+Yasukuni Shrine,shrine,0,Wednesday,2,0,9,0.31,31
+Yasukuni Shrine,shrine,0,Wednesday,2,0,10,0.45,45
+Yasukuni Shrine,shrine,0,Wednesday,2,0,11,0.56,56
+Yasukuni Shrine,shrine,0,Wednesday,2,0,12,0.61,61
+Yasukuni Shrine,shrine,0,Wednesday,2,0,13,0.59,59
+Yasukuni Shrine,shrine,0,Wednesday,2,0,14,0.54,54
+Yasukuni Shrine,shrine,0,Wednesday,2,0,15,0.44,44
+Yasukuni Shrine,shrine,0,Wednesday,2,0,16,0.32,32
+Yasukuni Shrine,shrine,0,Wednesday,2,0,17,0.19,19
+Yasukuni Shrine,shrine,0,Wednesday,2,0,18,0.0,0
+Yasukuni Shrine,shrine,0,Wednesday,2,0,19,0.0,0
+Yasukuni Shrine,shrine,0,Wednesday,2,0,20,0.0,0
+Yasukuni Shrine,shrine,0,Wednesday,2,0,21,0.0,0
+Yasukuni Shrine,shrine,0,Wednesday,2,0,22,0.0,0
+Yasukuni Shrine,shrine,0,Wednesday,2,0,23,0.0,0
+Yasukuni Shrine,shrine,0,Thursday,3,0,0,0.0,0
+Yasukuni Shrine,shrine,0,Thursday,3,0,1,0.0,0
+Yasukuni Shrine,shrine,0,Thursday,3,0,2,0.0,0
+Yasukuni Shrine,shrine,0,Thursday,3,0,3,0.0,0
+Yasukuni Shrine,shrine,0,Thursday,3,0,4,0.0,0
+Yasukuni Shrine,shrine,0,Thursday,3,0,5,0.0,0
+Yasukuni Shrine,shrine,0,Thursday,3,0,6,0.07,7
+Yasukuni Shrine,shrine,0,Thursday,3,0,7,0.12,12
+Yasukuni Shrine,shrine,0,Thursday,3,0,8,0.18,18
+Yasukuni Shrine,shrine,0,Thursday,3,0,9,0.28,28
+Yasukuni Shrine,shrine,0,Thursday,3,0,10,0.41,41
+Yasukuni Shrine,shrine,0,Thursday,3,0,11,0.52,52
+Yasukuni Shrine,shrine,0,Thursday,3,0,12,0.59,59
+Yasukuni Shrine,shrine,0,Thursday,3,0,13,0.57,57
+Yasukuni Shrine,shrine,0,Thursday,3,0,14,0.52,52
+Yasukuni Shrine,shrine,0,Thursday,3,0,15,0.44,44
+Yasukuni Shrine,shrine,0,Thursday,3,0,16,0.32,32
+Yasukuni Shrine,shrine,0,Thursday,3,0,17,0.2,20
+Yasukuni Shrine,shrine,0,Thursday,3,0,18,0.0,0
+Yasukuni Shrine,shrine,0,Thursday,3,0,19,0.0,0
+Yasukuni Shrine,shrine,0,Thursday,3,0,20,0.0,0
+Yasukuni Shrine,shrine,0,Thursday,3,0,21,0.0,0
+Yasukuni Shrine,shrine,0,Thursday,3,0,22,0.0,0
+Yasukuni Shrine,shrine,0,Thursday,3,0,23,0.0,0
+Yasukuni Shrine,shrine,0,Friday,4,0,0,0.0,0
+Yasukuni Shrine,shrine,0,Friday,4,0,1,0.0,0
+Yasukuni Shrine,shrine,0,Friday,4,0,2,0.0,0
+Yasukuni Shrine,shrine,0,Friday,4,0,3,0.0,0
+Yasukuni Shrine,shrine,0,Friday,4,0,4,0.0,0
+Yasukuni Shrine,shrine,0,Friday,4,0,5,0.0,0
+Yasukuni Shrine,shrine,0,Friday,4,0,6,0.07,7
+Yasukuni Shrine,shrine,0,Friday,4,0,7,0.12,12
+Yasukuni Shrine,shrine,0,Friday,4,0,8,0.2,20
+Yasukuni Shrine,shrine,0,Friday,4,0,9,0.31,31
+Yasukuni Shrine,shrine,0,Friday,4,0,10,0.47,47
+Yasukuni Shrine,shrine,0,Friday,4,0,11,0.59,59
+Yasukuni Shrine,shrine,0,Friday,4,0,12,0.67,67
+Yasukuni Shrine,shrine,0,Friday,4,0,13,0.67,67
+Yasukuni Shrine,shrine,0,Friday,4,0,14,0.66,66
+Yasukuni Shrine,shrine,0,Friday,4,0,15,0.58,58
+Yasukuni Shrine,shrine,0,Friday,4,0,16,0.44,44
+Yasukuni Shrine,shrine,0,Friday,4,0,17,0.27,27
+Yasukuni Shrine,shrine,0,Friday,4,0,18,0.0,0
+Yasukuni Shrine,shrine,0,Friday,4,0,19,0.0,0
+Yasukuni Shrine,shrine,0,Friday,4,0,20,0.0,0
+Yasukuni Shrine,shrine,0,Friday,4,0,21,0.0,0
+Yasukuni Shrine,shrine,0,Friday,4,0,22,0.0,0
+Yasukuni Shrine,shrine,0,Friday,4,0,23,0.0,0
+Yasukuni Shrine,shrine,0,Saturday,5,1,0,0.0,0
+Yasukuni Shrine,shrine,0,Saturday,5,1,1,0.0,0
+Yasukuni Shrine,shrine,0,Saturday,5,1,2,0.0,0
+Yasukuni Shrine,shrine,0,Saturday,5,1,3,0.0,0
+Yasukuni Shrine,shrine,0,Saturday,5,1,4,0.0,0
+Yasukuni Shrine,shrine,0,Saturday,5,1,5,0.0,0
+Yasukuni Shrine,shrine,0,Saturday,5,1,6,0.05,5
+Yasukuni Shrine,shrine,0,Saturday,5,1,7,0.11,11
+Yasukuni Shrine,shrine,0,Saturday,5,1,8,0.24,24
+Yasukuni Shrine,shrine,0,Saturday,5,1,9,0.42,42
+Yasukuni Shrine,shrine,0,Saturday,5,1,10,0.61,61
+Yasukuni Shrine,shrine,0,Saturday,5,1,11,0.76,76
+Yasukuni Shrine,shrine,0,Saturday,5,1,12,0.86,86
+Yasukuni Shrine,shrine,0,Saturday,5,1,13,0.93,93
+Yasukuni Shrine,shrine,0,Saturday,5,1,14,0.95,95
+Yasukuni Shrine,shrine,0,Saturday,5,1,15,0.85,85
+Yasukuni Shrine,shrine,0,Saturday,5,1,16,0.63,63
+Yasukuni Shrine,shrine,0,Saturday,5,1,17,0.36,36
+Yasukuni Shrine,shrine,0,Saturday,5,1,18,0.0,0
+Yasukuni Shrine,shrine,0,Saturday,5,1,19,0.0,0
+Yasukuni Shrine,shrine,0,Saturday,5,1,20,0.0,0
+Yasukuni Shrine,shrine,0,Saturday,5,1,21,0.0,0
+Yasukuni Shrine,shrine,0,Saturday,5,1,22,0.0,0
+Yasukuni Shrine,shrine,0,Saturday,5,1,23,0.0,0
+Nezu Shrine,shrine,0,Sunday,6,1,0,0.0,0
+Nezu Shrine,shrine,0,Sunday,6,1,1,0.0,0
+Nezu Shrine,shrine,0,Sunday,6,1,2,0.0,0
+Nezu Shrine,shrine,0,Sunday,6,1,3,0.0,0
+Nezu Shrine,shrine,0,Sunday,6,1,4,0.0,0
+Nezu Shrine,shrine,0,Sunday,6,1,5,0.0,0
+Nezu Shrine,shrine,0,Sunday,6,1,6,0.14,14
+Nezu Shrine,shrine,0,Sunday,6,1,7,0.17,17
+Nezu Shrine,shrine,0,Sunday,6,1,8,0.26,26
+Nezu Shrine,shrine,0,Sunday,6,1,9,0.4,40
+Nezu Shrine,shrine,0,Sunday,6,1,10,0.58,58
+Nezu Shrine,shrine,0,Sunday,6,1,11,0.7,70
+Nezu Shrine,shrine,0,Sunday,6,1,12,0.77,77
+Nezu Shrine,shrine,0,Sunday,6,1,13,0.81,81
+Nezu Shrine,shrine,0,Sunday,6,1,14,0.83,83
+Nezu Shrine,shrine,0,Sunday,6,1,15,0.75,75
+Nezu Shrine,shrine,0,Sunday,6,1,16,0.56,56
+Nezu Shrine,shrine,0,Sunday,6,1,17,0.0,0
+Nezu Shrine,shrine,0,Sunday,6,1,18,0.0,0
+Nezu Shrine,shrine,0,Sunday,6,1,19,0.0,0
+Nezu Shrine,shrine,0,Sunday,6,1,20,0.0,0
+Nezu Shrine,shrine,0,Sunday,6,1,21,0.0,0
+Nezu Shrine,shrine,0,Sunday,6,1,22,0.0,0
+Nezu Shrine,shrine,0,Sunday,6,1,23,0.0,0
+Nezu Shrine,shrine,0,Monday,0,0,0,0.0,0
+Nezu Shrine,shrine,0,Monday,0,0,1,0.0,0
+Nezu Shrine,shrine,0,Monday,0,0,2,0.0,0
+Nezu Shrine,shrine,0,Monday,0,0,3,0.0,0
+Nezu Shrine,shrine,0,Monday,0,0,4,0.0,0
+Nezu Shrine,shrine,0,Monday,0,0,5,0.0,0
+Nezu Shrine,shrine,0,Monday,0,0,6,0.17,17
+Nezu Shrine,shrine,0,Monday,0,0,7,0.22,22
+Nezu Shrine,shrine,0,Monday,0,0,8,0.33,33
+Nezu Shrine,shrine,0,Monday,0,0,9,0.46,46
+Nezu Shrine,shrine,0,Monday,0,0,10,0.61,61
+Nezu Shrine,shrine,0,Monday,0,0,11,0.7,70
+Nezu Shrine,shrine,0,Monday,0,0,12,0.74,74
+Nezu Shrine,shrine,0,Monday,0,0,13,0.75,75
+Nezu Shrine,shrine,0,Monday,0,0,14,0.74,74
+Nezu Shrine,shrine,0,Monday,0,0,15,0.66,66
+Nezu Shrine,shrine,0,Monday,0,0,16,0.53,53
+Nezu Shrine,shrine,0,Monday,0,0,17,0.0,0
+Nezu Shrine,shrine,0,Monday,0,0,18,0.0,0
+Nezu Shrine,shrine,0,Monday,0,0,19,0.0,0
+Nezu Shrine,shrine,0,Monday,0,0,20,0.0,0
+Nezu Shrine,shrine,0,Monday,0,0,21,0.0,0
+Nezu Shrine,shrine,0,Monday,0,0,22,0.0,0
+Nezu Shrine,shrine,0,Monday,0,0,23,0.0,0
+Nezu Shrine,shrine,0,Tuesday,1,0,0,0.0,0
+Nezu Shrine,shrine,0,Tuesday,1,0,1,0.0,0
+Nezu Shrine,shrine,0,Tuesday,1,0,2,0.0,0
+Nezu Shrine,shrine,0,Tuesday,1,0,3,0.0,0
+Nezu Shrine,shrine,0,Tuesday,1,0,4,0.0,0
+Nezu Shrine,shrine,0,Tuesday,1,0,5,0.0,0
+Nezu Shrine,shrine,0,Tuesday,1,0,6,0.16,16
+Nezu Shrine,shrine,0,Tuesday,1,0,7,0.24,24
+Nezu Shrine,shrine,0,Tuesday,1,0,8,0.37,37
+Nezu Shrine,shrine,0,Tuesday,1,0,9,0.5,50
+Nezu Shrine,shrine,0,Tuesday,1,0,10,0.61,61
+Nezu Shrine,shrine,0,Tuesday,1,0,11,0.65,65
+Nezu Shrine,shrine,0,Tuesday,1,0,12,0.67,67
+Nezu Shrine,shrine,0,Tuesday,1,0,13,0.69,69
+Nezu Shrine,shrine,0,Tuesday,1,0,14,0.7,70
+Nezu Shrine,shrine,0,Tuesday,1,0,15,0.64,64
+Nezu Shrine,shrine,0,Tuesday,1,0,16,0.53,53
+Nezu Shrine,shrine,0,Tuesday,1,0,17,0.0,0
+Nezu Shrine,shrine,0,Tuesday,1,0,18,0.0,0
+Nezu Shrine,shrine,0,Tuesday,1,0,19,0.0,0
+Nezu Shrine,shrine,0,Tuesday,1,0,20,0.0,0
+Nezu Shrine,shrine,0,Tuesday,1,0,21,0.0,0
+Nezu Shrine,shrine,0,Tuesday,1,0,22,0.0,0
+Nezu Shrine,shrine,0,Tuesday,1,0,23,0.0,0
+Nezu Shrine,shrine,0,Wednesday,2,0,0,0.0,0
+Nezu Shrine,shrine,0,Wednesday,2,0,1,0.0,0
+Nezu Shrine,shrine,0,Wednesday,2,0,2,0.0,0
+Nezu Shrine,shrine,0,Wednesday,2,0,3,0.0,0
+Nezu Shrine,shrine,0,Wednesday,2,0,4,0.0,0
+Nezu Shrine,shrine,0,Wednesday,2,0,5,0.0,0
+Nezu Shrine,shrine,0,Wednesday,2,0,6,0.17,17
+Nezu Shrine,shrine,0,Wednesday,2,0,7,0.25,25
+Nezu Shrine,shrine,0,Wednesday,2,0,8,0.39,39
+Nezu Shrine,shrine,0,Wednesday,2,0,9,0.53,53
+Nezu Shrine,shrine,0,Wednesday,2,0,10,0.71,71
+Nezu Shrine,shrine,0,Wednesday,2,0,11,0.82,82
+Nezu Shrine,shrine,0,Wednesday,2,0,12,0.84,84
+Nezu Shrine,shrine,0,Wednesday,2,0,13,0.79,79
+Nezu Shrine,shrine,0,Wednesday,2,0,14,0.74,74
+Nezu Shrine,shrine,0,Wednesday,2,0,15,0.66,66
+Nezu Shrine,shrine,0,Wednesday,2,0,16,0.55,55
+Nezu Shrine,shrine,0,Wednesday,2,0,17,0.0,0
+Nezu Shrine,shrine,0,Wednesday,2,0,18,0.0,0
+Nezu Shrine,shrine,0,Wednesday,2,0,19,0.0,0
+Nezu Shrine,shrine,0,Wednesday,2,0,20,0.0,0
+Nezu Shrine,shrine,0,Wednesday,2,0,21,0.0,0
+Nezu Shrine,shrine,0,Wednesday,2,0,22,0.0,0
+Nezu Shrine,shrine,0,Wednesday,2,0,23,0.0,0
+Nezu Shrine,shrine,0,Thursday,3,0,0,0.0,0
+Nezu Shrine,shrine,0,Thursday,3,0,1,0.0,0
+Nezu Shrine,shrine,0,Thursday,3,0,2,0.0,0
+Nezu Shrine,shrine,0,Thursday,3,0,3,0.0,0
+Nezu Shrine,shrine,0,Thursday,3,0,4,0.0,0
+Nezu Shrine,shrine,0,Thursday,3,0,5,0.0,0
+Nezu Shrine,shrine,0,Thursday,3,0,6,0.16,16
+Nezu Shrine,shrine,0,Thursday,3,0,7,0.22,22
+Nezu Shrine,shrine,0,Thursday,3,0,8,0.34,34
+Nezu Shrine,shrine,0,Thursday,3,0,9,0.48,48
+Nezu Shrine,shrine,0,Thursday,3,0,10,0.62,62
+Nezu Shrine,shrine,0,Thursday,3,0,11,0.71,71
+Nezu Shrine,shrine,0,Thursday,3,0,12,0.73,73
+Nezu Shrine,shrine,0,Thursday,3,0,13,0.74,74
+Nezu Shrine,shrine,0,Thursday,3,0,14,0.7,70
+Nezu Shrine,shrine,0,Thursday,3,0,15,0.64,64
+Nezu Shrine,shrine,0,Thursday,3,0,16,0.53,53
+Nezu Shrine,shrine,0,Thursday,3,0,17,0.0,0
+Nezu Shrine,shrine,0,Thursday,3,0,18,0.0,0
+Nezu Shrine,shrine,0,Thursday,3,0,19,0.0,0
+Nezu Shrine,shrine,0,Thursday,3,0,20,0.0,0
+Nezu Shrine,shrine,0,Thursday,3,0,21,0.0,0
+Nezu Shrine,shrine,0,Thursday,3,0,22,0.0,0
+Nezu Shrine,shrine,0,Thursday,3,0,23,0.0,0
+Nezu Shrine,shrine,0,Friday,4,0,0,0.0,0
+Nezu Shrine,shrine,0,Friday,4,0,1,0.0,0
+Nezu Shrine,shrine,0,Friday,4,0,2,0.0,0
+Nezu Shrine,shrine,0,Friday,4,0,3,0.0,0
+Nezu Shrine,shrine,0,Friday,4,0,4,0.0,0
+Nezu Shrine,shrine,0,Friday,4,0,5,0.0,0
+Nezu Shrine,shrine,0,Friday,4,0,6,0.15,15
+Nezu Shrine,shrine,0,Friday,4,0,7,0.23,23
+Nezu Shrine,shrine,0,Friday,4,0,8,0.36,36
+Nezu Shrine,shrine,0,Friday,4,0,9,0.53,53
+Nezu Shrine,shrine,0,Friday,4,0,10,0.66,66
+Nezu Shrine,shrine,0,Friday,4,0,11,0.73,73
+Nezu Shrine,shrine,0,Friday,4,0,12,0.74,74
+Nezu Shrine,shrine,0,Friday,4,0,13,0.75,75
+Nezu Shrine,shrine,0,Friday,4,0,14,0.73,73
+Nezu Shrine,shrine,0,Friday,4,0,15,0.67,67
+Nezu Shrine,shrine,0,Friday,4,0,16,0.53,53
+Nezu Shrine,shrine,0,Friday,4,0,17,0.0,0
+Nezu Shrine,shrine,0,Friday,4,0,18,0.0,0
+Nezu Shrine,shrine,0,Friday,4,0,19,0.0,0
+Nezu Shrine,shrine,0,Friday,4,0,20,0.0,0
+Nezu Shrine,shrine,0,Friday,4,0,21,0.0,0
+Nezu Shrine,shrine,0,Friday,4,0,22,0.0,0
+Nezu Shrine,shrine,0,Friday,4,0,23,0.0,0
+Nezu Shrine,shrine,0,Saturday,5,1,0,0.0,0
+Nezu Shrine,shrine,0,Saturday,5,1,1,0.0,0
+Nezu Shrine,shrine,0,Saturday,5,1,2,0.0,0
+Nezu Shrine,shrine,0,Saturday,5,1,3,0.0,0
+Nezu Shrine,shrine,0,Saturday,5,1,4,0.0,0
+Nezu Shrine,shrine,0,Saturday,5,1,5,0.0,0
+Nezu Shrine,shrine,0,Saturday,5,1,6,0.14,14
+Nezu Shrine,shrine,0,Saturday,5,1,7,0.22,22
+Nezu Shrine,shrine,0,Saturday,5,1,8,0.34,34
+Nezu Shrine,shrine,0,Saturday,5,1,9,0.51,51
+Nezu Shrine,shrine,0,Saturday,5,1,10,0.7,70
+Nezu Shrine,shrine,0,Saturday,5,1,11,0.84,84
+Nezu Shrine,shrine,0,Saturday,5,1,12,0.95,95
+Nezu Shrine,shrine,0,Saturday,5,1,13,0.98,98
+Nezu Shrine,shrine,0,Saturday,5,1,14,1.0,100
+Nezu Shrine,shrine,0,Saturday,5,1,15,0.84,84
+Nezu Shrine,shrine,0,Saturday,5,1,16,0.63,63
+Nezu Shrine,shrine,0,Saturday,5,1,17,0.0,0
+Nezu Shrine,shrine,0,Saturday,5,1,18,0.0,0
+Nezu Shrine,shrine,0,Saturday,5,1,19,0.0,0
+Nezu Shrine,shrine,0,Saturday,5,1,20,0.0,0
+Nezu Shrine,shrine,0,Saturday,5,1,21,0.0,0
+Nezu Shrine,shrine,0,Saturday,5,1,22,0.0,0
+Nezu Shrine,shrine,0,Saturday,5,1,23,0.0,0
+Tokyo Skytree,viewpoint,1,Sunday,6,1,0,0.0,0
+Tokyo Skytree,viewpoint,1,Sunday,6,1,1,0.0,0
+Tokyo Skytree,viewpoint,1,Sunday,6,1,2,0.0,0
+Tokyo Skytree,viewpoint,1,Sunday,6,1,3,0.0,0
+Tokyo Skytree,viewpoint,1,Sunday,6,1,4,0.0,0
+Tokyo Skytree,viewpoint,1,Sunday,6,1,5,0.0,0
+Tokyo Skytree,viewpoint,1,Sunday,6,1,6,0.0,0
+Tokyo Skytree,viewpoint,1,Sunday,6,1,7,0.0,0
+Tokyo Skytree,viewpoint,1,Sunday,6,1,8,0.0,0
+Tokyo Skytree,viewpoint,1,Sunday,6,1,9,0.32,32
+Tokyo Skytree,viewpoint,1,Sunday,6,1,10,0.52,52
+Tokyo Skytree,viewpoint,1,Sunday,6,1,11,0.7,70
+Tokyo Skytree,viewpoint,1,Sunday,6,1,12,0.82,82
+Tokyo Skytree,viewpoint,1,Sunday,6,1,13,0.91,91
+Tokyo Skytree,viewpoint,1,Sunday,6,1,14,0.97,97
+Tokyo Skytree,viewpoint,1,Sunday,6,1,15,0.97,97
+Tokyo Skytree,viewpoint,1,Sunday,6,1,16,0.93,93
+Tokyo Skytree,viewpoint,1,Sunday,6,1,17,0.85,85
+Tokyo Skytree,viewpoint,1,Sunday,6,1,18,0.76,76
+Tokyo Skytree,viewpoint,1,Sunday,6,1,19,0.68,68
+Tokyo Skytree,viewpoint,1,Sunday,6,1,20,0.55,55
+Tokyo Skytree,viewpoint,1,Sunday,6,1,21,0.39,39
+Tokyo Skytree,viewpoint,1,Sunday,6,1,22,0.0,0
+Tokyo Skytree,viewpoint,1,Sunday,6,1,23,0.0,0
+Tokyo Skytree,viewpoint,1,Monday,0,0,0,0.0,0
+Tokyo Skytree,viewpoint,1,Monday,0,0,1,0.0,0
+Tokyo Skytree,viewpoint,1,Monday,0,0,2,0.0,0
+Tokyo Skytree,viewpoint,1,Monday,0,0,3,0.0,0
+Tokyo Skytree,viewpoint,1,Monday,0,0,4,0.0,0
+Tokyo Skytree,viewpoint,1,Monday,0,0,5,0.0,0
+Tokyo Skytree,viewpoint,1,Monday,0,0,6,0.0,0
+Tokyo Skytree,viewpoint,1,Monday,0,0,7,0.0,0
+Tokyo Skytree,viewpoint,1,Monday,0,0,8,0.0,0
+Tokyo Skytree,viewpoint,1,Monday,0,0,9,0.0,0
+Tokyo Skytree,viewpoint,1,Monday,0,0,10,0.36,36
+Tokyo Skytree,viewpoint,1,Monday,0,0,11,0.5,50
+Tokyo Skytree,viewpoint,1,Monday,0,0,12,0.61,61
+Tokyo Skytree,viewpoint,1,Monday,0,0,13,0.66,66
+Tokyo Skytree,viewpoint,1,Monday,0,0,14,0.68,68
+Tokyo Skytree,viewpoint,1,Monday,0,0,15,0.67,67
+Tokyo Skytree,viewpoint,1,Monday,0,0,16,0.65,65
+Tokyo Skytree,viewpoint,1,Monday,0,0,17,0.63,63
+Tokyo Skytree,viewpoint,1,Monday,0,0,18,0.61,61
+Tokyo Skytree,viewpoint,1,Monday,0,0,19,0.57,57
+Tokyo Skytree,viewpoint,1,Monday,0,0,20,0.47,47
+Tokyo Skytree,viewpoint,1,Monday,0,0,21,0.32,32
+Tokyo Skytree,viewpoint,1,Monday,0,0,22,0.0,0
+Tokyo Skytree,viewpoint,1,Monday,0,0,23,0.0,0
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,0,0.0,0
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,1,0.0,0
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,2,0.0,0
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,3,0.0,0
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,4,0.0,0
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,5,0.0,0
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,6,0.0,0
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,7,0.0,0
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,8,0.0,0
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,9,0.0,0
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,10,0.29,29
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,11,0.41,41
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,12,0.49,49
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,13,0.54,54
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,14,0.57,57
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,15,0.57,57
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,16,0.56,56
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,17,0.56,56
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,18,0.56,56
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,19,0.53,53
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,20,0.44,44
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,21,0.31,31
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,22,0.0,0
+Tokyo Skytree,viewpoint,1,Tuesday,1,0,23,0.0,0
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,0,0.0,0
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,1,0.0,0
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,2,0.0,0
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,3,0.0,0
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,4,0.0,0
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,5,0.0,0
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,6,0.0,0
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,7,0.0,0
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,8,0.0,0
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,9,0.0,0
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,10,0.31,31
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,11,0.43,43
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,12,0.53,53
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,13,0.58,58
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,14,0.61,61
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,15,0.61,61
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,16,0.59,59
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,17,0.58,58
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,18,0.57,57
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,19,0.54,54
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,20,0.45,45
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,21,0.32,32
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,22,0.0,0
+Tokyo Skytree,viewpoint,1,Wednesday,2,0,23,0.0,0
+Tokyo Skytree,viewpoint,1,Thursday,3,0,0,0.0,0
+Tokyo Skytree,viewpoint,1,Thursday,3,0,1,0.0,0
+Tokyo Skytree,viewpoint,1,Thursday,3,0,2,0.0,0
+Tokyo Skytree,viewpoint,1,Thursday,3,0,3,0.0,0
+Tokyo Skytree,viewpoint,1,Thursday,3,0,4,0.0,0
+Tokyo Skytree,viewpoint,1,Thursday,3,0,5,0.0,0
+Tokyo Skytree,viewpoint,1,Thursday,3,0,6,0.0,0
+Tokyo Skytree,viewpoint,1,Thursday,3,0,7,0.0,0
+Tokyo Skytree,viewpoint,1,Thursday,3,0,8,0.0,0
+Tokyo Skytree,viewpoint,1,Thursday,3,0,9,0.0,0
+Tokyo Skytree,viewpoint,1,Thursday,3,0,10,0.31,31
+Tokyo Skytree,viewpoint,1,Thursday,3,0,11,0.43,43
+Tokyo Skytree,viewpoint,1,Thursday,3,0,12,0.52,52
+Tokyo Skytree,viewpoint,1,Thursday,3,0,13,0.57,57
+Tokyo Skytree,viewpoint,1,Thursday,3,0,14,0.6,60
+Tokyo Skytree,viewpoint,1,Thursday,3,0,15,0.61,61
+Tokyo Skytree,viewpoint,1,Thursday,3,0,16,0.61,61
+Tokyo Skytree,viewpoint,1,Thursday,3,0,17,0.62,62
+Tokyo Skytree,viewpoint,1,Thursday,3,0,18,0.62,62
+Tokyo Skytree,viewpoint,1,Thursday,3,0,19,0.59,59
+Tokyo Skytree,viewpoint,1,Thursday,3,0,20,0.5,50
+Tokyo Skytree,viewpoint,1,Thursday,3,0,21,0.35,35
+Tokyo Skytree,viewpoint,1,Thursday,3,0,22,0.0,0
+Tokyo Skytree,viewpoint,1,Thursday,3,0,23,0.0,0
+Tokyo Skytree,viewpoint,1,Friday,4,0,0,0.0,0
+Tokyo Skytree,viewpoint,1,Friday,4,0,1,0.0,0
+Tokyo Skytree,viewpoint,1,Friday,4,0,2,0.0,0
+Tokyo Skytree,viewpoint,1,Friday,4,0,3,0.0,0
+Tokyo Skytree,viewpoint,1,Friday,4,0,4,0.0,0
+Tokyo Skytree,viewpoint,1,Friday,4,0,5,0.0,0
+Tokyo Skytree,viewpoint,1,Friday,4,0,6,0.0,0
+Tokyo Skytree,viewpoint,1,Friday,4,0,7,0.0,0
+Tokyo Skytree,viewpoint,1,Friday,4,0,8,0.0,0
+Tokyo Skytree,viewpoint,1,Friday,4,0,9,0.0,0
+Tokyo Skytree,viewpoint,1,Friday,4,0,10,0.36,36
+Tokyo Skytree,viewpoint,1,Friday,4,0,11,0.51,51
+Tokyo Skytree,viewpoint,1,Friday,4,0,12,0.62,62
+Tokyo Skytree,viewpoint,1,Friday,4,0,13,0.68,68
+Tokyo Skytree,viewpoint,1,Friday,4,0,14,0.71,71
+Tokyo Skytree,viewpoint,1,Friday,4,0,15,0.71,71
+Tokyo Skytree,viewpoint,1,Friday,4,0,16,0.71,71
+Tokyo Skytree,viewpoint,1,Friday,4,0,17,0.71,71
+Tokyo Skytree,viewpoint,1,Friday,4,0,18,0.71,71
+Tokyo Skytree,viewpoint,1,Friday,4,0,19,0.68,68
+Tokyo Skytree,viewpoint,1,Friday,4,0,20,0.57,57
+Tokyo Skytree,viewpoint,1,Friday,4,0,21,0.41,41
+Tokyo Skytree,viewpoint,1,Friday,4,0,22,0.0,0
+Tokyo Skytree,viewpoint,1,Friday,4,0,23,0.0,0
+Tokyo Skytree,viewpoint,1,Saturday,5,1,0,0.0,0
+Tokyo Skytree,viewpoint,1,Saturday,5,1,1,0.0,0
+Tokyo Skytree,viewpoint,1,Saturday,5,1,2,0.0,0
+Tokyo Skytree,viewpoint,1,Saturday,5,1,3,0.0,0
+Tokyo Skytree,viewpoint,1,Saturday,5,1,4,0.0,0
+Tokyo Skytree,viewpoint,1,Saturday,5,1,5,0.0,0
+Tokyo Skytree,viewpoint,1,Saturday,5,1,6,0.0,0
+Tokyo Skytree,viewpoint,1,Saturday,5,1,7,0.0,0
+Tokyo Skytree,viewpoint,1,Saturday,5,1,8,0.0,0
+Tokyo Skytree,viewpoint,1,Saturday,5,1,9,0.31,31
+Tokyo Skytree,viewpoint,1,Saturday,5,1,10,0.49,49
+Tokyo Skytree,viewpoint,1,Saturday,5,1,11,0.66,66
+Tokyo Skytree,viewpoint,1,Saturday,5,1,12,0.79,79
+Tokyo Skytree,viewpoint,1,Saturday,5,1,13,0.9,90
+Tokyo Skytree,viewpoint,1,Saturday,5,1,14,0.97,97
+Tokyo Skytree,viewpoint,1,Saturday,5,1,15,1.0,100
+Tokyo Skytree,viewpoint,1,Saturday,5,1,16,0.97,97
+Tokyo Skytree,viewpoint,1,Saturday,5,1,17,0.91,91
+Tokyo Skytree,viewpoint,1,Saturday,5,1,18,0.84,84
+Tokyo Skytree,viewpoint,1,Saturday,5,1,19,0.76,76
+Tokyo Skytree,viewpoint,1,Saturday,5,1,20,0.63,63
+Tokyo Skytree,viewpoint,1,Saturday,5,1,21,0.45,45
+Tokyo Skytree,viewpoint,1,Saturday,5,1,22,0.0,0
+Tokyo Skytree,viewpoint,1,Saturday,5,1,23,0.0,0
+Tokyo Tower,viewpoint,1,Sunday,6,1,0,0.0,0
+Tokyo Tower,viewpoint,1,Sunday,6,1,1,0.0,0
+Tokyo Tower,viewpoint,1,Sunday,6,1,2,0.0,0
+Tokyo Tower,viewpoint,1,Sunday,6,1,3,0.0,0
+Tokyo Tower,viewpoint,1,Sunday,6,1,4,0.0,0
+Tokyo Tower,viewpoint,1,Sunday,6,1,5,0.0,0
+Tokyo Tower,viewpoint,1,Sunday,6,1,6,0.0,0
+Tokyo Tower,viewpoint,1,Sunday,6,1,7,0.0,0
+Tokyo Tower,viewpoint,1,Sunday,6,1,8,0.0,0
+Tokyo Tower,viewpoint,1,Sunday,6,1,9,0.31,31
+Tokyo Tower,viewpoint,1,Sunday,6,1,10,0.52,52
+Tokyo Tower,viewpoint,1,Sunday,6,1,11,0.69,69
+Tokyo Tower,viewpoint,1,Sunday,6,1,12,0.79,79
+Tokyo Tower,viewpoint,1,Sunday,6,1,13,0.87,87
+Tokyo Tower,viewpoint,1,Sunday,6,1,14,0.94,94
+Tokyo Tower,viewpoint,1,Sunday,6,1,15,0.96,96
+Tokyo Tower,viewpoint,1,Sunday,6,1,16,0.91,91
+Tokyo Tower,viewpoint,1,Sunday,6,1,17,0.81,81
+Tokyo Tower,viewpoint,1,Sunday,6,1,18,0.73,73
+Tokyo Tower,viewpoint,1,Sunday,6,1,19,0.65,65
+Tokyo Tower,viewpoint,1,Sunday,6,1,20,0.56,56
+Tokyo Tower,viewpoint,1,Sunday,6,1,21,0.43,43
+Tokyo Tower,viewpoint,1,Sunday,6,1,22,0.28,28
+Tokyo Tower,viewpoint,1,Sunday,6,1,23,0.0,0
+Tokyo Tower,viewpoint,1,Monday,0,0,0,0.0,0
+Tokyo Tower,viewpoint,1,Monday,0,0,1,0.0,0
+Tokyo Tower,viewpoint,1,Monday,0,0,2,0.0,0
+Tokyo Tower,viewpoint,1,Monday,0,0,3,0.0,0
+Tokyo Tower,viewpoint,1,Monday,0,0,4,0.0,0
+Tokyo Tower,viewpoint,1,Monday,0,0,5,0.0,0
+Tokyo Tower,viewpoint,1,Monday,0,0,6,0.0,0
+Tokyo Tower,viewpoint,1,Monday,0,0,7,0.0,0
+Tokyo Tower,viewpoint,1,Monday,0,0,8,0.0,0
+Tokyo Tower,viewpoint,1,Monday,0,0,9,0.24,24
+Tokyo Tower,viewpoint,1,Monday,0,0,10,0.39,39
+Tokyo Tower,viewpoint,1,Monday,0,0,11,0.5,50
+Tokyo Tower,viewpoint,1,Monday,0,0,12,0.59,59
+Tokyo Tower,viewpoint,1,Monday,0,0,13,0.64,64
+Tokyo Tower,viewpoint,1,Monday,0,0,14,0.69,69
+Tokyo Tower,viewpoint,1,Monday,0,0,15,0.71,71
+Tokyo Tower,viewpoint,1,Monday,0,0,16,0.68,68
+Tokyo Tower,viewpoint,1,Monday,0,0,17,0.63,63
+Tokyo Tower,viewpoint,1,Monday,0,0,18,0.59,59
+Tokyo Tower,viewpoint,1,Monday,0,0,19,0.56,56
+Tokyo Tower,viewpoint,1,Monday,0,0,20,0.5,50
+Tokyo Tower,viewpoint,1,Monday,0,0,21,0.39,39
+Tokyo Tower,viewpoint,1,Monday,0,0,22,0.25,25
+Tokyo Tower,viewpoint,1,Monday,0,0,23,0.0,0
+Tokyo Tower,viewpoint,1,Tuesday,1,0,0,0.0,0
+Tokyo Tower,viewpoint,1,Tuesday,1,0,1,0.0,0
+Tokyo Tower,viewpoint,1,Tuesday,1,0,2,0.0,0
+Tokyo Tower,viewpoint,1,Tuesday,1,0,3,0.0,0
+Tokyo Tower,viewpoint,1,Tuesday,1,0,4,0.0,0
+Tokyo Tower,viewpoint,1,Tuesday,1,0,5,0.0,0
+Tokyo Tower,viewpoint,1,Tuesday,1,0,6,0.0,0
+Tokyo Tower,viewpoint,1,Tuesday,1,0,7,0.0,0
+Tokyo Tower,viewpoint,1,Tuesday,1,0,8,0.0,0
+Tokyo Tower,viewpoint,1,Tuesday,1,0,9,0.23,23
+Tokyo Tower,viewpoint,1,Tuesday,1,0,10,0.35,35
+Tokyo Tower,viewpoint,1,Tuesday,1,0,11,0.45,45
+Tokyo Tower,viewpoint,1,Tuesday,1,0,12,0.52,52
+Tokyo Tower,viewpoint,1,Tuesday,1,0,13,0.55,55
+Tokyo Tower,viewpoint,1,Tuesday,1,0,14,0.58,58
+Tokyo Tower,viewpoint,1,Tuesday,1,0,15,0.59,59
+Tokyo Tower,viewpoint,1,Tuesday,1,0,16,0.57,57
+Tokyo Tower,viewpoint,1,Tuesday,1,0,17,0.55,55
+Tokyo Tower,viewpoint,1,Tuesday,1,0,18,0.52,52
+Tokyo Tower,viewpoint,1,Tuesday,1,0,19,0.49,49
+Tokyo Tower,viewpoint,1,Tuesday,1,0,20,0.42,42
+Tokyo Tower,viewpoint,1,Tuesday,1,0,21,0.32,32
+Tokyo Tower,viewpoint,1,Tuesday,1,0,22,0.21,21
+Tokyo Tower,viewpoint,1,Tuesday,1,0,23,0.0,0
+Tokyo Tower,viewpoint,1,Wednesday,2,0,0,0.0,0
+Tokyo Tower,viewpoint,1,Wednesday,2,0,1,0.0,0
+Tokyo Tower,viewpoint,1,Wednesday,2,0,2,0.0,0
+Tokyo Tower,viewpoint,1,Wednesday,2,0,3,0.0,0
+Tokyo Tower,viewpoint,1,Wednesday,2,0,4,0.0,0
+Tokyo Tower,viewpoint,1,Wednesday,2,0,5,0.0,0
+Tokyo Tower,viewpoint,1,Wednesday,2,0,6,0.0,0
+Tokyo Tower,viewpoint,1,Wednesday,2,0,7,0.0,0
+Tokyo Tower,viewpoint,1,Wednesday,2,0,8,0.0,0
+Tokyo Tower,viewpoint,1,Wednesday,2,0,9,0.23,23
+Tokyo Tower,viewpoint,1,Wednesday,2,0,10,0.37,37
+Tokyo Tower,viewpoint,1,Wednesday,2,0,11,0.47,47
+Tokyo Tower,viewpoint,1,Wednesday,2,0,12,0.54,54
+Tokyo Tower,viewpoint,1,Wednesday,2,0,13,0.58,58
+Tokyo Tower,viewpoint,1,Wednesday,2,0,14,0.61,61
+Tokyo Tower,viewpoint,1,Wednesday,2,0,15,0.62,62
+Tokyo Tower,viewpoint,1,Wednesday,2,0,16,0.61,61
+Tokyo Tower,viewpoint,1,Wednesday,2,0,17,0.59,59
+Tokyo Tower,viewpoint,1,Wednesday,2,0,18,0.57,57
+Tokyo Tower,viewpoint,1,Wednesday,2,0,19,0.55,55
+Tokyo Tower,viewpoint,1,Wednesday,2,0,20,0.48,48
+Tokyo Tower,viewpoint,1,Wednesday,2,0,21,0.37,37
+Tokyo Tower,viewpoint,1,Wednesday,2,0,22,0.24,24
+Tokyo Tower,viewpoint,1,Wednesday,2,0,23,0.0,0
+Tokyo Tower,viewpoint,1,Thursday,3,0,0,0.0,0
+Tokyo Tower,viewpoint,1,Thursday,3,0,1,0.0,0
+Tokyo Tower,viewpoint,1,Thursday,3,0,2,0.0,0
+Tokyo Tower,viewpoint,1,Thursday,3,0,3,0.0,0
+Tokyo Tower,viewpoint,1,Thursday,3,0,4,0.0,0
+Tokyo Tower,viewpoint,1,Thursday,3,0,5,0.0,0
+Tokyo Tower,viewpoint,1,Thursday,3,0,6,0.0,0
+Tokyo Tower,viewpoint,1,Thursday,3,0,7,0.0,0
+Tokyo Tower,viewpoint,1,Thursday,3,0,8,0.0,0
+Tokyo Tower,viewpoint,1,Thursday,3,0,9,0.23,23
+Tokyo Tower,viewpoint,1,Thursday,3,0,10,0.36,36
+Tokyo Tower,viewpoint,1,Thursday,3,0,11,0.47,47
+Tokyo Tower,viewpoint,1,Thursday,3,0,12,0.54,54
+Tokyo Tower,viewpoint,1,Thursday,3,0,13,0.58,58
+Tokyo Tower,viewpoint,1,Thursday,3,0,14,0.61,61
+Tokyo Tower,viewpoint,1,Thursday,3,0,15,0.63,63
+Tokyo Tower,viewpoint,1,Thursday,3,0,16,0.62,62
+Tokyo Tower,viewpoint,1,Thursday,3,0,17,0.61,61
+Tokyo Tower,viewpoint,1,Thursday,3,0,18,0.61,61
+Tokyo Tower,viewpoint,1,Thursday,3,0,19,0.58,58
+Tokyo Tower,viewpoint,1,Thursday,3,0,20,0.51,51
+Tokyo Tower,viewpoint,1,Thursday,3,0,21,0.4,40
+Tokyo Tower,viewpoint,1,Thursday,3,0,22,0.26,26
+Tokyo Tower,viewpoint,1,Thursday,3,0,23,0.0,0
+Tokyo Tower,viewpoint,1,Friday,4,0,0,0.0,0
+Tokyo Tower,viewpoint,1,Friday,4,0,1,0.0,0
+Tokyo Tower,viewpoint,1,Friday,4,0,2,0.0,0
+Tokyo Tower,viewpoint,1,Friday,4,0,3,0.0,0
+Tokyo Tower,viewpoint,1,Friday,4,0,4,0.0,0
+Tokyo Tower,viewpoint,1,Friday,4,0,5,0.0,0
+Tokyo Tower,viewpoint,1,Friday,4,0,6,0.0,0
+Tokyo Tower,viewpoint,1,Friday,4,0,7,0.0,0
+Tokyo Tower,viewpoint,1,Friday,4,0,8,0.0,0
+Tokyo Tower,viewpoint,1,Friday,4,0,9,0.26,26
+Tokyo Tower,viewpoint,1,Friday,4,0,10,0.41,41
+Tokyo Tower,viewpoint,1,Friday,4,0,11,0.54,54
+Tokyo Tower,viewpoint,1,Friday,4,0,12,0.64,64
+Tokyo Tower,viewpoint,1,Friday,4,0,13,0.69,69
+Tokyo Tower,viewpoint,1,Friday,4,0,14,0.73,73
+Tokyo Tower,viewpoint,1,Friday,4,0,15,0.73,73
+Tokyo Tower,viewpoint,1,Friday,4,0,16,0.7,70
+Tokyo Tower,viewpoint,1,Friday,4,0,17,0.68,68
+Tokyo Tower,viewpoint,1,Friday,4,0,18,0.68,68
+Tokyo Tower,viewpoint,1,Friday,4,0,19,0.68,68
+Tokyo Tower,viewpoint,1,Friday,4,0,20,0.63,63
+Tokyo Tower,viewpoint,1,Friday,4,0,21,0.51,51
+Tokyo Tower,viewpoint,1,Friday,4,0,22,0.34,34
+Tokyo Tower,viewpoint,1,Friday,4,0,23,0.0,0
+Tokyo Tower,viewpoint,1,Saturday,5,1,0,0.0,0
+Tokyo Tower,viewpoint,1,Saturday,5,1,1,0.0,0
+Tokyo Tower,viewpoint,1,Saturday,5,1,2,0.0,0
+Tokyo Tower,viewpoint,1,Saturday,5,1,3,0.0,0
+Tokyo Tower,viewpoint,1,Saturday,5,1,4,0.0,0
+Tokyo Tower,viewpoint,1,Saturday,5,1,5,0.0,0
+Tokyo Tower,viewpoint,1,Saturday,5,1,6,0.0,0
+Tokyo Tower,viewpoint,1,Saturday,5,1,7,0.0,0
+Tokyo Tower,viewpoint,1,Saturday,5,1,8,0.0,0
+Tokyo Tower,viewpoint,1,Saturday,5,1,9,0.31,31
+Tokyo Tower,viewpoint,1,Saturday,5,1,10,0.49,49
+Tokyo Tower,viewpoint,1,Saturday,5,1,11,0.65,65
+Tokyo Tower,viewpoint,1,Saturday,5,1,12,0.78,78
+Tokyo Tower,viewpoint,1,Saturday,5,1,13,0.88,88
+Tokyo Tower,viewpoint,1,Saturday,5,1,14,0.96,96
+Tokyo Tower,viewpoint,1,Saturday,5,1,15,1.0,100
+Tokyo Tower,viewpoint,1,Saturday,5,1,16,0.98,98
+Tokyo Tower,viewpoint,1,Saturday,5,1,17,0.93,93
+Tokyo Tower,viewpoint,1,Saturday,5,1,18,0.88,88
+Tokyo Tower,viewpoint,1,Saturday,5,1,19,0.81,81
+Tokyo Tower,viewpoint,1,Saturday,5,1,20,0.7,70
+Tokyo Tower,viewpoint,1,Saturday,5,1,21,0.55,55
+Tokyo Tower,viewpoint,1,Saturday,5,1,22,0.37,37
+Tokyo Tower,viewpoint,1,Saturday,5,1,23,0.0,0
+Shibuya Sky,viewpoint,1,Sunday,6,1,0,0.0,0
+Shibuya Sky,viewpoint,1,Sunday,6,1,1,0.0,0
+Shibuya Sky,viewpoint,1,Sunday,6,1,2,0.0,0
+Shibuya Sky,viewpoint,1,Sunday,6,1,3,0.0,0
+Shibuya Sky,viewpoint,1,Sunday,6,1,4,0.0,0
+Shibuya Sky,viewpoint,1,Sunday,6,1,5,0.0,0
+Shibuya Sky,viewpoint,1,Sunday,6,1,6,0.0,0
+Shibuya Sky,viewpoint,1,Sunday,6,1,7,0.0,0
+Shibuya Sky,viewpoint,1,Sunday,6,1,8,0.0,0
+Shibuya Sky,viewpoint,1,Sunday,6,1,9,0.0,0
+Shibuya Sky,viewpoint,1,Sunday,6,1,10,0.4,40
+Shibuya Sky,viewpoint,1,Sunday,6,1,11,0.59,59
+Shibuya Sky,viewpoint,1,Sunday,6,1,12,0.72,72
+Shibuya Sky,viewpoint,1,Sunday,6,1,13,0.82,82
+Shibuya Sky,viewpoint,1,Sunday,6,1,14,0.87,87
+Shibuya Sky,viewpoint,1,Sunday,6,1,15,0.9,90
+Shibuya Sky,viewpoint,1,Sunday,6,1,16,0.91,91
+Shibuya Sky,viewpoint,1,Sunday,6,1,17,0.88,88
+Shibuya Sky,viewpoint,1,Sunday,6,1,18,0.81,81
+Shibuya Sky,viewpoint,1,Sunday,6,1,19,0.7,70
+Shibuya Sky,viewpoint,1,Sunday,6,1,20,0.56,56
+Shibuya Sky,viewpoint,1,Sunday,6,1,21,0.34,34
+Shibuya Sky,viewpoint,1,Sunday,6,1,22,0.17,17
+Shibuya Sky,viewpoint,1,Sunday,6,1,23,0.0,0
+Shibuya Sky,viewpoint,1,Monday,0,0,0,0.0,0
+Shibuya Sky,viewpoint,1,Monday,0,0,1,0.0,0
+Shibuya Sky,viewpoint,1,Monday,0,0,2,0.0,0
+Shibuya Sky,viewpoint,1,Monday,0,0,3,0.0,0
+Shibuya Sky,viewpoint,1,Monday,0,0,4,0.0,0
+Shibuya Sky,viewpoint,1,Monday,0,0,5,0.0,0
+Shibuya Sky,viewpoint,1,Monday,0,0,6,0.0,0
+Shibuya Sky,viewpoint,1,Monday,0,0,7,0.0,0
+Shibuya Sky,viewpoint,1,Monday,0,0,8,0.0,0
+Shibuya Sky,viewpoint,1,Monday,0,0,9,0.0,0
+Shibuya Sky,viewpoint,1,Monday,0,0,10,0.37,37
+Shibuya Sky,viewpoint,1,Monday,0,0,11,0.54,54
+Shibuya Sky,viewpoint,1,Monday,0,0,12,0.67,67
+Shibuya Sky,viewpoint,1,Monday,0,0,13,0.75,75
+Shibuya Sky,viewpoint,1,Monday,0,0,14,0.79,79
+Shibuya Sky,viewpoint,1,Monday,0,0,15,0.8,80
+Shibuya Sky,viewpoint,1,Monday,0,0,16,0.83,83
+Shibuya Sky,viewpoint,1,Monday,0,0,17,0.84,84
+Shibuya Sky,viewpoint,1,Monday,0,0,18,0.84,84
+Shibuya Sky,viewpoint,1,Monday,0,0,19,0.75,75
+Shibuya Sky,viewpoint,1,Monday,0,0,20,0.59,59
+Shibuya Sky,viewpoint,1,Monday,0,0,21,0.38,38
+Shibuya Sky,viewpoint,1,Monday,0,0,22,0.2,20
+Shibuya Sky,viewpoint,1,Monday,0,0,23,0.0,0
+Shibuya Sky,viewpoint,1,Tuesday,1,0,0,0.0,0
+Shibuya Sky,viewpoint,1,Tuesday,1,0,1,0.0,0
+Shibuya Sky,viewpoint,1,Tuesday,1,0,2,0.0,0
+Shibuya Sky,viewpoint,1,Tuesday,1,0,3,0.0,0
+Shibuya Sky,viewpoint,1,Tuesday,1,0,4,0.0,0
+Shibuya Sky,viewpoint,1,Tuesday,1,0,5,0.0,0
+Shibuya Sky,viewpoint,1,Tuesday,1,0,6,0.0,0
+Shibuya Sky,viewpoint,1,Tuesday,1,0,7,0.0,0
+Shibuya Sky,viewpoint,1,Tuesday,1,0,8,0.0,0
+Shibuya Sky,viewpoint,1,Tuesday,1,0,9,0.0,0
+Shibuya Sky,viewpoint,1,Tuesday,1,0,10,0.34,34
+Shibuya Sky,viewpoint,1,Tuesday,1,0,11,0.49,49
+Shibuya Sky,viewpoint,1,Tuesday,1,0,12,0.62,62
+Shibuya Sky,viewpoint,1,Tuesday,1,0,13,0.71,71
+Shibuya Sky,viewpoint,1,Tuesday,1,0,14,0.76,76
+Shibuya Sky,viewpoint,1,Tuesday,1,0,15,0.8,80
+Shibuya Sky,viewpoint,1,Tuesday,1,0,16,0.82,82
+Shibuya Sky,viewpoint,1,Tuesday,1,0,17,0.81,81
+Shibuya Sky,viewpoint,1,Tuesday,1,0,18,0.8,80
+Shibuya Sky,viewpoint,1,Tuesday,1,0,19,0.71,71
+Shibuya Sky,viewpoint,1,Tuesday,1,0,20,0.57,57
+Shibuya Sky,viewpoint,1,Tuesday,1,0,21,0.36,36
+Shibuya Sky,viewpoint,1,Tuesday,1,0,22,0.19,19
+Shibuya Sky,viewpoint,1,Tuesday,1,0,23,0.0,0
+Shibuya Sky,viewpoint,1,Wednesday,2,0,0,0.0,0
+Shibuya Sky,viewpoint,1,Wednesday,2,0,1,0.0,0
+Shibuya Sky,viewpoint,1,Wednesday,2,0,2,0.0,0
+Shibuya Sky,viewpoint,1,Wednesday,2,0,3,0.0,0
+Shibuya Sky,viewpoint,1,Wednesday,2,0,4,0.0,0
+Shibuya Sky,viewpoint,1,Wednesday,2,0,5,0.0,0
+Shibuya Sky,viewpoint,1,Wednesday,2,0,6,0.0,0
+Shibuya Sky,viewpoint,1,Wednesday,2,0,7,0.0,0
+Shibuya Sky,viewpoint,1,Wednesday,2,0,8,0.0,0
+Shibuya Sky,viewpoint,1,Wednesday,2,0,9,0.0,0
+Shibuya Sky,viewpoint,1,Wednesday,2,0,10,0.38,38
+Shibuya Sky,viewpoint,1,Wednesday,2,0,11,0.56,56
+Shibuya Sky,viewpoint,1,Wednesday,2,0,12,0.7,70
+Shibuya Sky,viewpoint,1,Wednesday,2,0,13,0.79,79
+Shibuya Sky,viewpoint,1,Wednesday,2,0,14,0.83,83
+Shibuya Sky,viewpoint,1,Wednesday,2,0,15,0.84,84
+Shibuya Sky,viewpoint,1,Wednesday,2,0,16,0.84,84
+Shibuya Sky,viewpoint,1,Wednesday,2,0,17,0.86,86
+Shibuya Sky,viewpoint,1,Wednesday,2,0,18,0.86,86
+Shibuya Sky,viewpoint,1,Wednesday,2,0,19,0.78,78
+Shibuya Sky,viewpoint,1,Wednesday,2,0,20,0.61,61
+Shibuya Sky,viewpoint,1,Wednesday,2,0,21,0.39,39
+Shibuya Sky,viewpoint,1,Wednesday,2,0,22,0.21,21
+Shibuya Sky,viewpoint,1,Wednesday,2,0,23,0.0,0
+Shibuya Sky,viewpoint,1,Thursday,3,0,0,0.0,0
+Shibuya Sky,viewpoint,1,Thursday,3,0,1,0.0,0
+Shibuya Sky,viewpoint,1,Thursday,3,0,2,0.0,0
+Shibuya Sky,viewpoint,1,Thursday,3,0,3,0.0,0
+Shibuya Sky,viewpoint,1,Thursday,3,0,4,0.0,0
+Shibuya Sky,viewpoint,1,Thursday,3,0,5,0.0,0
+Shibuya Sky,viewpoint,1,Thursday,3,0,6,0.0,0
+Shibuya Sky,viewpoint,1,Thursday,3,0,7,0.0,0
+Shibuya Sky,viewpoint,1,Thursday,3,0,8,0.0,0
+Shibuya Sky,viewpoint,1,Thursday,3,0,9,0.0,0
+Shibuya Sky,viewpoint,1,Thursday,3,0,10,0.37,37
+Shibuya Sky,viewpoint,1,Thursday,3,0,11,0.54,54
+Shibuya Sky,viewpoint,1,Thursday,3,0,12,0.68,68
+Shibuya Sky,viewpoint,1,Thursday,3,0,13,0.76,76
+Shibuya Sky,viewpoint,1,Thursday,3,0,14,0.81,81
+Shibuya Sky,viewpoint,1,Thursday,3,0,15,0.84,84
+Shibuya Sky,viewpoint,1,Thursday,3,0,16,0.86,86
+Shibuya Sky,viewpoint,1,Thursday,3,0,17,0.88,88
+Shibuya Sky,viewpoint,1,Thursday,3,0,18,0.89,89
+Shibuya Sky,viewpoint,1,Thursday,3,0,19,0.82,82
+Shibuya Sky,viewpoint,1,Thursday,3,0,20,0.66,66
+Shibuya Sky,viewpoint,1,Thursday,3,0,21,0.42,42
+Shibuya Sky,viewpoint,1,Thursday,3,0,22,0.21,21
+Shibuya Sky,viewpoint,1,Thursday,3,0,23,0.0,0
+Shibuya Sky,viewpoint,1,Friday,4,0,0,0.0,0
+Shibuya Sky,viewpoint,1,Friday,4,0,1,0.0,0
+Shibuya Sky,viewpoint,1,Friday,4,0,2,0.0,0
+Shibuya Sky,viewpoint,1,Friday,4,0,3,0.0,0
+Shibuya Sky,viewpoint,1,Friday,4,0,4,0.0,0
+Shibuya Sky,viewpoint,1,Friday,4,0,5,0.0,0
+Shibuya Sky,viewpoint,1,Friday,4,0,6,0.0,0
+Shibuya Sky,viewpoint,1,Friday,4,0,7,0.0,0
+Shibuya Sky,viewpoint,1,Friday,4,0,8,0.0,0
+Shibuya Sky,viewpoint,1,Friday,4,0,9,0.0,0
+Shibuya Sky,viewpoint,1,Friday,4,0,10,0.4,40
+Shibuya Sky,viewpoint,1,Friday,4,0,11,0.59,59
+Shibuya Sky,viewpoint,1,Friday,4,0,12,0.73,73
+Shibuya Sky,viewpoint,1,Friday,4,0,13,0.81,81
+Shibuya Sky,viewpoint,1,Friday,4,0,14,0.85,85
+Shibuya Sky,viewpoint,1,Friday,4,0,15,0.87,87
+Shibuya Sky,viewpoint,1,Friday,4,0,16,0.89,89
+Shibuya Sky,viewpoint,1,Friday,4,0,17,0.94,94
+Shibuya Sky,viewpoint,1,Friday,4,0,18,0.96,96
+Shibuya Sky,viewpoint,1,Friday,4,0,19,0.88,88
+Shibuya Sky,viewpoint,1,Friday,4,0,20,0.7,70
+Shibuya Sky,viewpoint,1,Friday,4,0,21,0.44,44
+Shibuya Sky,viewpoint,1,Friday,4,0,22,0.23,23
+Shibuya Sky,viewpoint,1,Friday,4,0,23,0.0,0
+Shibuya Sky,viewpoint,1,Saturday,5,1,0,0.0,0
+Shibuya Sky,viewpoint,1,Saturday,5,1,1,0.0,0
+Shibuya Sky,viewpoint,1,Saturday,5,1,2,0.0,0
+Shibuya Sky,viewpoint,1,Saturday,5,1,3,0.0,0
+Shibuya Sky,viewpoint,1,Saturday,5,1,4,0.0,0
+Shibuya Sky,viewpoint,1,Saturday,5,1,5,0.0,0
+Shibuya Sky,viewpoint,1,Saturday,5,1,6,0.0,0
+Shibuya Sky,viewpoint,1,Saturday,5,1,7,0.0,0
+Shibuya Sky,viewpoint,1,Saturday,5,1,8,0.0,0
+Shibuya Sky,viewpoint,1,Saturday,5,1,9,0.0,0
+Shibuya Sky,viewpoint,1,Saturday,5,1,10,0.38,38
+Shibuya Sky,viewpoint,1,Saturday,5,1,11,0.59,59
+Shibuya Sky,viewpoint,1,Saturday,5,1,12,0.76,76
+Shibuya Sky,viewpoint,1,Saturday,5,1,13,0.87,87
+Shibuya Sky,viewpoint,1,Saturday,5,1,14,0.94,94
+Shibuya Sky,viewpoint,1,Saturday,5,1,15,0.98,98
+Shibuya Sky,viewpoint,1,Saturday,5,1,16,1.0,100
+Shibuya Sky,viewpoint,1,Saturday,5,1,17,0.97,97
+Shibuya Sky,viewpoint,1,Saturday,5,1,18,0.9,90
+Shibuya Sky,viewpoint,1,Saturday,5,1,19,0.78,78
+Shibuya Sky,viewpoint,1,Saturday,5,1,20,0.61,61
+Shibuya Sky,viewpoint,1,Saturday,5,1,21,0.4,40
+Shibuya Sky,viewpoint,1,Saturday,5,1,22,0.21,21
+Shibuya Sky,viewpoint,1,Saturday,5,1,23,0.0,0
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,0,0.0,0
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,1,0.0,0
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,2,0.0,0
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,3,0.0,0
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,4,0.0,0
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,5,0.0,0
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,6,0.0,0
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,7,0.0,0
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,8,0.0,0
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,9,0.33,33
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,10,0.51,51
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,11,0.7,70
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,12,0.86,86
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,13,0.97,97
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,14,1.0,100
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,15,0.88,88
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,16,0.65,65
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,17,0.4,40
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,18,0.0,0
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,19,0.0,0
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,20,0.0,0
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,21,0.0,0
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,22,0.0,0
+Shinjuku Gyoen National Garden,park,0,Sunday,6,1,23,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,0,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,1,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,2,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,3,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,4,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,5,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,6,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,7,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,8,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,9,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,10,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,11,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,12,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,13,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,14,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,15,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,16,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,17,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,18,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,19,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,20,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,21,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,22,0.0,0
+Shinjuku Gyoen National Garden,park,0,Monday,0,0,23,0.0,0
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,0,0.0,0
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,1,0.0,0
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,2,0.0,0
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,3,0.0,0
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,4,0.0,0
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,5,0.0,0
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,6,0.0,0
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,7,0.0,0
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,8,0.0,0
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,9,0.27,27
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,10,0.37,37
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,11,0.43,43
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,12,0.47,47
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,13,0.48,48
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,14,0.47,47
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,15,0.42,42
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,16,0.34,34
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,17,0.24,24
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,18,0.0,0
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,19,0.0,0
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,20,0.0,0
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,21,0.0,0
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,22,0.0,0
+Shinjuku Gyoen National Garden,park,0,Tuesday,1,0,23,0.0,0
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,0,0.0,0
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,1,0.0,0
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,2,0.0,0
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,3,0.0,0
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,4,0.0,0
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,5,0.0,0
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,6,0.0,0
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,7,0.0,0
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,8,0.0,0
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,9,0.31,31
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,10,0.41,41
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,11,0.49,49
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,12,0.53,53
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,13,0.54,54
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,14,0.51,51
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,15,0.44,44
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,16,0.34,34
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,17,0.25,25
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,18,0.0,0
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,19,0.0,0
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,20,0.0,0
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,21,0.0,0
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,22,0.0,0
+Shinjuku Gyoen National Garden,park,0,Wednesday,2,0,23,0.0,0
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,0,0.0,0
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,1,0.0,0
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,2,0.0,0
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,3,0.0,0
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,4,0.0,0
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,5,0.0,0
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,6,0.0,0
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,7,0.0,0
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,8,0.0,0
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,9,0.27,27
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,10,0.36,36
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,11,0.44,44
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,12,0.5,50
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,13,0.52,52
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,14,0.51,51
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,15,0.47,47
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,16,0.38,38
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,17,0.29,29
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,18,0.0,0
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,19,0.0,0
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,20,0.0,0
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,21,0.0,0
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,22,0.0,0
+Shinjuku Gyoen National Garden,park,0,Thursday,3,0,23,0.0,0
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,0,0.0,0
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,1,0.0,0
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,2,0.0,0
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,3,0.0,0
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,4,0.0,0
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,5,0.0,0
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,6,0.0,0
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,7,0.0,0
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,8,0.0,0
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,9,0.33,33
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,10,0.46,46
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,11,0.56,56
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,12,0.64,64
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,13,0.67,67
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,14,0.66,66
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,15,0.59,59
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,16,0.46,46
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,17,0.33,33
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,18,0.0,0
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,19,0.0,0
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,20,0.0,0
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,21,0.0,0
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,22,0.0,0
+Shinjuku Gyoen National Garden,park,0,Friday,4,0,23,0.0,0
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,0,0.0,0
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,1,0.0,0
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,2,0.0,0
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,3,0.0,0
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,4,0.0,0
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,5,0.0,0
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,6,0.0,0
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,7,0.0,0
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,8,0.0,0
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,9,0.33,33
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,10,0.49,49
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,11,0.64,64
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,12,0.75,75
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,13,0.83,83
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,14,0.86,86
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,15,0.78,78
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,16,0.59,59
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,17,0.38,38
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,18,0.0,0
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,19,0.0,0
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,20,0.0,0
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,21,0.0,0
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,22,0.0,0
+Shinjuku Gyoen National Garden,park,0,Saturday,5,1,23,0.0,0
+Ueno Park,park,0,Sunday,6,1,0,0.0,0
+Ueno Park,park,0,Sunday,6,1,1,0.0,0
+Ueno Park,park,0,Sunday,6,1,2,0.0,0
+Ueno Park,park,0,Sunday,6,1,3,0.0,0
+Ueno Park,park,0,Sunday,6,1,4,0.0,0
+Ueno Park,park,0,Sunday,6,1,5,0.01,1
+Ueno Park,park,0,Sunday,6,1,6,0.03,3
+Ueno Park,park,0,Sunday,6,1,7,0.07,7
+Ueno Park,park,0,Sunday,6,1,8,0.18,18
+Ueno Park,park,0,Sunday,6,1,9,0.37,37
+Ueno Park,park,0,Sunday,6,1,10,0.59,59
+Ueno Park,park,0,Sunday,6,1,11,0.79,79
+Ueno Park,park,0,Sunday,6,1,12,0.93,93
+Ueno Park,park,0,Sunday,6,1,13,1.0,100
+Ueno Park,park,0,Sunday,6,1,14,0.99,99
+Ueno Park,park,0,Sunday,6,1,15,0.88,88
+Ueno Park,park,0,Sunday,6,1,16,0.7,70
+Ueno Park,park,0,Sunday,6,1,17,0.48,48
+Ueno Park,park,0,Sunday,6,1,18,0.31,31
+Ueno Park,park,0,Sunday,6,1,19,0.2,20
+Ueno Park,park,0,Sunday,6,1,20,0.13,13
+Ueno Park,park,0,Sunday,6,1,21,0.09,9
+Ueno Park,park,0,Sunday,6,1,22,0.06,6
+Ueno Park,park,0,Sunday,6,1,23,0.0,0
+Ueno Park,park,0,Monday,0,0,0,0.0,0
+Ueno Park,park,0,Monday,0,0,1,0.0,0
+Ueno Park,park,0,Monday,0,0,2,0.0,0
+Ueno Park,park,0,Monday,0,0,3,0.0,0
+Ueno Park,park,0,Monday,0,0,4,0.0,0
+Ueno Park,park,0,Monday,0,0,5,0.01,1
+Ueno Park,park,0,Monday,0,0,6,0.03,3
+Ueno Park,park,0,Monday,0,0,7,0.05,5
+Ueno Park,park,0,Monday,0,0,8,0.1,10
+Ueno Park,park,0,Monday,0,0,9,0.17,17
+Ueno Park,park,0,Monday,0,0,10,0.25,25
+Ueno Park,park,0,Monday,0,0,11,0.32,32
+Ueno Park,park,0,Monday,0,0,12,0.37,37
+Ueno Park,park,0,Monday,0,0,13,0.39,39
+Ueno Park,park,0,Monday,0,0,14,0.38,38
+Ueno Park,park,0,Monday,0,0,15,0.34,34
+Ueno Park,park,0,Monday,0,0,16,0.28,28
+Ueno Park,park,0,Monday,0,0,17,0.22,22
+Ueno Park,park,0,Monday,0,0,18,0.18,18
+Ueno Park,park,0,Monday,0,0,19,0.15,15
+Ueno Park,park,0,Monday,0,0,20,0.12,12
+Ueno Park,park,0,Monday,0,0,21,0.09,9
+Ueno Park,park,0,Monday,0,0,22,0.06,6
+Ueno Park,park,0,Monday,0,0,23,0.0,0
+Ueno Park,park,0,Tuesday,1,0,0,0.0,0
+Ueno Park,park,0,Tuesday,1,0,1,0.0,0
+Ueno Park,park,0,Tuesday,1,0,2,0.0,0
+Ueno Park,park,0,Tuesday,1,0,3,0.0,0
+Ueno Park,park,0,Tuesday,1,0,4,0.0,0
+Ueno Park,park,0,Tuesday,1,0,5,0.01,1
+Ueno Park,park,0,Tuesday,1,0,6,0.03,3
+Ueno Park,park,0,Tuesday,1,0,7,0.06,6
+Ueno Park,park,0,Tuesday,1,0,8,0.11,11
+Ueno Park,park,0,Tuesday,1,0,9,0.2,20
+Ueno Park,park,0,Tuesday,1,0,10,0.31,31
+Ueno Park,park,0,Tuesday,1,0,11,0.41,41
+Ueno Park,park,0,Tuesday,1,0,12,0.47,47
+Ueno Park,park,0,Tuesday,1,0,13,0.49,49
+Ueno Park,park,0,Tuesday,1,0,14,0.46,46
+Ueno Park,park,0,Tuesday,1,0,15,0.39,39
+Ueno Park,park,0,Tuesday,1,0,16,0.3,30
+Ueno Park,park,0,Tuesday,1,0,17,0.22,22
+Ueno Park,park,0,Tuesday,1,0,18,0.17,17
+Ueno Park,park,0,Tuesday,1,0,19,0.13,13
+Ueno Park,park,0,Tuesday,1,0,20,0.11,11
+Ueno Park,park,0,Tuesday,1,0,21,0.08,8
+Ueno Park,park,0,Tuesday,1,0,22,0.05,5
+Ueno Park,park,0,Tuesday,1,0,23,0.0,0
+Ueno Park,park,0,Wednesday,2,0,0,0.0,0
+Ueno Park,park,0,Wednesday,2,0,1,0.0,0
+Ueno Park,park,0,Wednesday,2,0,2,0.0,0
+Ueno Park,park,0,Wednesday,2,0,3,0.0,0
+Ueno Park,park,0,Wednesday,2,0,4,0.0,0
+Ueno Park,park,0,Wednesday,2,0,5,0.01,1
+Ueno Park,park,0,Wednesday,2,0,6,0.03,3
+Ueno Park,park,0,Wednesday,2,0,7,0.06,6
+Ueno Park,park,0,Wednesday,2,0,8,0.12,12
+Ueno Park,park,0,Wednesday,2,0,9,0.22,22
+Ueno Park,park,0,Wednesday,2,0,10,0.35,35
+Ueno Park,park,0,Wednesday,2,0,11,0.46,46
+Ueno Park,park,0,Wednesday,2,0,12,0.51,51
+Ueno Park,park,0,Wednesday,2,0,13,0.53,53
+Ueno Park,park,0,Wednesday,2,0,14,0.5,50
+Ueno Park,park,0,Wednesday,2,0,15,0.43,43
+Ueno Park,park,0,Wednesday,2,0,16,0.34,34
+Ueno Park,park,0,Wednesday,2,0,17,0.24,24
+Ueno Park,park,0,Wednesday,2,0,18,0.18,18
+Ueno Park,park,0,Wednesday,2,0,19,0.15,15
+Ueno Park,park,0,Wednesday,2,0,20,0.12,12
+Ueno Park,park,0,Wednesday,2,0,21,0.09,9
+Ueno Park,park,0,Wednesday,2,0,22,0.06,6
+Ueno Park,park,0,Wednesday,2,0,23,0.0,0
+Ueno Park,park,0,Thursday,3,0,0,0.0,0
+Ueno Park,park,0,Thursday,3,0,1,0.0,0
+Ueno Park,park,0,Thursday,3,0,2,0.0,0
+Ueno Park,park,0,Thursday,3,0,3,0.0,0
+Ueno Park,park,0,Thursday,3,0,4,0.0,0
+Ueno Park,park,0,Thursday,3,0,5,0.01,1
+Ueno Park,park,0,Thursday,3,0,6,0.03,3
+Ueno Park,park,0,Thursday,3,0,7,0.05,5
+Ueno Park,park,0,Thursday,3,0,8,0.11,11
+Ueno Park,park,0,Thursday,3,0,9,0.2,20
+Ueno Park,park,0,Thursday,3,0,10,0.32,32
+Ueno Park,park,0,Thursday,3,0,11,0.42,42
+Ueno Park,park,0,Thursday,3,0,12,0.49,49
+Ueno Park,park,0,Thursday,3,0,13,0.52,52
+Ueno Park,park,0,Thursday,3,0,14,0.5,50
+Ueno Park,park,0,Thursday,3,0,15,0.44,44
+Ueno Park,park,0,Thursday,3,0,16,0.35,35
+Ueno Park,park,0,Thursday,3,0,17,0.26,26
+Ueno Park,park,0,Thursday,3,0,18,0.2,20
+Ueno Park,park,0,Thursday,3,0,19,0.16,16
+Ueno Park,park,0,Thursday,3,0,20,0.13,13
+Ueno Park,park,0,Thursday,3,0,21,0.1,10
+Ueno Park,park,0,Thursday,3,0,22,0.06,6
+Ueno Park,park,0,Thursday,3,0,23,0.0,0
+Ueno Park,park,0,Friday,4,0,0,0.0,0
+Ueno Park,park,0,Friday,4,0,1,0.0,0
+Ueno Park,park,0,Friday,4,0,2,0.0,0
+Ueno Park,park,0,Friday,4,0,3,0.0,0
+Ueno Park,park,0,Friday,4,0,4,0.0,0
+Ueno Park,park,0,Friday,4,0,5,0.01,1
+Ueno Park,park,0,Friday,4,0,6,0.03,3
+Ueno Park,park,0,Friday,4,0,7,0.06,6
+Ueno Park,park,0,Friday,4,0,8,0.13,13
+Ueno Park,park,0,Friday,4,0,9,0.24,24
+Ueno Park,park,0,Friday,4,0,10,0.39,39
+Ueno Park,park,0,Friday,4,0,11,0.52,52
+Ueno Park,park,0,Friday,4,0,12,0.6,60
+Ueno Park,park,0,Friday,4,0,13,0.64,64
+Ueno Park,park,0,Friday,4,0,14,0.63,63
+Ueno Park,park,0,Friday,4,0,15,0.57,57
+Ueno Park,park,0,Friday,4,0,16,0.49,49
+Ueno Park,park,0,Friday,4,0,17,0.41,41
+Ueno Park,park,0,Friday,4,0,18,0.35,35
+Ueno Park,park,0,Friday,4,0,19,0.29,29
+Ueno Park,park,0,Friday,4,0,20,0.23,23
+Ueno Park,park,0,Friday,4,0,21,0.16,16
+Ueno Park,park,0,Friday,4,0,22,0.1,10
+Ueno Park,park,0,Friday,4,0,23,0.0,0
+Ueno Park,park,0,Saturday,5,1,0,0.0,0
+Ueno Park,park,0,Saturday,5,1,1,0.0,0
+Ueno Park,park,0,Saturday,5,1,2,0.0,0
+Ueno Park,park,0,Saturday,5,1,3,0.0,0
+Ueno Park,park,0,Saturday,5,1,4,0.0,0
+Ueno Park,park,0,Saturday,5,1,5,0.02,2
+Ueno Park,park,0,Saturday,5,1,6,0.03,3
+Ueno Park,park,0,Saturday,5,1,7,0.07,7
+Ueno Park,park,0,Saturday,5,1,8,0.16,16
+Ueno Park,park,0,Saturday,5,1,9,0.33,33
+Ueno Park,park,0,Saturday,5,1,10,0.54,54
+Ueno Park,park,0,Saturday,5,1,11,0.73,73
+Ueno Park,park,0,Saturday,5,1,12,0.88,88
+Ueno Park,park,0,Saturday,5,1,13,0.97,97
+Ueno Park,park,0,Saturday,5,1,14,0.98,98
+Ueno Park,park,0,Saturday,5,1,15,0.9,90
+Ueno Park,park,0,Saturday,5,1,16,0.74,74
+Ueno Park,park,0,Saturday,5,1,17,0.54,54
+Ueno Park,park,0,Saturday,5,1,18,0.37,37
+Ueno Park,park,0,Saturday,5,1,19,0.25,25
+Ueno Park,park,0,Saturday,5,1,20,0.17,17
+Ueno Park,park,0,Saturday,5,1,21,0.12,12
+Ueno Park,park,0,Saturday,5,1,22,0.08,8
+Ueno Park,park,0,Saturday,5,1,23,0.0,0
+Ueno Park,park,0,,-1,0,0,0.0,0
+Ueno Park,park,0,,-1,0,1,0.0,0
+Ueno Park,park,0,,-1,0,2,0.0,0
+Ueno Park,park,0,,-1,0,3,0.0,0
+Ueno Park,park,0,,-1,0,4,0.0,0
+Ueno Park,park,0,,-1,0,5,0.0,0
+Ueno Park,park,0,,-1,0,6,0.0,0
+Ueno Park,park,0,,-1,0,7,0.0,0
+Ueno Park,park,0,,-1,0,8,0.0,0
+Ueno Park,park,0,,-1,0,9,0.0,0
+Ueno Park,park,0,,-1,0,10,0.0,0
+Ueno Park,park,0,,-1,0,11,0.0,0
+Ueno Park,park,0,,-1,0,12,0.0,0
+Ueno Park,park,0,,-1,0,13,0.0,0
+Ueno Park,park,0,,-1,0,14,0.0,0
+Ueno Park,park,0,,-1,0,15,0.0,0
+Ueno Park,park,0,,-1,0,16,0.0,0
+Ueno Park,park,0,,-1,0,17,0.0,0
+Ueno Park,park,0,,-1,0,18,0.0,0
+Ueno Park,park,0,,-1,0,19,0.0,0
+Ueno Park,park,0,,-1,0,20,0.0,0
+Ueno Park,park,0,,-1,0,21,0.0,0
+Ueno Park,park,0,,-1,0,22,0.0,0
+Ueno Park,park,0,,-1,0,23,0.0,0
+Yoyogi Park,park,0,Sunday,6,1,0,0.09,9
+Yoyogi Park,park,0,Sunday,6,1,1,0.06,6
+Yoyogi Park,park,0,Sunday,6,1,2,0.04,4
+Yoyogi Park,park,0,Sunday,6,1,3,0.04,4
+Yoyogi Park,park,0,Sunday,6,1,4,0.04,4
+Yoyogi Park,park,0,Sunday,6,1,5,0.06,6
+Yoyogi Park,park,0,Sunday,6,1,6,0.1,10
+Yoyogi Park,park,0,Sunday,6,1,7,0.17,17
+Yoyogi Park,park,0,Sunday,6,1,8,0.28,28
+Yoyogi Park,park,0,Sunday,6,1,9,0.42,42
+Yoyogi Park,park,0,Sunday,6,1,10,0.6,60
+Yoyogi Park,park,0,Sunday,6,1,11,0.75,75
+Yoyogi Park,park,0,Sunday,6,1,12,0.87,87
+Yoyogi Park,park,0,Sunday,6,1,13,0.96,96
+Yoyogi Park,park,0,Sunday,6,1,14,1.0,100
+Yoyogi Park,park,0,Sunday,6,1,15,0.95,95
+Yoyogi Park,park,0,Sunday,6,1,16,0.81,81
+Yoyogi Park,park,0,Sunday,6,1,17,0.62,62
+Yoyogi Park,park,0,Sunday,6,1,18,0.45,45
+Yoyogi Park,park,0,Sunday,6,1,19,0.32,32
+Yoyogi Park,park,0,Sunday,6,1,20,0.24,24
+Yoyogi Park,park,0,Sunday,6,1,21,0.2,20
+Yoyogi Park,park,0,Sunday,6,1,22,0.17,17
+Yoyogi Park,park,0,Sunday,6,1,23,0.14,14
+Yoyogi Park,park,0,Monday,0,0,0,0.08,8
+Yoyogi Park,park,0,Monday,0,0,1,0.05,5
+Yoyogi Park,park,0,Monday,0,0,2,0.04,4
+Yoyogi Park,park,0,Monday,0,0,3,0.04,4
+Yoyogi Park,park,0,Monday,0,0,4,0.05,5
+Yoyogi Park,park,0,Monday,0,0,5,0.07,7
+Yoyogi Park,park,0,Monday,0,0,6,0.1,10
+Yoyogi Park,park,0,Monday,0,0,7,0.14,14
+Yoyogi Park,park,0,Monday,0,0,8,0.17,17
+Yoyogi Park,park,0,Monday,0,0,9,0.2,20
+Yoyogi Park,park,0,Monday,0,0,10,0.25,25
+Yoyogi Park,park,0,Monday,0,0,11,0.31,31
+Yoyogi Park,park,0,Monday,0,0,12,0.36,36
+Yoyogi Park,park,0,Monday,0,0,13,0.39,39
+Yoyogi Park,park,0,Monday,0,0,14,0.38,38
+Yoyogi Park,park,0,Monday,0,0,15,0.35,35
+Yoyogi Park,park,0,Monday,0,0,16,0.3,30
+Yoyogi Park,park,0,Monday,0,0,17,0.25,25
+Yoyogi Park,park,0,Monday,0,0,18,0.23,23
+Yoyogi Park,park,0,Monday,0,0,19,0.23,23
+Yoyogi Park,park,0,Monday,0,0,20,0.22,22
+Yoyogi Park,park,0,Monday,0,0,21,0.2,20
+Yoyogi Park,park,0,Monday,0,0,22,0.17,17
+Yoyogi Park,park,0,Monday,0,0,23,0.13,13
+Yoyogi Park,park,0,Tuesday,1,0,0,0.08,8
+Yoyogi Park,park,0,Tuesday,1,0,1,0.05,5
+Yoyogi Park,park,0,Tuesday,1,0,2,0.04,4
+Yoyogi Park,park,0,Tuesday,1,0,3,0.04,4
+Yoyogi Park,park,0,Tuesday,1,0,4,0.05,5
+Yoyogi Park,park,0,Tuesday,1,0,5,0.07,7
+Yoyogi Park,park,0,Tuesday,1,0,6,0.1,10
+Yoyogi Park,park,0,Tuesday,1,0,7,0.13,13
+Yoyogi Park,park,0,Tuesday,1,0,8,0.15,15
+Yoyogi Park,park,0,Tuesday,1,0,9,0.17,17
+Yoyogi Park,park,0,Tuesday,1,0,10,0.19,19
+Yoyogi Park,park,0,Tuesday,1,0,11,0.22,22
+Yoyogi Park,park,0,Tuesday,1,0,12,0.24,24
+Yoyogi Park,park,0,Tuesday,1,0,13,0.24,24
+Yoyogi Park,park,0,Tuesday,1,0,14,0.23,23
+Yoyogi Park,park,0,Tuesday,1,0,15,0.23,23
+Yoyogi Park,park,0,Tuesday,1,0,16,0.22,22
+Yoyogi Park,park,0,Tuesday,1,0,17,0.23,23
+Yoyogi Park,park,0,Tuesday,1,0,18,0.26,26
+Yoyogi Park,park,0,Tuesday,1,0,19,0.26,26
+Yoyogi Park,park,0,Tuesday,1,0,20,0.24,24
+Yoyogi Park,park,0,Tuesday,1,0,21,0.2,20
+Yoyogi Park,park,0,Tuesday,1,0,22,0.16,16
+Yoyogi Park,park,0,Tuesday,1,0,23,0.13,13
+Yoyogi Park,park,0,Wednesday,2,0,0,0.08,8
+Yoyogi Park,park,0,Wednesday,2,0,1,0.05,5
+Yoyogi Park,park,0,Wednesday,2,0,2,0.03,3
+Yoyogi Park,park,0,Wednesday,2,0,3,0.04,4
+Yoyogi Park,park,0,Wednesday,2,0,4,0.04,4
+Yoyogi Park,park,0,Wednesday,2,0,5,0.07,7
+Yoyogi Park,park,0,Wednesday,2,0,6,0.1,10
+Yoyogi Park,park,0,Wednesday,2,0,7,0.14,14
+Yoyogi Park,park,0,Wednesday,2,0,8,0.16,16
+Yoyogi Park,park,0,Wednesday,2,0,9,0.19,19
+Yoyogi Park,park,0,Wednesday,2,0,10,0.22,22
+Yoyogi Park,park,0,Wednesday,2,0,11,0.24,24
+Yoyogi Park,park,0,Wednesday,2,0,12,0.26,26
+Yoyogi Park,park,0,Wednesday,2,0,13,0.27,27
+Yoyogi Park,park,0,Wednesday,2,0,14,0.27,27
+Yoyogi Park,park,0,Wednesday,2,0,15,0.26,26
+Yoyogi Park,park,0,Wednesday,2,0,16,0.25,25
+Yoyogi Park,park,0,Wednesday,2,0,17,0.24,24
+Yoyogi Park,park,0,Wednesday,2,0,18,0.25,25
+Yoyogi Park,park,0,Wednesday,2,0,19,0.26,26
+Yoyogi Park,park,0,Wednesday,2,0,20,0.26,26
+Yoyogi Park,park,0,Wednesday,2,0,21,0.22,22
+Yoyogi Park,park,0,Wednesday,2,0,22,0.18,18
+Yoyogi Park,park,0,Wednesday,2,0,23,0.13,13
+Yoyogi Park,park,0,Thursday,3,0,0,0.08,8
+Yoyogi Park,park,0,Thursday,3,0,1,0.05,5
+Yoyogi Park,park,0,Thursday,3,0,2,0.03,3
+Yoyogi Park,park,0,Thursday,3,0,3,0.04,4
+Yoyogi Park,park,0,Thursday,3,0,4,0.05,5
+Yoyogi Park,park,0,Thursday,3,0,5,0.07,7
+Yoyogi Park,park,0,Thursday,3,0,6,0.1,10
+Yoyogi Park,park,0,Thursday,3,0,7,0.13,13
+Yoyogi Park,park,0,Thursday,3,0,8,0.15,15
+Yoyogi Park,park,0,Thursday,3,0,9,0.16,16
+Yoyogi Park,park,0,Thursday,3,0,10,0.18,18
+Yoyogi Park,park,0,Thursday,3,0,11,0.22,22
+Yoyogi Park,park,0,Thursday,3,0,12,0.24,24
+Yoyogi Park,park,0,Thursday,3,0,13,0.25,25
+Yoyogi Park,park,0,Thursday,3,0,14,0.25,25
+Yoyogi Park,park,0,Thursday,3,0,15,0.24,24
+Yoyogi Park,park,0,Thursday,3,0,16,0.23,23
+Yoyogi Park,park,0,Thursday,3,0,17,0.22,22
+Yoyogi Park,park,0,Thursday,3,0,18,0.21,21
+Yoyogi Park,park,0,Thursday,3,0,19,0.2,20
+Yoyogi Park,park,0,Thursday,3,0,20,0.2,20
+Yoyogi Park,park,0,Thursday,3,0,21,0.18,18
+Yoyogi Park,park,0,Thursday,3,0,22,0.15,15
+Yoyogi Park,park,0,Thursday,3,0,23,0.13,13
+Yoyogi Park,park,0,Friday,4,0,0,0.09,9
+Yoyogi Park,park,0,Friday,4,0,1,0.06,6
+Yoyogi Park,park,0,Friday,4,0,2,0.04,4
+Yoyogi Park,park,0,Friday,4,0,3,0.04,4
+Yoyogi Park,park,0,Friday,4,0,4,0.04,4
+Yoyogi Park,park,0,Friday,4,0,5,0.07,7
+Yoyogi Park,park,0,Friday,4,0,6,0.1,10
+Yoyogi Park,park,0,Friday,4,0,7,0.13,13
+Yoyogi Park,park,0,Friday,4,0,8,0.16,16
+Yoyogi Park,park,0,Friday,4,0,9,0.18,18
+Yoyogi Park,park,0,Friday,4,0,10,0.23,23
+Yoyogi Park,park,0,Friday,4,0,11,0.29,29
+Yoyogi Park,park,0,Friday,4,0,12,0.34,34
+Yoyogi Park,park,0,Friday,4,0,13,0.37,37
+Yoyogi Park,park,0,Friday,4,0,14,0.36,36
+Yoyogi Park,park,0,Friday,4,0,15,0.35,35
+Yoyogi Park,park,0,Friday,4,0,16,0.33,33
+Yoyogi Park,park,0,Friday,4,0,17,0.32,32
+Yoyogi Park,park,0,Friday,4,0,18,0.31,31
+Yoyogi Park,park,0,Friday,4,0,19,0.3,30
+Yoyogi Park,park,0,Friday,4,0,20,0.28,28
+Yoyogi Park,park,0,Friday,4,0,21,0.24,24
+Yoyogi Park,park,0,Friday,4,0,22,0.2,20
+Yoyogi Park,park,0,Friday,4,0,23,0.15,15
+Yoyogi Park,park,0,Saturday,5,1,0,0.1,10
+Yoyogi Park,park,0,Saturday,5,1,1,0.06,6
+Yoyogi Park,park,0,Saturday,5,1,2,0.04,4
+Yoyogi Park,park,0,Saturday,5,1,3,0.04,4
+Yoyogi Park,park,0,Saturday,5,1,4,0.05,5
+Yoyogi Park,park,0,Saturday,5,1,5,0.07,7
+Yoyogi Park,park,0,Saturday,5,1,6,0.11,11
+Yoyogi Park,park,0,Saturday,5,1,7,0.16,16
+Yoyogi Park,park,0,Saturday,5,1,8,0.24,24
+Yoyogi Park,park,0,Saturday,5,1,9,0.33,33
+Yoyogi Park,park,0,Saturday,5,1,10,0.47,47
+Yoyogi Park,park,0,Saturday,5,1,11,0.63,63
+Yoyogi Park,park,0,Saturday,5,1,12,0.78,78
+Yoyogi Park,park,0,Saturday,5,1,13,0.89,89
+Yoyogi Park,park,0,Saturday,5,1,14,0.92,92
+Yoyogi Park,park,0,Saturday,5,1,15,0.87,87
+Yoyogi Park,park,0,Saturday,5,1,16,0.76,76
+Yoyogi Park,park,0,Saturday,5,1,17,0.64,64
+Yoyogi Park,park,0,Saturday,5,1,18,0.52,52
+Yoyogi Park,park,0,Saturday,5,1,19,0.41,41
+Yoyogi Park,park,0,Saturday,5,1,20,0.29,29
+Yoyogi Park,park,0,Saturday,5,1,21,0.22,22
+Yoyogi Park,park,0,Saturday,5,1,22,0.18,18
+Yoyogi Park,park,0,Saturday,5,1,23,0.15,15
+Yoyogi Park,park,0,,-1,0,0,0.0,0
+Yoyogi Park,park,0,,-1,0,1,0.0,0
+Yoyogi Park,park,0,,-1,0,2,0.0,0
+Yoyogi Park,park,0,,-1,0,3,0.0,0
+Yoyogi Park,park,0,,-1,0,4,0.0,0
+Yoyogi Park,park,0,,-1,0,5,0.0,0
+Yoyogi Park,park,0,,-1,0,6,0.0,0
+Yoyogi Park,park,0,,-1,0,7,0.0,0
+Yoyogi Park,park,0,,-1,0,8,0.0,0
+Yoyogi Park,park,0,,-1,0,9,0.0,0
+Yoyogi Park,park,0,,-1,0,10,0.0,0
+Yoyogi Park,park,0,,-1,0,11,0.0,0
+Yoyogi Park,park,0,,-1,0,12,0.0,0
+Yoyogi Park,park,0,,-1,0,13,0.0,0
+Yoyogi Park,park,0,,-1,0,14,0.0,0
+Yoyogi Park,park,0,,-1,0,15,0.0,0
+Yoyogi Park,park,0,,-1,0,16,0.0,0
+Yoyogi Park,park,0,,-1,0,17,0.0,0
+Yoyogi Park,park,0,,-1,0,18,0.0,0
+Yoyogi Park,park,0,,-1,0,19,0.0,0
+Yoyogi Park,park,0,,-1,0,20,0.0,0
+Yoyogi Park,park,0,,-1,0,21,0.0,0
+Yoyogi Park,park,0,,-1,0,22,0.0,0
+Yoyogi Park,park,0,,-1,0,23,0.0,0
+Hibiya Park,park,0,Sunday,6,1,0,0.04,4
+Hibiya Park,park,0,Sunday,6,1,1,0.03,3
+Hibiya Park,park,0,Sunday,6,1,2,0.02,2
+Hibiya Park,park,0,Sunday,6,1,3,0.03,3
+Hibiya Park,park,0,Sunday,6,1,4,0.04,4
+Hibiya Park,park,0,Sunday,6,1,5,0.06,6
+Hibiya Park,park,0,Sunday,6,1,6,0.09,9
+Hibiya Park,park,0,Sunday,6,1,7,0.15,15
+Hibiya Park,park,0,Sunday,6,1,8,0.23,23
+Hibiya Park,park,0,Sunday,6,1,9,0.35,35
+Hibiya Park,park,0,Sunday,6,1,10,0.51,51
+Hibiya Park,park,0,Sunday,6,1,11,0.68,68
+Hibiya Park,park,0,Sunday,6,1,12,0.82,82
+Hibiya Park,park,0,Sunday,6,1,13,0.91,91
+Hibiya Park,park,0,Sunday,6,1,14,0.94,94
+Hibiya Park,park,0,Sunday,6,1,15,0.87,87
+Hibiya Park,park,0,Sunday,6,1,16,0.71,71
+Hibiya Park,park,0,Sunday,6,1,17,0.48,48
+Hibiya Park,park,0,Sunday,6,1,18,0.33,33
+Hibiya Park,park,0,Sunday,6,1,19,0.23,23
+Hibiya Park,park,0,Sunday,6,1,20,0.18,18
+Hibiya Park,park,0,Sunday,6,1,21,0.15,15
+Hibiya Park,park,0,Sunday,6,1,22,0.1,10
+Hibiya Park,park,0,Sunday,6,1,23,0.08,8
+Hibiya Park,park,0,Monday,0,0,0,0.11,11
+Hibiya Park,park,0,Monday,0,0,1,0.07,7
+Hibiya Park,park,0,Monday,0,0,2,0.05,5
+Hibiya Park,park,0,Monday,0,0,3,0.05,5
+Hibiya Park,park,0,Monday,0,0,4,0.08,8
+Hibiya Park,park,0,Monday,0,0,5,0.12,12
+Hibiya Park,park,0,Monday,0,0,6,0.21,21
+Hibiya Park,park,0,Monday,0,0,7,0.29,29
+Hibiya Park,park,0,Monday,0,0,8,0.37,37
+Hibiya Park,park,0,Monday,0,0,9,0.44,44
+Hibiya Park,park,0,Monday,0,0,10,0.57,57
+Hibiya Park,park,0,Monday,0,0,11,0.71,71
+Hibiya Park,park,0,Monday,0,0,12,0.87,87
+Hibiya Park,park,0,Monday,0,0,13,0.9,90
+Hibiya Park,park,0,Monday,0,0,14,0.88,88
+Hibiya Park,park,0,Monday,0,0,15,0.79,79
+Hibiya Park,park,0,Monday,0,0,16,0.7,70
+Hibiya Park,park,0,Monday,0,0,17,0.62,62
+Hibiya Park,park,0,Monday,0,0,18,0.56,56
+Hibiya Park,park,0,Monday,0,0,19,0.5,50
+Hibiya Park,park,0,Monday,0,0,20,0.41,41
+Hibiya Park,park,0,Monday,0,0,21,0.33,33
+Hibiya Park,park,0,Monday,0,0,22,0.24,24
+Hibiya Park,park,0,Monday,0,0,23,0.18,18
+Hibiya Park,park,0,Tuesday,1,0,0,0.12,12
+Hibiya Park,park,0,Tuesday,1,0,1,0.08,8
+Hibiya Park,park,0,Tuesday,1,0,2,0.07,7
+Hibiya Park,park,0,Tuesday,1,0,3,0.06,6
+Hibiya Park,park,0,Tuesday,1,0,4,0.07,7
+Hibiya Park,park,0,Tuesday,1,0,5,0.12,12
+Hibiya Park,park,0,Tuesday,1,0,6,0.2,20
+Hibiya Park,park,0,Tuesday,1,0,7,0.3,30
+Hibiya Park,park,0,Tuesday,1,0,8,0.38,38
+Hibiya Park,park,0,Tuesday,1,0,9,0.48,48
+Hibiya Park,park,0,Tuesday,1,0,10,0.61,61
+Hibiya Park,park,0,Tuesday,1,0,11,0.75,75
+Hibiya Park,park,0,Tuesday,1,0,12,0.87,87
+Hibiya Park,park,0,Tuesday,1,0,13,0.86,86
+Hibiya Park,park,0,Tuesday,1,0,14,0.81,81
+Hibiya Park,park,0,Tuesday,1,0,15,0.73,73
+Hibiya Park,park,0,Tuesday,1,0,16,0.68,68
+Hibiya Park,park,0,Tuesday,1,0,17,0.66,66
+Hibiya Park,park,0,Tuesday,1,0,18,0.66,66
+Hibiya Park,park,0,Tuesday,1,0,19,0.63,63
+Hibiya Park,park,0,Tuesday,1,0,20,0.54,54
+Hibiya Park,park,0,Tuesday,1,0,21,0.41,41
+Hibiya Park,park,0,Tuesday,1,0,22,0.28,28
+Hibiya Park,park,0,Tuesday,1,0,23,0.19,19
+Hibiya Park,park,0,Wednesday,2,0,0,0.13,13
+Hibiya Park,park,0,Wednesday,2,0,1,0.07,7
+Hibiya Park,park,0,Wednesday,2,0,2,0.05,5
+Hibiya Park,park,0,Wednesday,2,0,3,0.05,5
+Hibiya Park,park,0,Wednesday,2,0,4,0.06,6
+Hibiya Park,park,0,Wednesday,2,0,5,0.11,11
+Hibiya Park,park,0,Wednesday,2,0,6,0.18,18
+Hibiya Park,park,0,Wednesday,2,0,7,0.27,27
+Hibiya Park,park,0,Wednesday,2,0,8,0.35,35
+Hibiya Park,park,0,Wednesday,2,0,9,0.44,44
+Hibiya Park,park,0,Wednesday,2,0,10,0.57,57
+Hibiya Park,park,0,Wednesday,2,0,11,0.73,73
+Hibiya Park,park,0,Wednesday,2,0,12,0.88,88
+Hibiya Park,park,0,Wednesday,2,0,13,0.88,88
+Hibiya Park,park,0,Wednesday,2,0,14,0.85,85
+Hibiya Park,park,0,Wednesday,2,0,15,0.78,78
+Hibiya Park,park,0,Wednesday,2,0,16,0.74,74
+Hibiya Park,park,0,Wednesday,2,0,17,0.71,71
+Hibiya Park,park,0,Wednesday,2,0,18,0.7,70
+Hibiya Park,park,0,Wednesday,2,0,19,0.65,65
+Hibiya Park,park,0,Wednesday,2,0,20,0.54,54
+Hibiya Park,park,0,Wednesday,2,0,21,0.41,41
+Hibiya Park,park,0,Wednesday,2,0,22,0.29,29
+Hibiya Park,park,0,Wednesday,2,0,23,0.21,21
+Hibiya Park,park,0,Thursday,3,0,0,0.12,12
+Hibiya Park,park,0,Thursday,3,0,1,0.08,8
+Hibiya Park,park,0,Thursday,3,0,2,0.06,6
+Hibiya Park,park,0,Thursday,3,0,3,0.06,6
+Hibiya Park,park,0,Thursday,3,0,4,0.07,7
+Hibiya Park,park,0,Thursday,3,0,5,0.12,12
+Hibiya Park,park,0,Thursday,3,0,6,0.22,22
+Hibiya Park,park,0,Thursday,3,0,7,0.32,32
+Hibiya Park,park,0,Thursday,3,0,8,0.4,40
+Hibiya Park,park,0,Thursday,3,0,9,0.48,48
+Hibiya Park,park,0,Thursday,3,0,10,0.62,62
+Hibiya Park,park,0,Thursday,3,0,11,0.8,80
+Hibiya Park,park,0,Thursday,3,0,12,0.97,97
+Hibiya Park,park,0,Thursday,3,0,13,0.99,99
+Hibiya Park,park,0,Thursday,3,0,14,0.92,92
+Hibiya Park,park,0,Thursday,3,0,15,0.84,84
+Hibiya Park,park,0,Thursday,3,0,16,0.79,79
+Hibiya Park,park,0,Thursday,3,0,17,0.78,78
+Hibiya Park,park,0,Thursday,3,0,18,0.77,77
+Hibiya Park,park,0,Thursday,3,0,19,0.72,72
+Hibiya Park,park,0,Thursday,3,0,20,0.6,60
+Hibiya Park,park,0,Thursday,3,0,21,0.45,45
+Hibiya Park,park,0,Thursday,3,0,22,0.31,31
+Hibiya Park,park,0,Thursday,3,0,23,0.21,21
+Hibiya Park,park,0,Friday,4,0,0,0.16,16
+Hibiya Park,park,0,Friday,4,0,1,0.11,11
+Hibiya Park,park,0,Friday,4,0,2,0.07,7
+Hibiya Park,park,0,Friday,4,0,3,0.06,6
+Hibiya Park,park,0,Friday,4,0,4,0.07,7
+Hibiya Park,park,0,Friday,4,0,5,0.12,12
+Hibiya Park,park,0,Friday,4,0,6,0.21,21
+Hibiya Park,park,0,Friday,4,0,7,0.3,30
+Hibiya Park,park,0,Friday,4,0,8,0.38,38
+Hibiya Park,park,0,Friday,4,0,9,0.48,48
+Hibiya Park,park,0,Friday,4,0,10,0.62,62
+Hibiya Park,park,0,Friday,4,0,11,0.79,79
+Hibiya Park,park,0,Friday,4,0,12,0.96,96
+Hibiya Park,park,0,Friday,4,0,13,0.98,98
+Hibiya Park,park,0,Friday,4,0,14,0.94,94
+Hibiya Park,park,0,Friday,4,0,15,0.86,86
+Hibiya Park,park,0,Friday,4,0,16,0.81,81
+Hibiya Park,park,0,Friday,4,0,17,0.8,80
+Hibiya Park,park,0,Friday,4,0,18,0.79,79
+Hibiya Park,park,0,Friday,4,0,19,0.75,75
+Hibiya Park,park,0,Friday,4,0,20,0.63,63
+Hibiya Park,park,0,Friday,4,0,21,0.5,50
+Hibiya Park,park,0,Friday,4,0,22,0.37,37
+Hibiya Park,park,0,Friday,4,0,23,0.26,26
+Hibiya Park,park,0,Saturday,5,1,0,0.07,7
+Hibiya Park,park,0,Saturday,5,1,1,0.05,5
+Hibiya Park,park,0,Saturday,5,1,2,0.04,4
+Hibiya Park,park,0,Saturday,5,1,3,0.05,5
+Hibiya Park,park,0,Saturday,5,1,4,0.07,7
+Hibiya Park,park,0,Saturday,5,1,5,0.1,10
+Hibiya Park,park,0,Saturday,5,1,6,0.16,16
+Hibiya Park,park,0,Saturday,5,1,7,0.22,22
+Hibiya Park,park,0,Saturday,5,1,8,0.3,30
+Hibiya Park,park,0,Saturday,5,1,9,0.41,41
+Hibiya Park,park,0,Saturday,5,1,10,0.54,54
+Hibiya Park,park,0,Saturday,5,1,11,0.68,68
+Hibiya Park,park,0,Saturday,5,1,12,0.81,81
+Hibiya Park,park,0,Saturday,5,1,13,0.94,94
+Hibiya Park,park,0,Saturday,5,1,14,1.0,100
+Hibiya Park,park,0,Saturday,5,1,15,0.95,95
+Hibiya Park,park,0,Saturday,5,1,16,0.79,79
+Hibiya Park,park,0,Saturday,5,1,17,0.59,59
+Hibiya Park,park,0,Saturday,5,1,18,0.42,42
+Hibiya Park,park,0,Saturday,5,1,19,0.3,30
+Hibiya Park,park,0,Saturday,5,1,20,0.23,23
+Hibiya Park,park,0,Saturday,5,1,21,0.18,18
+Hibiya Park,park,0,Saturday,5,1,22,0.14,14
+Hibiya Park,park,0,Saturday,5,1,23,0.1,10
+Hibiya Park,park,0,,-1,0,0,0.0,0
+Hibiya Park,park,0,,-1,0,1,0.0,0
+Hibiya Park,park,0,,-1,0,2,0.0,0
+Hibiya Park,park,0,,-1,0,3,0.0,0
+Hibiya Park,park,0,,-1,0,4,0.0,0
+Hibiya Park,park,0,,-1,0,5,0.0,0
+Hibiya Park,park,0,,-1,0,6,0.0,0
+Hibiya Park,park,0,,-1,0,7,0.0,0
+Hibiya Park,park,0,,-1,0,8,0.0,0
+Hibiya Park,park,0,,-1,0,9,0.0,0
+Hibiya Park,park,0,,-1,0,10,0.0,0
+Hibiya Park,park,0,,-1,0,11,0.0,0
+Hibiya Park,park,0,,-1,0,12,0.0,0
+Hibiya Park,park,0,,-1,0,13,0.0,0
+Hibiya Park,park,0,,-1,0,14,0.0,0
+Hibiya Park,park,0,,-1,0,15,0.0,0
+Hibiya Park,park,0,,-1,0,16,0.0,0
+Hibiya Park,park,0,,-1,0,17,0.0,0
+Hibiya Park,park,0,,-1,0,18,0.0,0
+Hibiya Park,park,0,,-1,0,19,0.0,0
+Hibiya Park,park,0,,-1,0,20,0.0,0
+Hibiya Park,park,0,,-1,0,21,0.0,0
+Hibiya Park,park,0,,-1,0,22,0.0,0
+Hibiya Park,park,0,,-1,0,23,0.0,0
+Inokashira Park,park,0,Sunday,6,1,0,0.05,5
+Inokashira Park,park,0,Sunday,6,1,1,0.03,3
+Inokashira Park,park,0,Sunday,6,1,2,0.03,3
+Inokashira Park,park,0,Sunday,6,1,3,0.03,3
+Inokashira Park,park,0,Sunday,6,1,4,0.04,4
+Inokashira Park,park,0,Sunday,6,1,5,0.05,5
+Inokashira Park,park,0,Sunday,6,1,6,0.08,8
+Inokashira Park,park,0,Sunday,6,1,7,0.13,13
+Inokashira Park,park,0,Sunday,6,1,8,0.22,22
+Inokashira Park,park,0,Sunday,6,1,9,0.36,36
+Inokashira Park,park,0,Sunday,6,1,10,0.54,54
+Inokashira Park,park,0,Sunday,6,1,11,0.71,71
+Inokashira Park,park,0,Sunday,6,1,12,0.85,85
+Inokashira Park,park,0,Sunday,6,1,13,0.95,95
+Inokashira Park,park,0,Sunday,6,1,14,1.0,100
+Inokashira Park,park,0,Sunday,6,1,15,0.92,92
+Inokashira Park,park,0,Sunday,6,1,16,0.75,75
+Inokashira Park,park,0,Sunday,6,1,17,0.52,52
+Inokashira Park,park,0,Sunday,6,1,18,0.35,35
+Inokashira Park,park,0,Sunday,6,1,19,0.26,26
+Inokashira Park,park,0,Sunday,6,1,20,0.21,21
+Inokashira Park,park,0,Sunday,6,1,21,0.17,17
+Inokashira Park,park,0,Sunday,6,1,22,0.14,14
+Inokashira Park,park,0,Sunday,6,1,23,0.1,10
+Inokashira Park,park,0,Monday,0,0,0,0.07,7
+Inokashira Park,park,0,Monday,0,0,1,0.04,4
+Inokashira Park,park,0,Monday,0,0,2,0.02,2
+Inokashira Park,park,0,Monday,0,0,3,0.02,2
+Inokashira Park,park,0,Monday,0,0,4,0.03,3
+Inokashira Park,park,0,Monday,0,0,5,0.06,6
+Inokashira Park,park,0,Monday,0,0,6,0.1,10
+Inokashira Park,park,0,Monday,0,0,7,0.14,14
+Inokashira Park,park,0,Monday,0,0,8,0.19,19
+Inokashira Park,park,0,Monday,0,0,9,0.25,25
+Inokashira Park,park,0,Monday,0,0,10,0.32,32
+Inokashira Park,park,0,Monday,0,0,11,0.4,40
+Inokashira Park,park,0,Monday,0,0,12,0.48,48
+Inokashira Park,park,0,Monday,0,0,13,0.53,53
+Inokashira Park,park,0,Monday,0,0,14,0.54,54
+Inokashira Park,park,0,Monday,0,0,15,0.49,49
+Inokashira Park,park,0,Monday,0,0,16,0.4,40
+Inokashira Park,park,0,Monday,0,0,17,0.3,30
+Inokashira Park,park,0,Monday,0,0,18,0.24,24
+Inokashira Park,park,0,Monday,0,0,19,0.22,22
+Inokashira Park,park,0,Monday,0,0,20,0.2,20
+Inokashira Park,park,0,Monday,0,0,21,0.19,19
+Inokashira Park,park,0,Monday,0,0,22,0.16,16
+Inokashira Park,park,0,Monday,0,0,23,0.12,12
+Inokashira Park,park,0,Tuesday,1,0,0,0.07,7
+Inokashira Park,park,0,Tuesday,1,0,1,0.04,4
+Inokashira Park,park,0,Tuesday,1,0,2,0.03,3
+Inokashira Park,park,0,Tuesday,1,0,3,0.03,3
+Inokashira Park,park,0,Tuesday,1,0,4,0.03,3
+Inokashira Park,park,0,Tuesday,1,0,5,0.05,5
+Inokashira Park,park,0,Tuesday,1,0,6,0.09,9
+Inokashira Park,park,0,Tuesday,1,0,7,0.13,13
+Inokashira Park,park,0,Tuesday,1,0,8,0.17,17
+Inokashira Park,park,0,Tuesday,1,0,9,0.21,21
+Inokashira Park,park,0,Tuesday,1,0,10,0.26,26
+Inokashira Park,park,0,Tuesday,1,0,11,0.3,30
+Inokashira Park,park,0,Tuesday,1,0,12,0.34,34
+Inokashira Park,park,0,Tuesday,1,0,13,0.37,37
+Inokashira Park,park,0,Tuesday,1,0,14,0.38,38
+Inokashira Park,park,0,Tuesday,1,0,15,0.35,35
+Inokashira Park,park,0,Tuesday,1,0,16,0.29,29
+Inokashira Park,park,0,Tuesday,1,0,17,0.23,23
+Inokashira Park,park,0,Tuesday,1,0,18,0.19,19
+Inokashira Park,park,0,Tuesday,1,0,19,0.18,18
+Inokashira Park,park,0,Tuesday,1,0,20,0.18,18
+Inokashira Park,park,0,Tuesday,1,0,21,0.17,17
+Inokashira Park,park,0,Tuesday,1,0,22,0.15,15
+Inokashira Park,park,0,Tuesday,1,0,23,0.12,12
+Inokashira Park,park,0,Wednesday,2,0,0,0.07,7
+Inokashira Park,park,0,Wednesday,2,0,1,0.05,5
+Inokashira Park,park,0,Wednesday,2,0,2,0.03,3
+Inokashira Park,park,0,Wednesday,2,0,3,0.03,3
+Inokashira Park,park,0,Wednesday,2,0,4,0.04,4
+Inokashira Park,park,0,Wednesday,2,0,5,0.05,5
+Inokashira Park,park,0,Wednesday,2,0,6,0.08,8
+Inokashira Park,park,0,Wednesday,2,0,7,0.12,12
+Inokashira Park,park,0,Wednesday,2,0,8,0.17,17
+Inokashira Park,park,0,Wednesday,2,0,9,0.23,23
+Inokashira Park,park,0,Wednesday,2,0,10,0.29,29
+Inokashira Park,park,0,Wednesday,2,0,11,0.34,34
+Inokashira Park,park,0,Wednesday,2,0,12,0.37,37
+Inokashira Park,park,0,Wednesday,2,0,13,0.38,38
+Inokashira Park,park,0,Wednesday,2,0,14,0.37,37
+Inokashira Park,park,0,Wednesday,2,0,15,0.34,34
+Inokashira Park,park,0,Wednesday,2,0,16,0.28,28
+Inokashira Park,park,0,Wednesday,2,0,17,0.23,23
+Inokashira Park,park,0,Wednesday,2,0,18,0.19,19
+Inokashira Park,park,0,Wednesday,2,0,19,0.18,18
+Inokashira Park,park,0,Wednesday,2,0,20,0.17,17
+Inokashira Park,park,0,Wednesday,2,0,21,0.17,17
+Inokashira Park,park,0,Wednesday,2,0,22,0.15,15
+Inokashira Park,park,0,Wednesday,2,0,23,0.12,12
+Inokashira Park,park,0,Thursday,3,0,0,0.07,7
+Inokashira Park,park,0,Thursday,3,0,1,0.04,4
+Inokashira Park,park,0,Thursday,3,0,2,0.03,3
+Inokashira Park,park,0,Thursday,3,0,3,0.03,3
+Inokashira Park,park,0,Thursday,3,0,4,0.03,3
+Inokashira Park,park,0,Thursday,3,0,5,0.05,5
+Inokashira Park,park,0,Thursday,3,0,6,0.08,8
+Inokashira Park,park,0,Thursday,3,0,7,0.12,12
+Inokashira Park,park,0,Thursday,3,0,8,0.17,17
+Inokashira Park,park,0,Thursday,3,0,9,0.21,21
+Inokashira Park,park,0,Thursday,3,0,10,0.26,26
+Inokashira Park,park,0,Thursday,3,0,11,0.31,31
+Inokashira Park,park,0,Thursday,3,0,12,0.35,35
+Inokashira Park,park,0,Thursday,3,0,13,0.37,37
+Inokashira Park,park,0,Thursday,3,0,14,0.38,38
+Inokashira Park,park,0,Thursday,3,0,15,0.35,35
+Inokashira Park,park,0,Thursday,3,0,16,0.29,29
+Inokashira Park,park,0,Thursday,3,0,17,0.24,24
+Inokashira Park,park,0,Thursday,3,0,18,0.2,20
+Inokashira Park,park,0,Thursday,3,0,19,0.2,20
+Inokashira Park,park,0,Thursday,3,0,20,0.2,20
+Inokashira Park,park,0,Thursday,3,0,21,0.19,19
+Inokashira Park,park,0,Thursday,3,0,22,0.17,17
+Inokashira Park,park,0,Thursday,3,0,23,0.13,13
+Inokashira Park,park,0,Friday,4,0,0,0.09,9
+Inokashira Park,park,0,Friday,4,0,1,0.06,6
+Inokashira Park,park,0,Friday,4,0,2,0.04,4
+Inokashira Park,park,0,Friday,4,0,3,0.03,3
+Inokashira Park,park,0,Friday,4,0,4,0.04,4
+Inokashira Park,park,0,Friday,4,0,5,0.06,6
+Inokashira Park,park,0,Friday,4,0,6,0.09,9
+Inokashira Park,park,0,Friday,4,0,7,0.13,13
+Inokashira Park,park,0,Friday,4,0,8,0.18,18
+Inokashira Park,park,0,Friday,4,0,9,0.24,24
+Inokashira Park,park,0,Friday,4,0,10,0.32,32
+Inokashira Park,park,0,Friday,4,0,11,0.4,40
+Inokashira Park,park,0,Friday,4,0,12,0.47,47
+Inokashira Park,park,0,Friday,4,0,13,0.52,52
+Inokashira Park,park,0,Friday,4,0,14,0.52,52
+Inokashira Park,park,0,Friday,4,0,15,0.46,46
+Inokashira Park,park,0,Friday,4,0,16,0.37,37
+Inokashira Park,park,0,Friday,4,0,17,0.29,29
+Inokashira Park,park,0,Friday,4,0,18,0.25,25
+Inokashira Park,park,0,Friday,4,0,19,0.23,23
+Inokashira Park,park,0,Friday,4,0,20,0.22,22
+Inokashira Park,park,0,Friday,4,0,21,0.22,22
+Inokashira Park,park,0,Friday,4,0,22,0.19,19
+Inokashira Park,park,0,Friday,4,0,23,0.15,15
+Inokashira Park,park,0,Saturday,5,1,0,0.08,8
+Inokashira Park,park,0,Saturday,5,1,1,0.04,4
+Inokashira Park,park,0,Saturday,5,1,2,0.02,2
+Inokashira Park,park,0,Saturday,5,1,3,0.02,2
+Inokashira Park,park,0,Saturday,5,1,4,0.03,3
+Inokashira Park,park,0,Saturday,5,1,5,0.05,5
+Inokashira Park,park,0,Saturday,5,1,6,0.09,9
+Inokashira Park,park,0,Saturday,5,1,7,0.14,14
+Inokashira Park,park,0,Saturday,5,1,8,0.21,21
+Inokashira Park,park,0,Saturday,5,1,9,0.33,33
+Inokashira Park,park,0,Saturday,5,1,10,0.47,47
+Inokashira Park,park,0,Saturday,5,1,11,0.6,60
+Inokashira Park,park,0,Saturday,5,1,12,0.71,71
+Inokashira Park,park,0,Saturday,5,1,13,0.8,80
+Inokashira Park,park,0,Saturday,5,1,14,0.83,83
+Inokashira Park,park,0,Saturday,5,1,15,0.78,78
+Inokashira Park,park,0,Saturday,5,1,16,0.63,63
+Inokashira Park,park,0,Saturday,5,1,17,0.46,46
+Inokashira Park,park,0,Saturday,5,1,18,0.31,31
+Inokashira Park,park,0,Saturday,5,1,19,0.24,24
+Inokashira Park,park,0,Saturday,5,1,20,0.21,21
+Inokashira Park,park,0,Saturday,5,1,21,0.2,20
+Inokashira Park,park,0,Saturday,5,1,22,0.17,17
+Inokashira Park,park,0,Saturday,5,1,23,0.14,14
+Inokashira Park,park,0,,-1,0,0,0.0,0
+Inokashira Park,park,0,,-1,0,1,0.0,0
+Inokashira Park,park,0,,-1,0,2,0.0,0
+Inokashira Park,park,0,,-1,0,3,0.0,0
+Inokashira Park,park,0,,-1,0,4,0.0,0
+Inokashira Park,park,0,,-1,0,5,0.0,0
+Inokashira Park,park,0,,-1,0,6,0.0,0
+Inokashira Park,park,0,,-1,0,7,0.0,0
+Inokashira Park,park,0,,-1,0,8,0.0,0
+Inokashira Park,park,0,,-1,0,9,0.0,0
+Inokashira Park,park,0,,-1,0,10,0.0,0
+Inokashira Park,park,0,,-1,0,11,0.0,0
+Inokashira Park,park,0,,-1,0,12,0.0,0
+Inokashira Park,park,0,,-1,0,13,0.0,0
+Inokashira Park,park,0,,-1,0,14,0.0,0
+Inokashira Park,park,0,,-1,0,15,0.0,0
+Inokashira Park,park,0,,-1,0,16,0.0,0
+Inokashira Park,park,0,,-1,0,17,0.0,0
+Inokashira Park,park,0,,-1,0,18,0.0,0
+Inokashira Park,park,0,,-1,0,19,0.0,0
+Inokashira Park,park,0,,-1,0,20,0.0,0
+Inokashira Park,park,0,,-1,0,21,0.0,0
+Inokashira Park,park,0,,-1,0,22,0.0,0
+Inokashira Park,park,0,,-1,0,23,0.0,0
+GINZA SIX,shopping_area,1,Sunday,6,1,0,0.0,0
+GINZA SIX,shopping_area,1,Sunday,6,1,1,0.0,0
+GINZA SIX,shopping_area,1,Sunday,6,1,2,0.0,0
+GINZA SIX,shopping_area,1,Sunday,6,1,3,0.0,0
+GINZA SIX,shopping_area,1,Sunday,6,1,4,0.0,0
+GINZA SIX,shopping_area,1,Sunday,6,1,5,0.0,0
+GINZA SIX,shopping_area,1,Sunday,6,1,6,0.0,0
+GINZA SIX,shopping_area,1,Sunday,6,1,7,0.0,0
+GINZA SIX,shopping_area,1,Sunday,6,1,8,0.0,0
+GINZA SIX,shopping_area,1,Sunday,6,1,9,0.0,0
+GINZA SIX,shopping_area,1,Sunday,6,1,10,0.27,27
+GINZA SIX,shopping_area,1,Sunday,6,1,11,0.45,45
+GINZA SIX,shopping_area,1,Sunday,6,1,12,0.62,62
+GINZA SIX,shopping_area,1,Sunday,6,1,13,0.77,77
+GINZA SIX,shopping_area,1,Sunday,6,1,14,0.86,86
+GINZA SIX,shopping_area,1,Sunday,6,1,15,0.87,87
+GINZA SIX,shopping_area,1,Sunday,6,1,16,0.8,80
+GINZA SIX,shopping_area,1,Sunday,6,1,17,0.69,69
+GINZA SIX,shopping_area,1,Sunday,6,1,18,0.57,57
+GINZA SIX,shopping_area,1,Sunday,6,1,19,0.45,45
+GINZA SIX,shopping_area,1,Sunday,6,1,20,0.31,31
+GINZA SIX,shopping_area,1,Sunday,6,1,21,0.0,0
+GINZA SIX,shopping_area,1,Sunday,6,1,22,0.0,0
+GINZA SIX,shopping_area,1,Sunday,6,1,23,0.0,0
+GINZA SIX,shopping_area,1,Monday,0,0,0,0.0,0
+GINZA SIX,shopping_area,1,Monday,0,0,1,0.0,0
+GINZA SIX,shopping_area,1,Monday,0,0,2,0.0,0
+GINZA SIX,shopping_area,1,Monday,0,0,3,0.0,0
+GINZA SIX,shopping_area,1,Monday,0,0,4,0.0,0
+GINZA SIX,shopping_area,1,Monday,0,0,5,0.0,0
+GINZA SIX,shopping_area,1,Monday,0,0,6,0.0,0
+GINZA SIX,shopping_area,1,Monday,0,0,7,0.0,0
+GINZA SIX,shopping_area,1,Monday,0,0,8,0.0,0
+GINZA SIX,shopping_area,1,Monday,0,0,9,0.0,0
+GINZA SIX,shopping_area,1,Monday,0,0,10,0.36,36
+GINZA SIX,shopping_area,1,Monday,0,0,11,0.5,50
+GINZA SIX,shopping_area,1,Monday,0,0,12,0.61,61
+GINZA SIX,shopping_area,1,Monday,0,0,13,0.69,69
+GINZA SIX,shopping_area,1,Monday,0,0,14,0.71,71
+GINZA SIX,shopping_area,1,Monday,0,0,15,0.69,69
+GINZA SIX,shopping_area,1,Monday,0,0,16,0.65,65
+GINZA SIX,shopping_area,1,Monday,0,0,17,0.61,61
+GINZA SIX,shopping_area,1,Monday,0,0,18,0.56,56
+GINZA SIX,shopping_area,1,Monday,0,0,19,0.49,49
+GINZA SIX,shopping_area,1,Monday,0,0,20,0.37,37
+GINZA SIX,shopping_area,1,Monday,0,0,21,0.0,0
+GINZA SIX,shopping_area,1,Monday,0,0,22,0.0,0
+GINZA SIX,shopping_area,1,Monday,0,0,23,0.0,0
+GINZA SIX,shopping_area,1,Tuesday,1,0,0,0.0,0
+GINZA SIX,shopping_area,1,Tuesday,1,0,1,0.0,0
+GINZA SIX,shopping_area,1,Tuesday,1,0,2,0.0,0
+GINZA SIX,shopping_area,1,Tuesday,1,0,3,0.0,0
+GINZA SIX,shopping_area,1,Tuesday,1,0,4,0.0,0
+GINZA SIX,shopping_area,1,Tuesday,1,0,5,0.0,0
+GINZA SIX,shopping_area,1,Tuesday,1,0,6,0.0,0
+GINZA SIX,shopping_area,1,Tuesday,1,0,7,0.0,0
+GINZA SIX,shopping_area,1,Tuesday,1,0,8,0.0,0
+GINZA SIX,shopping_area,1,Tuesday,1,0,9,0.0,0
+GINZA SIX,shopping_area,1,Tuesday,1,0,10,0.37,37
+GINZA SIX,shopping_area,1,Tuesday,1,0,11,0.49,49
+GINZA SIX,shopping_area,1,Tuesday,1,0,12,0.59,59
+GINZA SIX,shopping_area,1,Tuesday,1,0,13,0.65,65
+GINZA SIX,shopping_area,1,Tuesday,1,0,14,0.66,66
+GINZA SIX,shopping_area,1,Tuesday,1,0,15,0.65,65
+GINZA SIX,shopping_area,1,Tuesday,1,0,16,0.62,62
+GINZA SIX,shopping_area,1,Tuesday,1,0,17,0.6,60
+GINZA SIX,shopping_area,1,Tuesday,1,0,18,0.57,57
+GINZA SIX,shopping_area,1,Tuesday,1,0,19,0.5,50
+GINZA SIX,shopping_area,1,Tuesday,1,0,20,0.38,38
+GINZA SIX,shopping_area,1,Tuesday,1,0,21,0.0,0
+GINZA SIX,shopping_area,1,Tuesday,1,0,22,0.0,0
+GINZA SIX,shopping_area,1,Tuesday,1,0,23,0.0,0
+GINZA SIX,shopping_area,1,Wednesday,2,0,0,0.0,0
+GINZA SIX,shopping_area,1,Wednesday,2,0,1,0.0,0
+GINZA SIX,shopping_area,1,Wednesday,2,0,2,0.0,0
+GINZA SIX,shopping_area,1,Wednesday,2,0,3,0.0,0
+GINZA SIX,shopping_area,1,Wednesday,2,0,4,0.0,0
+GINZA SIX,shopping_area,1,Wednesday,2,0,5,0.0,0
+GINZA SIX,shopping_area,1,Wednesday,2,0,6,0.0,0
+GINZA SIX,shopping_area,1,Wednesday,2,0,7,0.0,0
+GINZA SIX,shopping_area,1,Wednesday,2,0,8,0.0,0
+GINZA SIX,shopping_area,1,Wednesday,2,0,9,0.0,0
+GINZA SIX,shopping_area,1,Wednesday,2,0,10,0.37,37
+GINZA SIX,shopping_area,1,Wednesday,2,0,11,0.5,50
+GINZA SIX,shopping_area,1,Wednesday,2,0,12,0.61,61
+GINZA SIX,shopping_area,1,Wednesday,2,0,13,0.68,68
+GINZA SIX,shopping_area,1,Wednesday,2,0,14,0.71,71
+GINZA SIX,shopping_area,1,Wednesday,2,0,15,0.71,71
+GINZA SIX,shopping_area,1,Wednesday,2,0,16,0.68,68
+GINZA SIX,shopping_area,1,Wednesday,2,0,17,0.65,65
+GINZA SIX,shopping_area,1,Wednesday,2,0,18,0.6,60
+GINZA SIX,shopping_area,1,Wednesday,2,0,19,0.52,52
+GINZA SIX,shopping_area,1,Wednesday,2,0,20,0.4,40
+GINZA SIX,shopping_area,1,Wednesday,2,0,21,0.0,0
+GINZA SIX,shopping_area,1,Wednesday,2,0,22,0.0,0
+GINZA SIX,shopping_area,1,Wednesday,2,0,23,0.0,0
+GINZA SIX,shopping_area,1,Thursday,3,0,0,0.0,0
+GINZA SIX,shopping_area,1,Thursday,3,0,1,0.0,0
+GINZA SIX,shopping_area,1,Thursday,3,0,2,0.0,0
+GINZA SIX,shopping_area,1,Thursday,3,0,3,0.0,0
+GINZA SIX,shopping_area,1,Thursday,3,0,4,0.0,0
+GINZA SIX,shopping_area,1,Thursday,3,0,5,0.0,0
+GINZA SIX,shopping_area,1,Thursday,3,0,6,0.0,0
+GINZA SIX,shopping_area,1,Thursday,3,0,7,0.0,0
+GINZA SIX,shopping_area,1,Thursday,3,0,8,0.0,0
+GINZA SIX,shopping_area,1,Thursday,3,0,9,0.0,0
+GINZA SIX,shopping_area,1,Thursday,3,0,10,0.37,37
+GINZA SIX,shopping_area,1,Thursday,3,0,11,0.5,50
+GINZA SIX,shopping_area,1,Thursday,3,0,12,0.62,62
+GINZA SIX,shopping_area,1,Thursday,3,0,13,0.68,68
+GINZA SIX,shopping_area,1,Thursday,3,0,14,0.71,71
+GINZA SIX,shopping_area,1,Thursday,3,0,15,0.7,70
+GINZA SIX,shopping_area,1,Thursday,3,0,16,0.68,68
+GINZA SIX,shopping_area,1,Thursday,3,0,17,0.66,66
+GINZA SIX,shopping_area,1,Thursday,3,0,18,0.62,62
+GINZA SIX,shopping_area,1,Thursday,3,0,19,0.55,55
+GINZA SIX,shopping_area,1,Thursday,3,0,20,0.42,42
+GINZA SIX,shopping_area,1,Thursday,3,0,21,0.0,0
+GINZA SIX,shopping_area,1,Thursday,3,0,22,0.0,0
+GINZA SIX,shopping_area,1,Thursday,3,0,23,0.0,0
+GINZA SIX,shopping_area,1,Friday,4,0,0,0.0,0
+GINZA SIX,shopping_area,1,Friday,4,0,1,0.0,0
+GINZA SIX,shopping_area,1,Friday,4,0,2,0.0,0
+GINZA SIX,shopping_area,1,Friday,4,0,3,0.0,0
+GINZA SIX,shopping_area,1,Friday,4,0,4,0.0,0
+GINZA SIX,shopping_area,1,Friday,4,0,5,0.0,0
+GINZA SIX,shopping_area,1,Friday,4,0,6,0.0,0
+GINZA SIX,shopping_area,1,Friday,4,0,7,0.0,0
+GINZA SIX,shopping_area,1,Friday,4,0,8,0.0,0
+GINZA SIX,shopping_area,1,Friday,4,0,9,0.0,0
+GINZA SIX,shopping_area,1,Friday,4,0,10,0.37,37
+GINZA SIX,shopping_area,1,Friday,4,0,11,0.51,51
+GINZA SIX,shopping_area,1,Friday,4,0,12,0.62,62
+GINZA SIX,shopping_area,1,Friday,4,0,13,0.69,69
+GINZA SIX,shopping_area,1,Friday,4,0,14,0.72,72
+GINZA SIX,shopping_area,1,Friday,4,0,15,0.73,73
+GINZA SIX,shopping_area,1,Friday,4,0,16,0.72,72
+GINZA SIX,shopping_area,1,Friday,4,0,17,0.7,70
+GINZA SIX,shopping_area,1,Friday,4,0,18,0.67,67
+GINZA SIX,shopping_area,1,Friday,4,0,19,0.6,60
+GINZA SIX,shopping_area,1,Friday,4,0,20,0.46,46
+GINZA SIX,shopping_area,1,Friday,4,0,21,0.0,0
+GINZA SIX,shopping_area,1,Friday,4,0,22,0.0,0
+GINZA SIX,shopping_area,1,Friday,4,0,23,0.0,0
+GINZA SIX,shopping_area,1,Saturday,5,1,0,0.0,0
+GINZA SIX,shopping_area,1,Saturday,5,1,1,0.0,0
+GINZA SIX,shopping_area,1,Saturday,5,1,2,0.0,0
+GINZA SIX,shopping_area,1,Saturday,5,1,3,0.0,0
+GINZA SIX,shopping_area,1,Saturday,5,1,4,0.0,0
+GINZA SIX,shopping_area,1,Saturday,5,1,5,0.0,0
+GINZA SIX,shopping_area,1,Saturday,5,1,6,0.0,0
+GINZA SIX,shopping_area,1,Saturday,5,1,7,0.0,0
+GINZA SIX,shopping_area,1,Saturday,5,1,8,0.0,0
+GINZA SIX,shopping_area,1,Saturday,5,1,9,0.0,0
+GINZA SIX,shopping_area,1,Saturday,5,1,10,0.3,30
+GINZA SIX,shopping_area,1,Saturday,5,1,11,0.49,49
+GINZA SIX,shopping_area,1,Saturday,5,1,12,0.68,68
+GINZA SIX,shopping_area,1,Saturday,5,1,13,0.85,85
+GINZA SIX,shopping_area,1,Saturday,5,1,14,0.96,96
+GINZA SIX,shopping_area,1,Saturday,5,1,15,1.0,100
+GINZA SIX,shopping_area,1,Saturday,5,1,16,0.95,95
+GINZA SIX,shopping_area,1,Saturday,5,1,17,0.84,84
+GINZA SIX,shopping_area,1,Saturday,5,1,18,0.71,71
+GINZA SIX,shopping_area,1,Saturday,5,1,19,0.57,57
+GINZA SIX,shopping_area,1,Saturday,5,1,20,0.4,40
+GINZA SIX,shopping_area,1,Saturday,5,1,21,0.0,0
+GINZA SIX,shopping_area,1,Saturday,5,1,22,0.0,0
+GINZA SIX,shopping_area,1,Saturday,5,1,23,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,0,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,1,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,2,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,3,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,4,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,5,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,6,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,7,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,8,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,9,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,10,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,11,0.6,60
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,12,0.81,81
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,13,0.95,95
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,14,1.0,100
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,15,0.99,99
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,16,0.94,94
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,17,0.87,87
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,18,0.76,76
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,19,0.6,60
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,20,0.42,42
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,21,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,22,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Sunday,6,1,23,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,0,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,1,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,2,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,3,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,4,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,5,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,6,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,7,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,8,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,9,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,10,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,11,0.41,41
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,12,0.52,52
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,13,0.57,57
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,14,0.58,58
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,15,0.54,54
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,16,0.5,50
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,17,0.46,46
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,18,0.42,42
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,19,0.35,35
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,20,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,21,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,22,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Monday,0,0,23,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,0,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,1,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,2,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,3,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,4,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,5,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,6,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,7,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,8,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,9,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,10,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,11,0.34,34
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,12,0.45,45
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,13,0.49,49
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,14,0.49,49
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,15,0.46,46
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,16,0.44,44
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,17,0.42,42
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,18,0.39,39
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,19,0.34,34
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,20,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,21,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,22,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Tuesday,1,0,23,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,0,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,1,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,2,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,3,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,4,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,5,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,6,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,7,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,8,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,9,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,10,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,11,0.35,35
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,12,0.47,47
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,13,0.52,52
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,14,0.53,53
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,15,0.52,52
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,16,0.49,49
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,17,0.46,46
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,18,0.42,42
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,19,0.35,35
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,20,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,21,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,22,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Wednesday,2,0,23,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,0,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,1,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,2,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,3,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,4,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,5,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,6,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,7,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,8,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,9,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,10,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,11,0.3,30
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,12,0.4,40
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,13,0.43,43
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,14,0.44,44
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,15,0.42,42
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,16,0.41,41
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,17,0.39,39
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,18,0.36,36
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,19,0.32,32
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,20,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,21,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,22,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Thursday,3,0,23,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,0,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,1,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,2,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,3,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,4,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,5,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,6,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,7,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,8,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,9,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,10,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,11,0.39,39
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,12,0.51,51
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,13,0.55,55
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,14,0.56,56
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,15,0.53,53
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,16,0.51,51
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,17,0.49,49
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,18,0.47,47
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,19,0.42,42
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,20,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,21,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,22,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Friday,4,0,23,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,0,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,1,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,2,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,3,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,4,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,5,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,6,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,7,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,8,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,9,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,10,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,11,0.53,53
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,12,0.71,71
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,13,0.85,85
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,14,0.94,94
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,15,0.97,97
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,16,0.96,96
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,17,0.91,91
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,18,0.84,84
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,19,0.7,70
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,20,0.51,51
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,21,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,22,0.0,0
+DECKS Tokyo Beach,shopping_area,1,Saturday,5,1,23,0.0,0
+Sunshine 60,amusement_park,1,Sunday,6,1,0,0.0,0
+Sunshine 60,amusement_park,1,Sunday,6,1,1,0.0,0
+Sunshine 60,amusement_park,1,Sunday,6,1,2,0.0,0
+Sunshine 60,amusement_park,1,Sunday,6,1,3,0.0,0
+Sunshine 60,amusement_park,1,Sunday,6,1,4,0.0,0
+Sunshine 60,amusement_park,1,Sunday,6,1,5,0.0,0
+Sunshine 60,amusement_park,1,Sunday,6,1,6,0.0,0
+Sunshine 60,amusement_park,1,Sunday,6,1,7,0.0,0
+Sunshine 60,amusement_park,1,Sunday,6,1,8,0.0,0
+Sunshine 60,amusement_park,1,Sunday,6,1,9,0.0,0
+Sunshine 60,amusement_park,1,Sunday,6,1,10,0.44,44
+Sunshine 60,amusement_park,1,Sunday,6,1,11,0.63,63
+Sunshine 60,amusement_park,1,Sunday,6,1,12,0.78,78
+Sunshine 60,amusement_park,1,Sunday,6,1,13,0.88,88
+Sunshine 60,amusement_park,1,Sunday,6,1,14,0.93,93
+Sunshine 60,amusement_park,1,Sunday,6,1,15,0.92,92
+Sunshine 60,amusement_park,1,Sunday,6,1,16,0.85,85
+Sunshine 60,amusement_park,1,Sunday,6,1,17,0.74,74
+Sunshine 60,amusement_park,1,Sunday,6,1,18,0.62,62
+Sunshine 60,amusement_park,1,Sunday,6,1,19,0.49,49
+Sunshine 60,amusement_park,1,Sunday,6,1,20,0.0,0
+Sunshine 60,amusement_park,1,Sunday,6,1,21,0.0,0
+Sunshine 60,amusement_park,1,Sunday,6,1,22,0.0,0
+Sunshine 60,amusement_park,1,Sunday,6,1,23,0.0,0
+Sunshine 60,amusement_park,1,Monday,0,0,0,0.0,0
+Sunshine 60,amusement_park,1,Monday,0,0,1,0.0,0
+Sunshine 60,amusement_park,1,Monday,0,0,2,0.0,0
+Sunshine 60,amusement_park,1,Monday,0,0,3,0.0,0
+Sunshine 60,amusement_park,1,Monday,0,0,4,0.0,0
+Sunshine 60,amusement_park,1,Monday,0,0,5,0.0,0
+Sunshine 60,amusement_park,1,Monday,0,0,6,0.0,0
+Sunshine 60,amusement_park,1,Monday,0,0,7,0.0,0
+Sunshine 60,amusement_park,1,Monday,0,0,8,0.0,0
+Sunshine 60,amusement_park,1,Monday,0,0,9,0.0,0
+Sunshine 60,amusement_park,1,Monday,0,0,10,0.47,47
+Sunshine 60,amusement_park,1,Monday,0,0,11,0.58,58
+Sunshine 60,amusement_park,1,Monday,0,0,12,0.67,67
+Sunshine 60,amusement_park,1,Monday,0,0,13,0.71,71
+Sunshine 60,amusement_park,1,Monday,0,0,14,0.72,72
+Sunshine 60,amusement_park,1,Monday,0,0,15,0.7,70
+Sunshine 60,amusement_park,1,Monday,0,0,16,0.66,66
+Sunshine 60,amusement_park,1,Monday,0,0,17,0.61,61
+Sunshine 60,amusement_park,1,Monday,0,0,18,0.54,54
+Sunshine 60,amusement_park,1,Monday,0,0,19,0.45,45
+Sunshine 60,amusement_park,1,Monday,0,0,20,0.0,0
+Sunshine 60,amusement_park,1,Monday,0,0,21,0.0,0
+Sunshine 60,amusement_park,1,Monday,0,0,22,0.0,0
+Sunshine 60,amusement_park,1,Monday,0,0,23,0.0,0
+Sunshine 60,amusement_park,1,Tuesday,1,0,0,0.0,0
+Sunshine 60,amusement_park,1,Tuesday,1,0,1,0.0,0
+Sunshine 60,amusement_park,1,Tuesday,1,0,2,0.0,0
+Sunshine 60,amusement_park,1,Tuesday,1,0,3,0.0,0
+Sunshine 60,amusement_park,1,Tuesday,1,0,4,0.0,0
+Sunshine 60,amusement_park,1,Tuesday,1,0,5,0.0,0
+Sunshine 60,amusement_park,1,Tuesday,1,0,6,0.0,0
+Sunshine 60,amusement_park,1,Tuesday,1,0,7,0.0,0
+Sunshine 60,amusement_park,1,Tuesday,1,0,8,0.0,0
+Sunshine 60,amusement_park,1,Tuesday,1,0,9,0.0,0
+Sunshine 60,amusement_park,1,Tuesday,1,0,10,0.47,47
+Sunshine 60,amusement_park,1,Tuesday,1,0,11,0.56,56
+Sunshine 60,amusement_park,1,Tuesday,1,0,12,0.63,63
+Sunshine 60,amusement_park,1,Tuesday,1,0,13,0.66,66
+Sunshine 60,amusement_park,1,Tuesday,1,0,14,0.67,67
+Sunshine 60,amusement_park,1,Tuesday,1,0,15,0.65,65
+Sunshine 60,amusement_park,1,Tuesday,1,0,16,0.62,62
+Sunshine 60,amusement_park,1,Tuesday,1,0,17,0.58,58
+Sunshine 60,amusement_park,1,Tuesday,1,0,18,0.52,52
+Sunshine 60,amusement_park,1,Tuesday,1,0,19,0.45,45
+Sunshine 60,amusement_park,1,Tuesday,1,0,20,0.0,0
+Sunshine 60,amusement_park,1,Tuesday,1,0,21,0.0,0
+Sunshine 60,amusement_park,1,Tuesday,1,0,22,0.0,0
+Sunshine 60,amusement_park,1,Tuesday,1,0,23,0.0,0
+Sunshine 60,amusement_park,1,Wednesday,2,0,0,0.0,0
+Sunshine 60,amusement_park,1,Wednesday,2,0,1,0.0,0
+Sunshine 60,amusement_park,1,Wednesday,2,0,2,0.0,0
+Sunshine 60,amusement_park,1,Wednesday,2,0,3,0.0,0
+Sunshine 60,amusement_park,1,Wednesday,2,0,4,0.0,0
+Sunshine 60,amusement_park,1,Wednesday,2,0,5,0.0,0
+Sunshine 60,amusement_park,1,Wednesday,2,0,6,0.0,0
+Sunshine 60,amusement_park,1,Wednesday,2,0,7,0.0,0
+Sunshine 60,amusement_park,1,Wednesday,2,0,8,0.0,0
+Sunshine 60,amusement_park,1,Wednesday,2,0,9,0.0,0
+Sunshine 60,amusement_park,1,Wednesday,2,0,10,0.48,48
+Sunshine 60,amusement_park,1,Wednesday,2,0,11,0.59,59
+Sunshine 60,amusement_park,1,Wednesday,2,0,12,0.67,67
+Sunshine 60,amusement_park,1,Wednesday,2,0,13,0.72,72
+Sunshine 60,amusement_park,1,Wednesday,2,0,14,0.73,73
+Sunshine 60,amusement_park,1,Wednesday,2,0,15,0.71,71
+Sunshine 60,amusement_park,1,Wednesday,2,0,16,0.68,68
+Sunshine 60,amusement_park,1,Wednesday,2,0,17,0.63,63
+Sunshine 60,amusement_park,1,Wednesday,2,0,18,0.57,57
+Sunshine 60,amusement_park,1,Wednesday,2,0,19,0.48,48
+Sunshine 60,amusement_park,1,Wednesday,2,0,20,0.0,0
+Sunshine 60,amusement_park,1,Wednesday,2,0,21,0.0,0
+Sunshine 60,amusement_park,1,Wednesday,2,0,22,0.0,0
+Sunshine 60,amusement_park,1,Wednesday,2,0,23,0.0,0
+Sunshine 60,amusement_park,1,Thursday,3,0,0,0.0,0
+Sunshine 60,amusement_park,1,Thursday,3,0,1,0.0,0
+Sunshine 60,amusement_park,1,Thursday,3,0,2,0.0,0
+Sunshine 60,amusement_park,1,Thursday,3,0,3,0.0,0
+Sunshine 60,amusement_park,1,Thursday,3,0,4,0.0,0
+Sunshine 60,amusement_park,1,Thursday,3,0,5,0.0,0
+Sunshine 60,amusement_park,1,Thursday,3,0,6,0.0,0
+Sunshine 60,amusement_park,1,Thursday,3,0,7,0.0,0
+Sunshine 60,amusement_park,1,Thursday,3,0,8,0.0,0
+Sunshine 60,amusement_park,1,Thursday,3,0,9,0.0,0
+Sunshine 60,amusement_park,1,Thursday,3,0,10,0.48,48
+Sunshine 60,amusement_park,1,Thursday,3,0,11,0.59,59
+Sunshine 60,amusement_park,1,Thursday,3,0,12,0.66,66
+Sunshine 60,amusement_park,1,Thursday,3,0,13,0.7,70
+Sunshine 60,amusement_park,1,Thursday,3,0,14,0.71,71
+Sunshine 60,amusement_park,1,Thursday,3,0,15,0.69,69
+Sunshine 60,amusement_park,1,Thursday,3,0,16,0.66,66
+Sunshine 60,amusement_park,1,Thursday,3,0,17,0.62,62
+Sunshine 60,amusement_park,1,Thursday,3,0,18,0.57,57
+Sunshine 60,amusement_park,1,Thursday,3,0,19,0.49,49
+Sunshine 60,amusement_park,1,Thursday,3,0,20,0.0,0
+Sunshine 60,amusement_park,1,Thursday,3,0,21,0.0,0
+Sunshine 60,amusement_park,1,Thursday,3,0,22,0.0,0
+Sunshine 60,amusement_park,1,Thursday,3,0,23,0.0,0
+Sunshine 60,amusement_park,1,Friday,4,0,0,0.0,0
+Sunshine 60,amusement_park,1,Friday,4,0,1,0.0,0
+Sunshine 60,amusement_park,1,Friday,4,0,2,0.0,0
+Sunshine 60,amusement_park,1,Friday,4,0,3,0.0,0
+Sunshine 60,amusement_park,1,Friday,4,0,4,0.0,0
+Sunshine 60,amusement_park,1,Friday,4,0,5,0.0,0
+Sunshine 60,amusement_park,1,Friday,4,0,6,0.0,0
+Sunshine 60,amusement_park,1,Friday,4,0,7,0.0,0
+Sunshine 60,amusement_park,1,Friday,4,0,8,0.0,0
+Sunshine 60,amusement_park,1,Friday,4,0,9,0.0,0
+Sunshine 60,amusement_park,1,Friday,4,0,10,0.53,53
+Sunshine 60,amusement_park,1,Friday,4,0,11,0.66,66
+Sunshine 60,amusement_park,1,Friday,4,0,12,0.76,76
+Sunshine 60,amusement_park,1,Friday,4,0,13,0.8,80
+Sunshine 60,amusement_park,1,Friday,4,0,14,0.81,81
+Sunshine 60,amusement_park,1,Friday,4,0,15,0.78,78
+Sunshine 60,amusement_park,1,Friday,4,0,16,0.74,74
+Sunshine 60,amusement_park,1,Friday,4,0,17,0.69,69
+Sunshine 60,amusement_park,1,Friday,4,0,18,0.64,64
+Sunshine 60,amusement_park,1,Friday,4,0,19,0.55,55
+Sunshine 60,amusement_park,1,Friday,4,0,20,0.0,0
+Sunshine 60,amusement_park,1,Friday,4,0,21,0.0,0
+Sunshine 60,amusement_park,1,Friday,4,0,22,0.0,0
+Sunshine 60,amusement_park,1,Friday,4,0,23,0.0,0
+Sunshine 60,amusement_park,1,Saturday,5,1,0,0.0,0
+Sunshine 60,amusement_park,1,Saturday,5,1,1,0.0,0
+Sunshine 60,amusement_park,1,Saturday,5,1,2,0.0,0
+Sunshine 60,amusement_park,1,Saturday,5,1,3,0.0,0
+Sunshine 60,amusement_park,1,Saturday,5,1,4,0.0,0
+Sunshine 60,amusement_park,1,Saturday,5,1,5,0.0,0
+Sunshine 60,amusement_park,1,Saturday,5,1,6,0.0,0
+Sunshine 60,amusement_park,1,Saturday,5,1,7,0.0,0
+Sunshine 60,amusement_park,1,Saturday,5,1,8,0.0,0
+Sunshine 60,amusement_park,1,Saturday,5,1,9,0.0,0
+Sunshine 60,amusement_park,1,Saturday,5,1,10,0.46,46
+Sunshine 60,amusement_park,1,Saturday,5,1,11,0.65,65
+Sunshine 60,amusement_park,1,Saturday,5,1,12,0.8,80
+Sunshine 60,amusement_park,1,Saturday,5,1,13,0.92,92
+Sunshine 60,amusement_park,1,Saturday,5,1,14,0.98,98
+Sunshine 60,amusement_park,1,Saturday,5,1,15,1.0,100
+Sunshine 60,amusement_park,1,Saturday,5,1,16,0.94,94
+Sunshine 60,amusement_park,1,Saturday,5,1,17,0.85,85
+Sunshine 60,amusement_park,1,Saturday,5,1,18,0.72,72
+Sunshine 60,amusement_park,1,Saturday,5,1,19,0.58,58
+Sunshine 60,amusement_park,1,Saturday,5,1,20,0.0,0
+Sunshine 60,amusement_park,1,Saturday,5,1,21,0.0,0
+Sunshine 60,amusement_park,1,Saturday,5,1,22,0.0,0
+Sunshine 60,amusement_park,1,Saturday,5,1,23,0.0,0
