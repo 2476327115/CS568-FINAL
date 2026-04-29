@@ -244,7 +244,42 @@ Flattened from `tokyo_poi_raw.json`. One row per `(POI, weekday, hour)` combinat
 
 ## 4. Crowd Prediction Model
 
-> _[TODO: Model architecture, features, training details, evaluation metrics]_
+Current implementation uses a **rule-based crowd prediction system** built directly from `data/tokyo_crowd_dataset.csv` (2,784 rows).
+
+### Inputs
+
+- `poi_name` (optional, improves specificity when available)
+- `poi_category` (required)
+- `is_indoor` (0/1)
+- `weekday` or `weekday_num` (0=Mon ... 6=Sun)
+- `hour` (0-23)
+
+### Output
+
+`crowd_rules.py` returns:
+- `crowd_score` (0.0-1.0)
+- `raw_score` (0-100)
+- `crowd_level` (`low` / `medium` / `high`)
+- `rule_used` (which fallback tier produced the prediction)
+- `support_count` (number of historical rows used in that aggregate)
+
+### Rule Base (Fallback Hierarchy)
+
+Prediction tries the most specific rule first, then backs off:
+
+1. `poi_name + weekday + hour` (exact venue-time pattern)
+2. `poi_category + weekday + hour`
+3. `poi_category + hour`
+4. `is_indoor + weekday + hour`
+5. `weekday + hour`
+6. `poi_category` global mean
+7. Global mean fallback
+
+### Crowd Level Mapping
+
+- `low`: `crowd_score < 0.35`
+- `medium`: `0.35 <= crowd_score < 0.65`
+- `high`: `crowd_score >= 0.65`
 
 ---
 
@@ -342,4 +377,10 @@ python weather_rules.py --show-thresholds
 
 # Run weather recommendation rule engine
 python weather_rules.py --temp 27 --humidity 74 --pressure 1012
+
+# Show crowd dataset summary used by rule base
+python crowd_rules.py --summary
+
+# Predict crowd for a request context
+python crowd_rules.py --poi-category park --is-indoor 0 --weekday saturday --hour 14
 ```
