@@ -40,12 +40,12 @@
 
 ### 3.1 Data Sources
 
-| Data | Source | Purpose |
-|---|---|---|
-| POI crowd patterns | [Outscraper Google Maps API](https://outscraper.com) | Training data for crowd prediction model |
-| Real-time weather | [Open-Meteo API](https://open-meteo.com) (free, no key required) | Weather rule system |
-| Sunrise / sunset times | [Sunrise-Sunset API](https://sunrise-sunset.org/api) | Time-match bonus rules |
-| POI metadata | Outscraper Google Maps API | POI coordinates, categories, opening hours |
+| Data | Source | Coverage | Purpose |
+|---|---|---|---|
+| POI crowd patterns | [Outscraper Google Maps API](https://outscraper.com) | 32 Tokyo POIs, scraped 2026-04-29 | Training data for crowd prediction model |
+| Historical weather | [Tokyo Weatherdata — Kaggle](https://www.kaggle.com/datasets/risakashiwabara/tokyo-weatherdata) | Tokyo, 2022–2023, daily | Reference for weather rule thresholds |
+| Sunrise / sunset times | [Sunrise-Sunset API](https://sunrise-sunset.org/api) | Real-time | Time-match bonus rules in itinerary optimizer |
+| POI metadata | Outscraper Google Maps API | 32 Tokyo POIs | Coordinates, categories, opening hours |
 
 ---
 
@@ -55,70 +55,70 @@
 
 #### Museums (5 POIs)
 
-| Name | Indoor | Place ID | Coordinates | popular_times |
-|---|---|---|---|---|
-| Tokyo National Museum | ✓ | `ChIJEX3XFIOOGGAR3XdJvRjWLyM` | 35.7188, 139.7765 | ✗ |
-| Mori Art Museum | ✓ | `ChIJg5RCD3eLGGAR6dbIHRM98w8` | 35.6605, 139.7293 | ✗ |
-| teamLab Planets TOKYO DMM | ✓ | `ChIJSeco5wiJGGARItbTS8lQ5G0` | 35.6491, 139.7898 | ✓ |
-| Edo-Tokyo Museum | ✓ | `ChIJOWXu4TSJGGAR07vEEi8fZAw` | 35.6966, 139.7957 | ✗ |
-| National Museum of Nature and Science | ✓ | `ChIJ8Vuh65yOGGARyj4L5IBFiIk` | 35.7164, 139.7763 | ✓ |
+| Name | Indoor | Coordinates | popular_times |
+|---|---|---|---|
+| Tokyo National Museum | ✓ | 35.7188, 139.7765 | ✗ |
+| Mori Art Museum | ✓ | 35.6605, 139.7293 | ✗ |
+| teamLab Planets TOKYO DMM | ✓ | 35.6491, 139.7898 | ✓ |
+| Edo-Tokyo Museum | ✓ | 35.6966, 139.7957 | ✗ |
+| National Museum of Nature and Science | ✓ | 35.7164, 139.7763 | ✓ |
 
 #### Shrines & Temples (5 POIs)
 
-| Name | Indoor | Place ID | Coordinates | popular_times |
-|---|---|---|---|---|
-| Sensō-ji | ✗ | `ChIJ8T1GpMGOGGARDYGSgpooDWw` | 35.7148, 139.7967 | ✗ |
-| Meiji Jingu | ✗ | `ChIJ5SZMmreMGGARcz8QSTiJyo8` | 35.6764, 139.6993 | ✗ |
-| Zojo-ji Temple | ✗ | `ChIJC2xnkb6LGGARJL0d222opIg` | 35.6575, 139.7483 | ✓ |
-| Yasukuni Shrine | ✗ | `ChIJ1UOuDWiMGGARkM6Iv-ZU57U` | 35.6941, 139.7438 | ✓ |
-| Nezu Shrine | ✗ | `ChIJ-X4hzjKMGGARDSsGeHOACgw` | 35.7201, 139.7608 | ✓ |
+| Name | Indoor | Coordinates | popular_times |
+|---|---|---|---|
+| Sensō-ji | ✗ | 35.7148, 139.7967 | ✗ |
+| Meiji Jingu | ✗ | 35.6764, 139.6993 | ✗ |
+| Zojo-ji Temple | ✗ | 35.6575, 139.7483 | ✓ |
+| Yasukuni Shrine | ✗ | 35.6941, 139.7438 | ✓ |
+| Nezu Shrine | ✗ | 35.7201, 139.7608 | ✓ |
 
 #### Viewpoints & Towers (5 POIs)
 
-| Name | Indoor | Place ID | Coordinates | popular_times |
-|---|---|---|---|---|
-| Tokyo Skytree | ✓ | `ChIJ35ov0dCOGGARKvdDH7NPHX0` | 35.7101, 139.8107 | ✓ |
-| Tokyo Tower | ✓ | `ChIJCewJkL2LGGAR3Qmk0vCTGkg` | 35.6586, 139.7454 | ✓ |
-| Shibuya Sky | ✓ | `ChIJ4Rr2JWiLGGARcyRSHuZ-9G8` | 35.6587, 139.7020 | ✓ |
-| Tokyo Metropolitan Government Building No.1 | ✓ | `ChIJoTcat9SMGGAR6GGG8zdcZvE` | 35.6895, 139.6917 | ✗ |
-| Roppongi Hills Mori Tower | ✓ | `ChIJ__9ThIKLGGAR2FCxue47YLg` | 35.6607, 139.7292 | ✗ |
+| Name | Indoor | Coordinates | popular_times |
+|---|---|---|---|
+| Tokyo Skytree | ✓ | 35.7101, 139.8107 | ✓ |
+| Tokyo Tower | ✓ | 35.6586, 139.7454 | ✓ |
+| Shibuya Sky | ✓ | 35.6587, 139.7020 | ✓ |
+| Tokyo Metropolitan Government Building No.1 | ✓ | 35.6895, 139.6917 | ✗ |
+| Roppongi Hills Mori Tower | ✓ | 35.6607, 139.7292 | ✗ |
 
 #### Parks (5 POIs)
 
-| Name | Indoor | Place ID | Coordinates | popular_times |
-|---|---|---|---|---|
-| Shinjuku Gyoen National Garden | ✗ | `ChIJPyOTG8KMGGARh_IXobWxHmo` | 35.6852, 139.7101 | ✓ |
-| Ueno Park | ✗ | `ChIJw2qQRZuOGGARWmROEiM2y7E` | 35.7148, 139.7734 | ✓ |
-| Yoyogi Park | ✗ | `ChIJMwpiebSMGGARPr_454zHvDQ` | 35.6701, 139.6950 | ✓ |
-| Hibiya Park | ✗ | `ChIJx6xXOPKLGGARtPr6qZZ2nHA` | 35.6736, 139.7559 | ✓ |
-| Inokashira Park | ✗ | `ChIJLWaVdDXuGGART_Pg1R3CZ4A` | 35.6997, 139.5737 | ✓ |
+| Name | Indoor | Coordinates | popular_times |
+|---|---|---|---|
+| Shinjuku Gyoen National Garden | ✗ | 35.6852, 139.7101 | ✓ |
+| Ueno Park | ✗ | 35.7148, 139.7734 | ✓ |
+| Yoyogi Park | ✗ | 35.6701, 139.6950 | ✓ |
+| Hibiya Park | ✗ | 35.6736, 139.7559 | ✓ |
+| Inokashira Park | ✗ | 35.6997, 139.5737 | ✓ |
 
 #### Shopping Areas (6 POIs)
 
-| Name | Indoor | Place ID | Coordinates | popular_times |
-|---|---|---|---|---|
-| Shibuya Crossing | ✗ | `ChIJK9EM68qLGGARacmu4KJj5SA` | 35.6595, 139.7006 | ✗ |
-| Akihabara Electric Town | ✗ | `ChIJlUKLVx2MGGAR20vIvxChNHk` | 35.6985, 139.7728 | ✗ |
-| Takeshita St (Harajuku) | ✗ | `ChIJlVne8bqMGGARtX5O6ojMvsI` | 35.6710, 139.7052 | ✗ |
-| GINZA SIX | ✓ | `ChIJAQAsR--LGGAR_AmB8WMDy88` | 35.6698, 139.7642 | ✓ |
-| DECKS Tokyo Beach | ✓ | `ChIJIbdI7PaJGGARYrhCahk1Ky8` | 35.6291, 139.7759 | ✓ |
-| Nakameguro | ✗ | `ChIJAas2LziLGGAROimsxcM_Rqo` | 35.6387, 139.7026 | ✗ |
+| Name | Indoor | Coordinates | popular_times |
+|---|---|---|---|
+| Shibuya Crossing | ✗ | 35.6595, 139.7006 | ✗ |
+| Akihabara Electric Town | ✗ | 35.6985, 139.7728 | ✗ |
+| Takeshita St (Harajuku) | ✗ | 35.6710, 139.7052 | ✗ |
+| GINZA SIX | ✓ | 35.6698, 139.7642 | ✓ |
+| DECKS Tokyo Beach | ✓ | 35.6291, 139.7759 | ✓ |
+| Nakameguro | ✗ | 35.6387, 139.7026 | ✗ |
 
 #### Markets (3 POIs)
 
-| Name | Indoor | Place ID | Coordinates | popular_times |
-|---|---|---|---|---|
-| Tsukiji Outer Market | ✗ | `ChIJW2cLzSGLGGARXAKXv6EkbqI` | 35.6648, 139.7703 | ✗ |
-| Ameyoko Market | ✗ | `ChIJh7eDrwCPGGARCs9fpCkKS2U` | 35.7090, 139.7746 | ✗ |
-| Yanaka Ginza | ✗ | `ChIJPYwFnNGNGGARYEeXwiYQPe8` | 35.7277, 139.7657 | ✗ |
+| Name | Indoor | Coordinates | popular_times |
+|---|---|---|---|
+| Tsukiji Outer Market | ✗ | 35.6648, 139.7703 | ✗ |
+| Ameyoko Market | ✗ | 35.7090, 139.7746 | ✗ |
+| Yanaka Ginza | ✗ | 35.7277, 139.7657 | ✗ |
 
 #### Amusement Parks (3 POIs)
 
-| Name | Indoor | Place ID | Coordinates | popular_times |
-|---|---|---|---|---|
-| Tokyo DisneySea | ✗ | `ChIJszdHEQN9GGARJS23SnAdR0E` | 35.6267, 139.8851 | ✗ |
-| Tokyo Joypolis | ✓ | `ChIJuTdPXvaJGGARJhT_Ai6urFQ` | 35.6287, 139.7754 | ✗ |
-| Sunshine 60 | ✓ | `ChIJU9ZPE2-NGGARwiJyx0Id61E` | 35.7290, 139.7195 | ✓ |
+| Name | Indoor | Coordinates | popular_times |
+|---|---|---|---|
+| Tokyo DisneySea | ✗ | 35.6267, 139.8851 | ✗ |
+| Tokyo Joypolis | ✓ | 35.6287, 139.7754 | ✗ |
+| Sunshine 60 | ✓ | 35.7290, 139.7195 | ✓ |
 
 ---
 
@@ -184,6 +184,28 @@ The `popular_times` field (when present) has the following structure:
 - `day`: 1 = Monday, 2 = Tuesday, …, 7 = Sunday
 - `hour`: 0–23 (only hours with non-zero activity are included)
 - `percentage`: busyness score 0–100 (relative to the busiest hour of that POI)
+
+#### Weather file: `data/Tokyo_Weatherdata.csv`
+
+Downloaded from [Kaggle](https://www.kaggle.com/datasets/risakashiwabara/tokyo-weatherdata). Source is Japanese government statistics. Used to calibrate thresholds in the weather rule system (e.g. defining what temperature range is considered "comfortable" for outdoor visits in Tokyo).
+
+| Column | Type | Description |
+|---|---|---|
+| `year` | int | Year of observation (2022 or 2023) |
+| `day` | string | Date in `MM/DD` format (e.g. `11/6`) |
+| `temperature` | float | Daily temperature in °C |
+| `humidity` | float | Daily relative humidity in % |
+| `atmospheric_pressure` | float | Daily atmospheric pressure in hPa |
+
+Example rows:
+
+| year | day | temperature | humidity | atmospheric_pressure |
+|---|---|---|---|---|
+| 2022 | 11/6 | 13.5 | 61.0 | 1019.3 |
+| 2022 | 11/7 | 13.7 | 70.0 | 1018.9 |
+| 2022 | 11/8 | 15.9 | 55.0 | 1016.1 |
+
+> **Note:** This dataset provides daily granularity and does not include precipitation or wind speed. It is used as a reference for setting rule thresholds rather than as direct model input. Real-time weather during itinerary generation is fetched from the [Open-Meteo API](https://open-meteo.com).
 
 #### Training file: `data/tokyo_crowd_dataset.csv`
 
