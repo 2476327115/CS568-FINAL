@@ -1,0 +1,11 @@
+# Model artifacts (regenerate with: python crowd_model.py --train)
+crowd_model.pkl
+
+# Claude Code local config
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
