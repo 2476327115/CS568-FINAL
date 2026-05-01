@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tokyo Itinerary Planner</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f0f2f5;
+      color: #1a1a2e;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: #1a1a2e;
+      color: #fff;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+    header h1 { font-size: 1.2rem; font-weight: 600; letter-spacing: 0.3px; }
+    header span { font-size: 0.85rem; color: #9ab; margin-left: auto; }
+
+    .main {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    /* ── Map ── */
+    #map {
+      flex: 1 1 60%;
+      min-width: 0;
+    }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      flex: 0 0 380px;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      border-left: 1px solid #e0e4ed;
+      overflow-y: auto;
+    }
+
+    .section {
+      padding: 18px 20px;
+      border-bottom: 1px solid #eef0f5;
+    }
+    .section-title {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #7a8499;
+      margin-bottom: 12px;
+    }
+
+    /* Date + weekday */
+    .date-row { display: flex; gap: 10px; align-items: center; }
+    .date-row input[type="date"] {
+      flex: 1;
+      padding: 8px 10px;
+      border: 1px solid #d1d5e0;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      color: #1a1a2e;
+    }
+    .weekday-badge {
+      background: #eef2ff;
+      color: #4a6cf7;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    /* Weather inputs */
+    .weather-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 8px;
+    }
+    .weather-grid label {
+      font-size: 0.75rem;
+      color: #7a8499;
+      display: block;
+      margin-bottom: 3px;
+    }
+    .weather-grid input {
+      width: 100%;
+      padding: 7px 8px;
+      border: 1px solid #d1d5e0;
+      border-radius: 6px;
+      font-size: 0.85rem;
+    }
+    .weather-note {
+      font-size: 0.75rem;
+      color: #9ab;
+      margin-top: 7px;
+    }
+
+    /* Selected POIs */
+    #selected-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      min-height: 40px;
+    }
+    .poi-chip {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 10px;
+      background: #f4f6fb;
+      border-radius: 6px;
+      font-size: 0.85rem;
+    }
+    .poi-chip .cat-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .poi-chip .poi-name { flex: 1; }
+    .poi-chip .remove-btn {
+      background: none; border: none;
+      color: #aab; cursor: pointer;
+      font-size: 1rem; line-height: 1;
+      padding: 0 2px;
+    }
+    .poi-chip .remove-btn:hover { color: #e55; }
+    .empty-hint {
+      font-size: 0.82rem;
+      color: #aab;
+      text-align: center;
+      padding: 12px 0;
+    }
+
+    /* Generate button */
+    #generate-btn {
+      width: 100%;
+      padding: 12px;
+      background: #4a6cf7;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    #generate-btn:hover:not(:disabled) { background: #3a5ce0; }
+    #generate-btn:disabled { background: #b0bbdd; cursor: not-allowed; }
+
+    /* Weather result banner */
+    #weather-banner {
+      display: none;
+      font-size: 0.82rem;
+      padding: 8px 12px;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+    #weather-banner.outdoor { background: #e8f5e9; color: #2e7d32; }
+    #weather-banner.indoor  { background: #fff3e0; color: #e65100; }
+    #weather-banner.mixed   { background: #e3f2fd; color: #1565c0; }
+
+    /* Itinerary */
+    #itinerary {
+      padding: 18px 20px;
+      flex: 1;
+    }
+    #itinerary-title {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #7a8499;
+      margin-bottom: 14px;
+    }
+    .schedule-item {
+      display: flex;
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid #f0f2f5;
+    }
+    .schedule-item:last-child { border-bottom: none; }
+    .step-num {
+      width: 26px; height: 26px;
+      border-radius: 50%;
+      background: #4a6cf7;
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 700;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .step-body { flex: 1; }
+    .step-poi  { font-size: 0.92rem; font-weight: 600; margin-bottom: 2px; }
+    .step-time {
+      font-size: 0.82rem;
+      color: #4a6cf7;
+      font-weight: 600;
+      margin-bottom: 3px;
+    }
+    .step-why  { font-size: 0.78rem; color: #7a8499; }
+    .cat-badge {
+      display: inline-block;
+      font-size: 0.68rem;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-weight: 600;
+      text-transform: capitalize;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 30px;
+      color: #7a8499;
+      font-size: 0.9rem;
+    }
+    .error-msg {
+      background: #fff0f0;
+      color: #c0392b;
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+    }
+
+    /* Map tooltip */
+    .leaflet-tooltip {
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Tokyo Itinerary Planner</h1>
+  <span>Click map pins to select POIs, then generate your tour</span>
+</header>
+
+<div class="main">
+  <div id="map"></div>
+
+  <div class="sidebar">
+
+    <!-- Date -->
+    <div class="section">
+      <div class="section-title">Visit Date</div>
+      <div class="date-row">
+        <input type="date" id="visit-date" />
+        <div class="weekday-badge" id="weekday-label">Monday</div>
+      </div>
+    </div>
+
+    <!-- Weather (optional) -->
+    <div class="section">
+      <div class="section-title">Weather (optional)</div>
+      <div class="weather-grid">
+        <div>
+          <label>Temp (°C)</label>
+          <input type="number" id="weather-temp" placeholder="e.g. 22" step="0.1" />
+        </div>
+        <div>
+          <label>Humidity (%)</label>
+          <input type="number" id="weather-humidity" placeholder="e.g. 65" min="0" max="100" />
+        </div>
+        <div>
+          <label>Pressure (hPa)</label>
+          <input type="number" id="weather-pressure" placeholder="e.g. 1013" />
+        </div>
+      </div>
+      <div class="weather-note">Leave blank to skip weather adjustments.</div>
+    </div>
+
+    <!-- Selected POIs -->
+    <div class="section">
+      <div class="section-title">Selected POIs (<span id="poi-count">0</span>)</div>
+      <div id="selected-list">
+        <div class="empty-hint">Click pins on the map to add POIs.</div>
+      </div>
+    </div>
+
+    <!-- Generate -->
+    <div class="section">
+      <button id="generate-btn" disabled>Generate Itinerary</button>
+      <div id="weather-banner"></div>
+    </div>
+
+    <!-- Results -->
+    <div id="itinerary">
+      <div id="itinerary-title" style="display:none">Recommended Schedule</div>
+      <div id="schedule-output"></div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+// ── Category colors ────────────────────────────────────────────────────────────
+const CAT_COLOR = {
+  museum:        "#7c3aed",
+  shrine:        "#d97706",
+  viewpoint:     "#0ea5e9",
+  park:          "#16a34a",
+  shopping_area: "#db2777",
+  amusement_park:"#ea580c",
+};
+
+const CAT_LABEL = {
+  museum: "Museum", shrine: "Shrine", viewpoint: "Viewpoint",
+  park: "Park", shopping_area: "Shopping", amusement_park: "Amusement",
+};
+
+function categoryColor(cat) {
+  return CAT_COLOR[cat] || "#555";
+}
+
+// ── State ─────────────────────────────────────────────────────────────────────
+const selectedPois = new Set();
+const markers = {};  // poi_name → Leaflet marker
+
+// ── Map setup ─────────────────────────────────────────────────────────────────
+const map = L.map("map").setView([35.685, 139.753], 12);
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution: "© OpenStreetMap contributors",
+  maxZoom: 19,
+}).addTo(map);
+
+function makeIcon(color, selected) {
+  const size = selected ? 14 : 11;
+  const border = selected ? "3px solid #fff" : "2px solid rgba(0,0,0,0.25)";
+  const shadow = selected ? "0 0 0 3px " + color + "55" : "none";
+  return L.divIcon({
+    className: "",
+    html: `<div style="
+      width:${size}px; height:${size}px;
+      background:${color};
+      border-radius:50%;
+      border:${border};
+      box-shadow:${shadow};
+      cursor:pointer;
+    "></div>`,
+    iconSize: [size + 6, size + 6],
+    iconAnchor: [(size + 6) / 2, (size + 6) / 2],
+  });
+}
+
+function updateMarker(poiName) {
+  const m = markers[poiName];
+  if (!m) return;
+  const cat = m._poiData.category;
+  const sel = selectedPois.has(poiName);
+  m.setIcon(makeIcon(categoryColor(cat), sel));
+}
+
+// ── Load POIs from backend ─────────────────────────────────────────────────────
+fetch("/api/pois")
+  .then(r => r.json())
+  .then(pois => {
+    for (const [name, data] of Object.entries(pois)) {
+      const color = categoryColor(data.category);
+      const marker = L.marker([data.lat, data.lng], {
+        icon: makeIcon(color, false),
+      });
+      marker._poiData = data;
+      marker._poiName = name;
+
+      marker.bindTooltip(name, { direction: "top", offset: [0, -6] });
+      marker.on("click", () => togglePoi(name));
+      marker.addTo(map);
+      markers[name] = marker;
+    }
+  });
+
+function togglePoi(name) {
+  if (selectedPois.has(name)) {
+    selectedPois.delete(name);
+  } else {
+    selectedPois.add(name);
+  }
+  updateMarker(name);
+  renderSelectedList();
+}
+
+function renderSelectedList() {
+  const list = document.getElementById("selected-list");
+  const countEl = document.getElementById("poi-count");
+  const btn = document.getElementById("generate-btn");
+  countEl.textContent = selectedPois.size;
+
+  if (selectedPois.size === 0) {
+    list.innerHTML = '<div class="empty-hint">Click pins on the map to add POIs.</div>';
+    btn.disabled = true;
+    return;
+  }
+
+  btn.disabled = false;
+  list.innerHTML = [...selectedPois].map(name => {
+    const marker = markers[name];
+    const cat = marker ? marker._poiData.category : "";
+    const color = categoryColor(cat);
+    return `
+      <div class="poi-chip" data-name="${name}">
+        <div class="cat-dot" style="background:${color}"></div>
+        <span class="poi-name">${name}</span>
+        <button class="remove-btn" onclick="removePoi('${name.replace(/'/g, "\\'")}')" title="Remove">×</button>
+      </div>`;
+  }).join("");
+}
+
+function removePoi(name) {
+  selectedPois.delete(name);
+  updateMarker(name);
+  renderSelectedList();
+}
+
+// ── Date / weekday ─────────────────────────────────────────────────────────────
+const WEEKDAYS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+const dateInput = document.getElementById("visit-date");
+const weekdayLabel = document.getElementById("weekday-label");
+
+// Default to today
+const today = new Date();
+dateInput.value = today.toISOString().split("T")[0];
+weekdayLabel.textContent = WEEKDAYS[today.getDay()];
+
+dateInput.addEventListener("change", () => {
+  const d = new Date(dateInput.value + "T12:00:00");
+  weekdayLabel.textContent = WEEKDAYS[d.getDay()];
+});
+
+function getWeekdayNum() {
+  const d = new Date(dateInput.value + "T12:00:00");
+  const jsDay = d.getDay(); // 0=Sun, 6=Sat
+  // Convert to Mon=0 … Sun=6
+  return (jsDay + 6) % 7;
+}
+
+// ── Generate ───────────────────────────────────────────────────────────────────
+document.getElementById("generate-btn").addEventListener("click", async () => {
+  const btn = document.getElementById("generate-btn");
+  const output = document.getElementById("schedule-output");
+  const title = document.getElementById("itinerary-title");
+  const banner = document.getElementById("weather-banner");
+
+  btn.disabled = true;
+  btn.textContent = "Generating…";
+  output.innerHTML = '<div class="loading">Optimizing your schedule…</div>';
+  title.style.display = "block";
+  banner.style.display = "none";
+
+  const payload = {
+    pois: [...selectedPois],
+    weekday_num: getWeekdayNum(),
+    weather: {
+      temp:     document.getElementById("weather-temp").value,
+      humidity: document.getElementById("weather-humidity").value,
+      pressure: document.getElementById("weather-pressure").value,
+    },
+  };
+
+  try {
+    const res = await fetch("/api/generate", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    const data = await res.json();
+
+    if (data.error) {
+      output.innerHTML = `<div class="error-msg">${data.error}</div>`;
+    } else {
+      renderSchedule(data.schedule);
+      renderWeatherBanner(data.weather);
+    }
+  } catch (e) {
+    output.innerHTML = `<div class="error-msg">Server error: ${e.message}</div>`;
+  }
+
+  btn.disabled = false;
+  btn.textContent = "Generate Itinerary";
+});
+
+function renderWeatherBanner(w) {
+  const banner = document.getElementById("weather-banner");
+  const cls = w.recommendation === "outdoor_preferred" ? "outdoor"
+            : w.recommendation === "indoor_preferred"  ? "indoor"
+            : "mixed";
+  const icons = { outdoor: "☀️", indoor: "🏠", mixed: "⛅" };
+  const labels = {
+    outdoor_preferred: "Good weather — outdoor spots prioritized",
+    indoor_preferred:  "Unfavorable weather — indoor venues preferred",
+    mixed:             "Mixed conditions — balanced schedule",
+  };
+  banner.className = "weather-banner " + cls;
+  banner.style.display = "block";
+  banner.textContent = labels[w.recommendation] || w.recommendation;
+
+  // Re-apply style since className was reset
+  const styles = {
+    outdoor: "background:#e8f5e9;color:#2e7d32",
+    indoor:  "background:#fff3e0;color:#e65100",
+    mixed:   "background:#e3f2fd;color:#1565c0",
+  };
+  banner.style.cssText = `display:block;font-size:0.82rem;padding:8px 12px;border-radius:6px;margin-top:10px;${styles[cls]}`;
+}
+
+function renderSchedule(schedule) {
+  const output = document.getElementById("schedule-output");
+  if (!schedule.length) {
+    output.innerHTML = '<div class="empty-hint">No schedule could be generated.</div>';
+    return;
+  }
+
+  output.innerHTML = schedule.map((item, i) => {
+    const color = categoryColor(item.category);
+    const catLabel = CAT_LABEL[item.category] || item.category;
+    return `
+      <div class="schedule-item">
+        <div class="step-num">${i + 1}</div>
+        <div class="step-body">
+          <div class="step-poi">
+            ${item.poi}
+            <span class="cat-badge" style="background:${color}22;color:${color}">${catLabel}</span>
+          </div>
+          <div class="step-time">${item.time_label}</div>
+          <div class="step-why">${item.explanation}</div>
+        </div>
+      </div>`;
+  }).join("");
+}
+</script>
+
+</body>
+</html>
