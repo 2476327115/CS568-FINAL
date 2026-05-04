@@ -345,7 +345,45 @@ Example output:
 
 ## 6. Itinerary Optimization
 
-> _[TODO: Utility score formula, greedy scheduling algorithm, rule-based time-match bonuses]_
+Implemented as an **AI-style recommendation agent** in `itinerary_agent.py` and served by `POST /api/generate`.
+
+### Agent Inputs
+
+- `pois`: selected POI names (list of strings)
+- `weekday_num`: day index (`0=Mon ... 6=Sun`)
+- `weather`:
+  - `temp` (C)
+  - `humidity` (%)
+  - `pressure` (hPa)
+
+### Agent Strategy
+
+For each hourly slot, the agent scores each remaining candidate POI and picks the best:
+
+`utility = (1 - crowd_score) + weather_adjustment + category_time_bonus - travel_penalty`
+
+Scoring components:
+- `crowd_score`: from `crowd_rules.py` fallback hierarchy
+- `weather_adjustment`: indoor/outdoor penalty based on weather rule result
+- `category_time_bonus`: category-specific preferred windows (e.g., viewpoints near sunset)
+- `travel_penalty`: distance penalty from previous POI to reduce zig-zag routing
+- `forecast_adjustment` (when visit date is provided):
+  - outdoor penalty for strong wind / rain risk / very hot day
+  - sunset bonus for viewpoint slots near sunset hour
+
+### Agent Output
+
+- `agent`: version id (currently `itinerary_agent_v1`)
+- `weather`: output from `weather_rules.classify_weather`
+- `forecast`: Open-Meteo forecast snapshot used in scoring
+- `schedule`: ordered list with:
+  - `poi`, `hour`, `time_label`
+  - `category`, `is_indoor`
+  - `utility`
+  - `crowd_score`, `crowd_rule_used`
+  - `travel_km_from_prev`
+  - `explanation`
+- `summary`: short natural-language rationale
 
 ---
 
@@ -411,4 +449,16 @@ python crowd_rules.py --poi-category park --is-indoor 0 --weekday saturday --hou
 # Run local frontend demo
 python -m http.server 8000
 # then open http://localhost:8000/frontend/
+
+# Run API server with itinerary agent
+python app.py
 ```
+
+### Forecast API
+
+- `GET /api/forecast?date=YYYY-MM-DD`
+- Returns Tokyo forecast for that date including:
+  - midday temperature/humidity/pressure
+  - daily max wind
+  - precipitation probability
+  - sunrise/sunset time
