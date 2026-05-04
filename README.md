@@ -351,7 +351,31 @@ Example output:
 
 ## 7. Frontend
 
-> _[TODO: Tech stack, UI components, map integration, timeline view]_
+The frontend prototype is in `frontend/` and provides:
+
+- Site list with multi-select checkboxes
+- Interactive map of Japan (Leaflet + OpenStreetMap)
+- Pin markers for all Tokyo POIs from `data/tokyo_poi_raw.json`
+- Map filtering by selected list items:
+  - only checked sites are shown as map pins
+  - `Select all` / `Clear all` controls are included
+  - clicking a visible pin updates the detail panel
+
+### Files
+
+- `frontend/index.html`
+- `frontend/styles.css`
+- `frontend/app.js`
+
+### Data Contract
+
+The map expects each POI entry in `data/tokyo_poi_raw.json` to include:
+- `name`
+- `latitude`
+- `longitude`
+- `_poi_category`
+- `_is_indoor`
+- `address`
 
 ---
 
@@ -383,4 +407,8 @@ python crowd_rules.py --summary
 
 # Predict crowd for a request context
 python crowd_rules.py --poi-category park --is-indoor 0 --weekday saturday --hour 14
+
+# Run local frontend demo
+python -m http.server 8000
+# then open http://localhost:8000/frontend/
 ```
