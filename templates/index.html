@@ -665,6 +665,10 @@ function renderSchedule(schedule) {
             <span class="cat-badge" style="background:${color}22;color:${color}">${catLabel}</span>
           </div>
           <div class="step-time">${item.time_label}</div>
+          <div class="step-why">
+            Stay: ${item.recommended_stay_min ?? 60} min
+            ${item.transit_to_next_min ? ` · Transit to next: ${item.transit_to_next_min} min (${item.transit_to_next_km} km)` : ""}
+          </div>
           <div class="step-why">${item.explanation}</div>
         </div>
       </div>`;

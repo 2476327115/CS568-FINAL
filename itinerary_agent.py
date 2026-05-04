@@ -35,7 +35,12 @@ class AgentStop:
     crowd_score: float
     crowd_rule_used: str
     travel_km_from_prev: float
-    explanation: str
+    recommended_stay_min: int = 0
+    start_time: str = ""
+    end_time: str = ""
+    transit_to_next_km: float = 0.0
+    transit_to_next_min: int = 0
+    explanation: str = ""
 
 
 def _get_crowd_indices():
@@ -116,6 +121,34 @@ def _forecast_adjustment(
             pass
 
     return adj, reasons
+
+
+def _recommended_stay_min(category: str, is_indoor: int) -> int:
+    if category == "museum":
+        return 120
+    if category == "viewpoint":
+        return 75
+    if category == "amusement_park":
+        return 150
+    if category == "shopping_area":
+        return 90
+    if category == "shrine":
+        return 60
+    if category == "park":
+        return 75
+    return 90
+
+
+def _travel_minutes(distance_km: float) -> int:
+    # Urban transit rough average + fixed transfer/wait buffer.
+    minutes = int(round((distance_km / 22.0) * 60.0 + 12.0))
+    return max(10, minutes)
+
+
+def _to_hhmm(total_minutes: int) -> str:
+    h = total_minutes // 60
+    m = total_minutes % 60
+    return f"{h:02d}:{m:02d}"
 
 
 def recommend_itinerary(
@@ -224,13 +257,40 @@ def recommend_itinerary(
         remaining.remove(poi_name)
         prev_poi = poi_name
 
+    # Build timeline with per-site stay time + transport buffer to next stop.
+    start_clock_min = 9 * 60
+    enriched = []
+    for i, stop in enumerate(schedule):
+        stay = _recommended_stay_min(stop.category, stop.is_indoor)
+        next_km = 0.0
+        next_min = 0
+        if i < len(schedule) - 1:
+            a = poi_catalog[stop.poi]
+            b = poi_catalog[schedule[i + 1].poi]
+            next_km = round(_haversine_km(a["lat"], a["lng"], b["lat"], b["lng"]), 2)
+            next_min = _travel_minutes(next_km)
+        start = _to_hhmm(start_clock_min)
+        end = _to_hhmm(start_clock_min + stay)
+        start_clock_min += stay + next_min
+        enriched.append(
+            {
+                **stop.__dict__,
+                "recommended_stay_min": stay,
+                "start_time": start,
+                "end_time": end,
+                "time_label": f"{start}-{end}",
+                "transit_to_next_km": next_km,
+                "transit_to_next_min": next_min,
+            }
+        )
+
     return {
         "agent": "itinerary_agent_v1",
         "weather": weather_result,
         "forecast": forecast,
-        "schedule": [s.__dict__ for s in schedule],
+        "schedule": enriched,
         "summary": (
             "Order optimized by crowd, weather fit, category-time preferences, "
-            "and travel distance."
+            "distance, recommended stay time, and transit buffers."
         ),
     }
