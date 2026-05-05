@@ -6,6 +6,7 @@ interface SearchBoxProps {
   onQueryChange: (value: string) => void;
   recommendedPlaces: Place[];
   candidates: Place[];
+  selectedPlaceIds: string[];
   onTagClick: (placeId: string) => void;
   onSelectCandidate: (placeId: string) => void;
 }
@@ -15,6 +16,7 @@ export function SearchBox({
   onQueryChange,
   recommendedPlaces,
   candidates,
+  selectedPlaceIds,
   onTagClick,
   onSelectCandidate,
 }: SearchBoxProps) {
@@ -32,7 +34,12 @@ export function SearchBox({
           placeholder="Search places, e.g. Shibuya Sky, Senso-ji..."
           className="w-full rounded-2xl border border-slate-200 bg-slate-50/80 py-3 pl-11 pr-4 text-sm text-ink outline-none transition focus:border-harbor focus:bg-white focus:ring-4 focus:ring-harbor/10"
         />
-        <PlaceCandidateList candidates={candidates} onSelect={onSelectCandidate} floating />
+        <PlaceCandidateList
+          candidates={candidates}
+          onSelect={onSelectCandidate}
+          selectedPlaceIds={selectedPlaceIds}
+          floating
+        />
       </div>
       {query.trim() ? null : (
         <div className="space-y-2">

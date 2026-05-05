@@ -3,462 +3,296 @@
 > **CS 568 / User-Centered Machine Learning · Sp26**  
 > Team: Kelsey Ren · Gezhi Zou · Ryan Muldoon · XiaoCheng Ma · Varad Rasalkar
 
----
+## Overview
 
-## Table of Contents
+This repository contains a Tokyo travel-planning project with two layers:
 
-1. [Project Overview](#1-project-overview)
-2. [System Architecture](#2-system-architecture)
-3. [Data Preparation](#3-data-preparation)
-   - 3.1 [Data Sources](#31-data-sources)
-   - 3.2 [POI List](#32-poi-list)
-   - 3.3 [Scraping Process](#33-scraping-process)
-   - 3.4 [Dataset Schema](#34-dataset-schema)
-   - 3.5 [Data Statistics](#35-data-statistics)
-4. [Crowd Prediction Model](#4-crowd-prediction-model)
-5. [Weather Rule System](#5-weather-rule-system)
-6. [Itinerary Optimization](#6-itinerary-optimization)
-7. [Frontend](#7-frontend)
-8. [Evaluation](#8-evaluation)
-9. [Setup & Usage](#9-setup--usage)
+- A polished **frontend prototype** in `frontend/` built with **Vite + React + TypeScript + Tailwind CSS + Mapbox GL JS**
+- A retained **Python research/backend pipeline** for crowd rules, weather rules, and itinerary generation
 
----
+The current frontend focuses on a **transparent, controllable AI trip planner** experience for a CS/HCI final project demo. Users select Tokyo attractions, set trip dates and pace, generate a multi-day itinerary, inspect AI reasoning, and regenerate routes with different goals.
 
-## 1. Project Overview
+## Current Status
 
-> _[TODO: Brief project description — research question, motivation, focus on Tokyo as case study]_
+### Frontend prototype
 
----
+The main demo lives in `frontend/` and currently supports:
 
-## 2. System Architecture
+- Place search with autocomplete
+- Selected-place chips and persistent map markers
+- Start date / end date trip setup
+- Multi-day itinerary splitting
+- Pace modes:
+  - `Relaxed`
+  - `Normal`
+  - `Compact`
+- AI planning modal with staged reasoning steps
+- Final itinerary timeline grouped by day
+- Day-colored markers, cards, and route lines
+- Real route geometry from **Mapbox Directions API**
+- Route invalidation when places / dates / pace change
+- Regenerate route goals:
+  - `Less crowd`
+  - `Better weather`
+  - `Shorter travel time`
 
-> _[TODO: System diagram and pipeline description]_
+### Backend / research code
 
----
+The Python code is still included and runnable, but it is **not the primary path for the current frontend prototype**. The frontend currently uses mock itinerary data plus Mapbox routing for the UI demo.
 
-## 3. Data Preparation
+Retained backend components include:
 
-### 3.1 Data Sources
+- `app.py` — Flask app
+- `crowd_rules.py` — rule-based crowd prediction
+- `weather_rules.py` — weather preference rules
+- `itinerary_agent.py` — itinerary recommendation logic
+- `forecast_weather.py` — forecast helper
 
-| Data | Source | Coverage | Purpose |
-|---|---|---|---|
-| POI crowd patterns | [Outscraper Google Maps API](https://outscraper.com) | 32 Tokyo POIs, scraped 2026-04-29 | Training data for crowd prediction model |
-| Historical weather | [Tokyo Weatherdata — Kaggle](https://www.kaggle.com/datasets/risakashiwabara/tokyo-weatherdata) | Tokyo, 2022–2023, daily | Reference for weather rule thresholds |
-| Sunrise / sunset times | [Sunrise-Sunset API](https://sunrise-sunset.org/api) | Real-time | Time-match bonus rules in itinerary optimizer |
-| POI metadata | Outscraper Google Maps API | 32 Tokyo POIs | Coordinates, categories, opening hours |
+## Repository Structure
 
----
-
-### 3.2 POI List
-
-32 Tokyo POIs were selected across 7 categories, covering a range of indoor/outdoor and time-sensitive venue types. The **`popular_times`** column indicates whether Google Maps crowd data was successfully retrieved.
-
-#### Museums (5 POIs)
-
-| Name | Indoor | Coordinates | popular_times |
-|---|---|---|---|
-| Tokyo National Museum | ✓ | 35.7188, 139.7765 | ✗ |
-| Mori Art Museum | ✓ | 35.6605, 139.7293 | ✗ |
-| teamLab Planets TOKYO DMM | ✓ | 35.6491, 139.7898 | ✓ |
-| Edo-Tokyo Museum | ✓ | 35.6966, 139.7957 | ✗ |
-| National Museum of Nature and Science | ✓ | 35.7164, 139.7763 | ✓ |
-
-#### Shrines & Temples (5 POIs)
-
-| Name | Indoor | Coordinates | popular_times |
-|---|---|---|---|
-| Sensō-ji | ✗ | 35.7148, 139.7967 | ✗ |
-| Meiji Jingu | ✗ | 35.6764, 139.6993 | ✗ |
-| Zojo-ji Temple | ✗ | 35.6575, 139.7483 | ✓ |
-| Yasukuni Shrine | ✗ | 35.6941, 139.7438 | ✓ |
-| Nezu Shrine | ✗ | 35.7201, 139.7608 | ✓ |
-
-#### Viewpoints & Towers (5 POIs)
-
-| Name | Indoor | Coordinates | popular_times |
-|---|---|---|---|
-| Tokyo Skytree | ✓ | 35.7101, 139.8107 | ✓ |
-| Tokyo Tower | ✓ | 35.6586, 139.7454 | ✓ |
-| Shibuya Sky | ✓ | 35.6587, 139.7020 | ✓ |
-| Tokyo Metropolitan Government Building No.1 | ✓ | 35.6895, 139.6917 | ✗ |
-| Roppongi Hills Mori Tower | ✓ | 35.6607, 139.7292 | ✗ |
-
-#### Parks (5 POIs)
-
-| Name | Indoor | Coordinates | popular_times |
-|---|---|---|---|
-| Shinjuku Gyoen National Garden | ✗ | 35.6852, 139.7101 | ✓ |
-| Ueno Park | ✗ | 35.7148, 139.7734 | ✓ |
-| Yoyogi Park | ✗ | 35.6701, 139.6950 | ✓ |
-| Hibiya Park | ✗ | 35.6736, 139.7559 | ✓ |
-| Inokashira Park | ✗ | 35.6997, 139.5737 | ✓ |
-
-#### Shopping Areas (6 POIs)
-
-| Name | Indoor | Coordinates | popular_times |
-|---|---|---|---|
-| Shibuya Crossing | ✗ | 35.6595, 139.7006 | ✗ |
-| Akihabara Electric Town | ✗ | 35.6985, 139.7728 | ✗ |
-| Takeshita St (Harajuku) | ✗ | 35.6710, 139.7052 | ✗ |
-| GINZA SIX | ✓ | 35.6698, 139.7642 | ✓ |
-| DECKS Tokyo Beach | ✓ | 35.6291, 139.7759 | ✓ |
-| Nakameguro | ✗ | 35.6387, 139.7026 | ✗ |
-
-#### Markets (3 POIs)
-
-| Name | Indoor | Coordinates | popular_times |
-|---|---|---|---|
-| Tsukiji Outer Market | ✗ | 35.6648, 139.7703 | ✗ |
-| Ameyoko Market | ✗ | 35.7090, 139.7746 | ✗ |
-| Yanaka Ginza | ✗ | 35.7277, 139.7657 | ✗ |
-
-#### Amusement Parks (3 POIs)
-
-| Name | Indoor | Coordinates | popular_times |
-|---|---|---|---|
-| Tokyo DisneySea | ✗ | 35.6267, 139.8851 | ✗ |
-| Tokyo Joypolis | ✓ | 35.6287, 139.7754 | ✗ |
-| Sunshine 60 | ✓ | 35.7290, 139.7195 | ✓ |
-
----
-
-### 3.3 Scraping Process
-
-**Tool:** [Outscraper Google Maps API](https://outscraper.com/google-maps-api/) via the official Python SDK (`pip install outscraper`)
-
-**Why Outscraper:** Google's official Places API does not expose `popular_times` data. Outscraper provides this data by scraping Google Maps and returning it in a structured format. The free tier covers 500 records/month, sufficient for this project.
-
-**Key constraint:** `popular_times` is only returned for **individual (single-POI) searches**, not category/area searches. Each POI was therefore queried separately with `limit=1`.
-
-**Scraping script:** `data/tokyo_scraper_outscraper.py`
-
-```
-Input:  List of 32 POI search queries (name + district + city + country)
-Output: data/tokyo_poi_raw.json   — raw API response per POI
-        data/tokyo_crowd_dataset.csv — flattened training dataset
+```text
+.
+├── app.py
+├── crowd_rules.py
+├── weather_rules.py
+├── itinerary_agent.py
+├── forecast_weather.py
+├── data/
+│   ├── tokyo_poi_raw.json
+│   ├── tokyo_crowd_dataset.csv
+│   ├── weather_tokyo_data.csv
+│   └── json_to_csv.py
+├── frontend/
+│   ├── package.json
+│   ├── public/
+│   │   └── places/
+│   └── src/
+│       ├── App.tsx
+│       ├── components/
+│       ├── constants/mockData.ts
+│       ├── lib/
+│       └── types.ts
+└── templates/
 ```
 
-**Post-processing script:** `data/json_to_csv.py`
+## Frontend Architecture
+
+### Core state flow
+
+The prototype uses a step-based UI flow:
+
+1. `start` — select places
+2. `tripDetails` — set dates, duration, pace
+3. `review` — confirm trip summary
+4. `planning` — AI reasoning modal
+5. `result` — final itinerary and regenerate controls
+
+### Important frontend files
+
+- `frontend/src/App.tsx`
+  - top-level state machine
+  - route generation flow
+  - multi-day itinerary assembly
+  - stale route handling
+- `frontend/src/components/MapView.tsx`
+  - Mapbox / mock map rendering
+  - colored markers and per-day route lines
+- `frontend/src/components/AIPlanningPanel.tsx`
+  - staged planning modal
+- `frontend/src/components/ItineraryTimeline.tsx`
+  - final result UI
+- `frontend/src/lib/fetchMapboxRoute.ts`
+  - Mapbox Directions request helper
+- `frontend/src/lib/multiDayItinerary.ts`
+  - date-range and day-splitting logic
+- `frontend/src/lib/itinerarySchedule.ts`
+  - time parsing, sorting, overlap repair
+- `frontend/src/lib/regenerateItineraryWithGoals.ts`
+  - regenerate-goal reordering logic
+- `frontend/src/lib/dayThemes.ts`
+  - day color theme mapping
+
+## Data
+
+### Files currently used
+
+- `data/tokyo_poi_raw.json`
+  - raw POI metadata and image references
+- `data/tokyo_crowd_dataset.csv`
+  - flattened crowd dataset
+- `data/weather_tokyo_data.csv`
+  - historical Tokyo weather reference
+
+### Frontend mock POIs
+
+The frontend prototype currently uses a curated subset of Tokyo POIs from `frontend/src/constants/mockData.ts`, including:
+
+- Shibuya Sky
+- Senso-ji Temple
+- Tokyo Tower
+- Ueno Park
+- Meiji Shrine
+- Shibuya Scramble Crossing
+- Shibuya Station
+- Shibuya PARCO
+
+The UI uses local images from `frontend/public/places/` where available.
+
+## Multi-Day Planning Logic
+
+The current frontend supports date-range-based trip planning.
+
+- Users choose a `startDate` and `endDate`
+- `tripDays` is calculated as an **inclusive** date range
+- Stops are split across days according to pace mode
+
+Pace modes:
+
+- `Relaxed` — 1–2 places/day
+- `Normal` — 3–4 places/day
+- `Compact` — 5–6 places/day
+
+Hard constraints:
+
+- Maximum 6 places per day
+- Extra stops are marked as unscheduled if needed
+
+## Routing
+
+The frontend uses **Mapbox Directions API** for route geometry.
+
+- Profile: `walking`
+- Geometry: `geojson`
+- Overview: `full`
+
+Important behavior:
+
+- Route validity is tied to the exact generated stop order
+- If the user changes places, dates, or pace after generation, the route becomes stale
+- Multi-day routes are rendered **per day**, with separate route layers and matching day colors
+- Days with only one stop show a marker but no route line
+
+## Regenerate Route Goals
+
+The final screen allows users to regenerate the itinerary with goals:
+
+- `Less crowd`
+- `Better weather`
+- `Shorter travel time`
+
+Current implementation:
+
+- Reorders stops **within each day**
+- Uses existing mock score fields:
+  - `crowd`
+  - `weather`
+  - `travel`
+  - `preference`
+- Uses coordinate distance as a lightweight travel-time approximation when `Shorter travel time` is selected
+
+This is still a prototype heuristic, not a production optimizer.
+
+## Running the Frontend
+
+### Requirements
+
+- Node.js 18+
+- npm
+
+### Install
 
 ```bash
-# Convert raw JSON → training CSV without re-scraping
-python data/json_to_csv.py --input data/tokyo_poi_raw.json --output data/tokyo_crowd_dataset.csv
+cd frontend
+npm install
 ```
 
-**Scraping date:** 2026-04-29
+### Optional: Mapbox token
 
-**Request rate:** 1 request per 1.5 seconds (Outscraper server-side, no local IP risk)
+Create:
 
----
+`frontend/.env.local`
 
-### 3.4 Dataset Schema
-
-#### Raw file: `data/tokyo_poi_raw.json`
-
-A JSON array of 32 objects. Each object is the full Outscraper API response for one POI, with the following project-specific fields appended:
-
-| Field | Type | Description |
-|---|---|---|
-| `_poi_category` | string | Project category label: `museum`, `shrine`, `viewpoint`, `park`, `shopping_area`, `market`, `amusement_park` |
-| `_is_indoor` | bool | Whether the POI is an indoor venue |
-| `_query` | string | The search query used to retrieve this POI |
-| `_scraped_at` | string (ISO 8601) | Timestamp of when the record was scraped |
-
-The `popular_times` field (when present) has the following structure:
-
-```json
-[
-  {
-    "day": 1,
-    "day_text": "Monday",
-    "popular_times": [
-      { "hour": 9,  "percentage": 48, "time": "9a", "title": "Usually not too busy" },
-      { "hour": 10, "percentage": 67, "time": "9a", "title": "Usually a little busy" },
-      ...
-    ]
-  },
-  ...
-]
+```env
+VITE_MAPBOX_TOKEN=your_mapbox_token_here
 ```
 
-- `day`: 1 = Monday, 2 = Tuesday, …, 7 = Sunday
-- `hour`: 0–23 (only hours with non-zero activity are included)
-- `percentage`: busyness score 0–100 (relative to the busiest hour of that POI)
+If no token is set, the app falls back to a mock map surface for demo purposes.
 
-#### Weather file: `data/Tokyo_Weatherdata.csv`
-
-Downloaded from [Kaggle](https://www.kaggle.com/datasets/risakashiwabara/tokyo-weatherdata). Source is Japanese government statistics. Used to calibrate thresholds in the weather rule system (e.g. defining what temperature range is considered "comfortable" for outdoor visits in Tokyo).
-
-| Column | Type | Description |
-|---|---|---|
-| `year` | int | Year of observation (2022 or 2023) |
-| `day` | string | Date in `MM/DD` format (e.g. `11/6`) |
-| `temperature` | float | Daily temperature in °C |
-| `humidity` | float | Daily relative humidity in % |
-| `atmospheric_pressure` | float | Daily atmospheric pressure in hPa |
-
-Example rows:
-
-| year | day | temperature | humidity | atmospheric_pressure |
-|---|---|---|---|---|
-| 2022 | 11/6 | 13.5 | 61.0 | 1019.3 |
-| 2022 | 11/7 | 13.7 | 70.0 | 1018.9 |
-| 2022 | 11/8 | 15.9 | 55.0 | 1016.1 |
-
-> **Note:** This dataset provides daily granularity and does not include precipitation or wind speed. It is used as a reference for setting rule thresholds rather than as direct model input. Real-time weather during itinerary generation is fetched from the [Open-Meteo API](https://open-meteo.com).
-
-#### Training file: `data/tokyo_crowd_dataset.csv`
-
-Flattened from `tokyo_poi_raw.json`. One row per `(POI, weekday, hour)` combination. Only POIs with `popular_times` data are included.
-
-| Column | Type | Description |
-|---|---|---|
-| `poi_name` | string | POI display name |
-| `poi_category` | string | `museum` / `shrine` / `viewpoint` / `park` / `shopping_area` / `market` / `amusement_park` |
-| `is_indoor` | int (0/1) | Whether the venue is indoors |
-| `weekday` | string | `Monday` – `Sunday` |
-| `weekday_num` | int | 0 = Monday … 6 = Sunday |
-| `is_weekend` | int (0/1) | 1 if Saturday or Sunday |
-| `hour` | int | Hour of day, 0–23 |
-| `crowd_score` | float | **Model target.** Normalized busyness, 0.0–1.0 (= `raw_score / 100`) |
-| `raw_score` | int | Original Google busyness value, 0–100 |
-
----
-
-### 3.5 Data Statistics
-
-| Category | Total POIs | POIs with popular_times | Training rows |
-|---|---|---|---|
-| museum | 5 | 2 | 336 |
-| shrine | 5 | 3 | 504 |
-| viewpoint | 5 | 3 | 504 |
-| park | 5 | 5 | 840 |
-| shopping_area | 6 | 2 | 336 |
-| market | 3 | 0 | 0 |
-| amusement_park | 3 | 1 | 168 |
-| **Total** | **32** | **16** | **2,688** |
-
-> **Note on missing data:** 16 POIs returned `popular_times: null` from the API. This commonly occurs for venues that Google Maps does not have sufficient visit history for, or for outdoor areas (e.g. street crossings, open markets) that are not tracked as distinct places. The market category is entirely missing and should be supplemented with additional POIs or mock data in future iterations.
-
----
-
-## 4. Crowd Prediction Model
-
-Current implementation uses a **rule-based crowd prediction system** built directly from `data/tokyo_crowd_dataset.csv` (2,784 rows).
-
-### Inputs
-
-- `poi_name` (optional, improves specificity when available)
-- `poi_category` (required)
-- `is_indoor` (0/1)
-- `weekday` or `weekday_num` (0=Mon ... 6=Sun)
-- `hour` (0-23)
-
-### Output
-
-`crowd_rules.py` returns:
-- `crowd_score` (0.0-1.0)
-- `raw_score` (0-100)
-- `crowd_level` (`low` / `medium` / `high`)
-- `rule_used` (which fallback tier produced the prediction)
-- `support_count` (number of historical rows used in that aggregate)
-
-### Rule Base (Fallback Hierarchy)
-
-Prediction tries the most specific rule first, then backs off:
-
-1. `poi_name + weekday + hour` (exact venue-time pattern)
-2. `poi_category + weekday + hour`
-3. `poi_category + hour`
-4. `is_indoor + weekday + hour`
-5. `weekday + hour`
-6. `poi_category` global mean
-7. Global mean fallback
-
-### Crowd Level Mapping
-
-- `low`: `crowd_score < 0.35`
-- `medium`: `0.35 <= crowd_score < 0.65`
-- `high`: `crowd_score >= 0.65`
-
----
-
-## 5. Weather Rule System
-
-The weather rule system decides whether the itinerary should prioritize outdoor POIs, indoor POIs, or a mixed schedule.
-
-### Rule Inputs
-
-- `temperature_c` (current temperature in Celsius)
-- `humidity_pct` (current relative humidity, %)
-- `pressure_hpa` (current atmospheric pressure, hPa)
-
-Inputs are expected from real-time weather API calls (Open-Meteo in the planner pipeline).
-
-### Threshold Derivation (`data/weather_tokyo_data.csv`)
-
-Thresholds are calibrated from Tokyo daily weather (2022-2023, 366 rows) using empirical percentiles:
-
-| Metric | P10 | P25 | P75 | P90 | Practical use in rules |
-|---|---:|---:|---:|---:|---|
-| Temperature (C) | 6.3 | 10.4 | 25.4 | 29.1 | Comfort band: 10.4-25.4; severe cold/hot: <6.3 or >29.1 |
-| Humidity (%) | 47 | 59 | 79 | 88 | Comfort band: 47-79; severe humidity: >=88 |
-| Pressure (hPa) | 1003.2 | 1006.9 | 1016.4 | 1019.9 | Comfort band: 1006.9-1019.9; severe low pressure: <=1003.2 |
-
-### Decision Rules
-
-1. If any severe condition is met, return `indoor_preferred` (high confidence).
-2. If all three metrics are inside comfort bands, return `outdoor_preferred` (high confidence).
-3. Otherwise return `mixed` (medium confidence).
-
-Severe conditions:
-- `temperature_c < 6.3` or `temperature_c > 29.1`
-- `humidity_pct >= 88`
-- `pressure_hpa <= 1003.2`
-
-### Implementation
-
-Module: `weather_rules.py` (runnable + importable)
-
-- Main function: `classify_weather(temperature_c, humidity_pct, pressure_hpa) -> dict`
-- CLI output: JSON with `input`, `thresholds`, and `result`
-- Result schema:
-  - `recommendation`: `outdoor_preferred` | `indoor_preferred` | `mixed`
-  - `confidence`: `high` | `medium`
-  - `reasons`: list of rule explanations
-
-Example output:
-
-```json
-{
-  "result": {
-    "recommendation": "indoor_preferred",
-    "confidence": "high",
-    "reasons": [
-      "Very humid (90% >= 88%)."
-    ]
-  }
-}
-```
-
----
-
-## 6. Itinerary Optimization
-
-Implemented as an **AI-style recommendation agent** in `itinerary_agent.py` and served by `POST /api/generate`.
-
-### Agent Inputs
-
-- `pois`: selected POI names (list of strings)
-- `weekday_num`: day index (`0=Mon ... 6=Sun`)
-- `weather`:
-  - `temp` (C)
-  - `humidity` (%)
-  - `pressure` (hPa)
-
-### Agent Strategy
-
-For each hourly slot, the agent scores each remaining candidate POI and picks the best:
-
-`utility = (1 - crowd_score) + weather_adjustment + category_time_bonus - travel_penalty`
-
-Scoring components:
-- `crowd_score`: from `crowd_rules.py` fallback hierarchy
-- `weather_adjustment`: indoor/outdoor penalty based on weather rule result
-- `category_time_bonus`: category-specific preferred windows (e.g., viewpoints near sunset)
-- `travel_penalty`: distance penalty from previous POI to reduce zig-zag routing
-- `forecast_adjustment` (when visit date is provided):
-  - outdoor penalty for strong wind / rain risk / very hot day
-  - sunset bonus for viewpoint slots near sunset hour
-
-### Agent Output
-
-- `agent`: version id (currently `itinerary_agent_v1`)
-- `weather`: output from `weather_rules.classify_weather`
-- `forecast`: Open-Meteo forecast snapshot used in scoring
-- `schedule`: ordered list with:
-  - `poi`, `hour`, `time_label`
-  - `category`, `is_indoor`
-  - `utility`
-  - `crowd_score`, `crowd_rule_used`
-  - `travel_km_from_prev`
-  - `explanation`
-- `summary`: short natural-language rationale
-
----
-
-## 7. Frontend
-
-The frontend prototype is in `frontend/` and provides:
-
-- Site list with multi-select checkboxes
-- Interactive map of Japan (Leaflet + OpenStreetMap)
-- Pin markers for all Tokyo POIs from `data/tokyo_poi_raw.json`
-- Map filtering by selected list items:
-  - only checked sites are shown as map pins
-  - `Select all` / `Clear all` controls are included
-  - clicking a visible pin updates the detail panel
-
-### Files
-
-- `frontend/index.html`
-- `frontend/styles.css`
-- `frontend/app.js`
-
-### Data Contract
-
-The map expects each POI entry in `data/tokyo_poi_raw.json` to include:
-- `name`
-- `latitude`
-- `longitude`
-- `_poi_category`
-- `_is_indoor`
-- `address`
-
----
-
-## 8. Evaluation
-
-> _[TODO: Quantitative metrics, user study design, baseline comparisons, ablation study]_
-
----
-
-## 9. Setup & Usage
-
-> _[TODO: Installation, environment setup, how to run each component]_
+### Start the dev server
 
 ```bash
-# Install dependencies
-pip install outscraper
+cd frontend
+npm run dev
+```
 
-# Convert existing raw JSON to training CSV (no re-scraping needed)
-python data/json_to_csv.py
+### Build
 
-# Show data-derived weather percentile anchors (for verification)
-python weather_rules.py --show-thresholds
+```bash
+cd frontend
+npm run build
+```
 
-# Run weather recommendation rule engine
-python weather_rules.py --temp 27 --humidity 74 --pressure 1012
+## Running the Flask Backend
 
-# Show crowd dataset summary used by rule base
-python crowd_rules.py --summary
+### Requirements
 
-# Predict crowd for a request context
-python crowd_rules.py --poi-category park --is-indoor 0 --weekday saturday --hour 14
+At minimum, the Python app uses Flask and the local project modules. Depending on which scripts you run, you may also need the libraries used by forecast / scraping utilities.
 
-# Run local frontend demo
-python -m http.server 8000
-# then open http://localhost:8000/frontend/
+### Start the API server
 
-# Run API server with itinerary agent
+```bash
 python app.py
 ```
 
-### Forecast API
+Default local server:
 
-- `GET /api/forecast?date=YYYY-MM-DD`
-- Returns Tokyo forecast for that date including:
-  - midday temperature/humidity/pressure
-  - daily max wind
-  - precipitation probability
-  - sunrise/sunset time
+- [http://localhost:5001](http://localhost:5001)
+
+### Current backend routes
+
+- `GET /`
+- `GET /api/pois`
+- `POST /api/generate`
+- `GET /api/forecast`
+- `GET /api/forecast-window`
+
+## Data Utilities
+
+Convert raw POI JSON into the flattened crowd dataset:
+
+```bash
+python data/json_to_csv.py
+```
+
+Useful research/debug scripts:
+
+```bash
+python crowd_rules.py --summary
+python weather_rules.py --show-thresholds
+```
+
+## Notes and Limitations
+
+- The **frontend prototype is currently the main deliverable**
+- The frontend does **not** fully depend on the Flask backend right now
+- Crowd/weather reasoning in the UI is still partly mock/demo logic
+- Route geometry is real Mapbox routing, but itinerary ranking remains heuristic
+- Some POI search behavior and ranking are based on a small curated POI set, not the full 32-POI dataset
+
+## Recommended Demo Flow
+
+1. Start the frontend with `npm run dev`
+2. Add a Mapbox token for the full map experience
+3. Select a few Tokyo places
+4. Choose a multi-day range and pace mode
+5. Generate the route
+6. Inspect reasoning modal, colored day routes, and final itinerary
+7. Try `Regenerate route` with different goals
+
+## Future Work
+
+- Connect real weather, crowd, and routing context more deeply into ranking
+- Expand the frontend to use the full POI dataset
+- Improve autocomplete and POI search quality
+- Add day filtering and route comparison views
+- Unify the prototype frontend and Python backend into one end-to-end system

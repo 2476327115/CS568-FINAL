@@ -58,6 +58,10 @@ function normalizeSearchValue(value: string) {
     .trim();
 }
 
+function compactSearchValue(value: string) {
+  return normalizeSearchValue(value).replace(/\s+/g, "");
+}
+
 function buildItinerary(selectedPlaceIds: string[], tripStyle: TripStyle) {
   const orderedIds = STYLE_ROUTE_ORDER[tripStyle].filter((placeId) => selectedPlaceIds.includes(placeId));
   const extraIds = selectedPlaceIds.filter((placeId) => !orderedIds.includes(placeId));
@@ -148,27 +152,39 @@ export function App() {
   const recommendedPlaces = PLACES.filter((place) => place.recommendedTag);
   const selectedPlaces = selectedPlaceIds.map((placeId) => placesById[placeId]).filter(Boolean);
   const normalizedQuery = normalizeSearchValue(query);
+  const compactQuery = compactSearchValue(query);
   const candidatePlaces = normalizedQuery
     ? [...PLACES]
-        .filter((place) => !selectedPlaceIds.includes(place.id))
         .map((place) => {
           const name = normalizeSearchValue(place.name);
+          const compactName = compactSearchValue(place.name);
           const type = normalizeSearchValue(place.type);
           const area = normalizeSearchValue(place.area);
           const description = normalizeSearchValue(place.description);
-          const haystack = [name, type, area, description].filter(Boolean).join(" ");
+          const id = normalizeSearchValue(place.id);
+          const compactId = compactSearchValue(place.id);
+          const haystack = [name, type, area, description, id].filter(Boolean).join(" ");
+          const compactHaystack = [compactName, compactId, compactSearchValue(type), compactSearchValue(area)]
+            .filter(Boolean)
+            .join(" ");
 
-          if (!haystack.includes(normalizedQuery)) {
+          if (!haystack.includes(normalizedQuery) && !compactHaystack.includes(compactQuery)) {
             return null;
           }
 
           let score = 0;
           if (name === normalizedQuery) {
             score += 120;
+          } else if (compactName === compactQuery || compactId === compactQuery) {
+            score += 110;
           } else if (name.startsWith(normalizedQuery)) {
             score += 90;
+          } else if (compactName.startsWith(compactQuery)) {
+            score += 82;
           } else if (name.includes(normalizedQuery)) {
             score += 70;
+          } else if (compactName.includes(compactQuery)) {
+            score += 62;
           }
 
           if (type.startsWith(normalizedQuery) || area.startsWith(normalizedQuery)) {
@@ -638,6 +654,7 @@ export function App() {
           onQueryChange={setQuery}
           recommendedPlaces={recommendedPlaces}
           candidates={candidatePlaces}
+          selectedPlaceIds={selectedPlaceIds}
           onTagClick={addPlace}
           onSelectCandidate={addPlace}
         />
